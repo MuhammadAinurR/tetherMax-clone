@@ -27,7 +27,7 @@ export default function Navbar() {
               className={
                 isActive("/affiliated")
                   ? "text-blue-500"
-                  : "hover:text-blue-500 hover:text-[17px]"
+                  : "hover:text-blue-500 hover:scale-105"
               }
             >
               Partner Exchange
@@ -38,7 +38,7 @@ export default function Navbar() {
               className={
                 isActive("/service-intro")
                   ? "text-blue-500"
-                  : "hover:text-blue-500 hover:text-[17px]"
+                  : "hover:text-blue-500 hover:scale-105"
               }
             >
               Service Introduction
@@ -49,7 +49,7 @@ export default function Navbar() {
               className={
                 isActive("/payback")
                   ? "text-blue-500"
-                  : "hover:text-blue-500 hover:text-[17px]"
+                  : "hover:text-blue-500 hover:scale-105"
               }
             >
               Calculator

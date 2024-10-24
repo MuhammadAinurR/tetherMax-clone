@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Navbar />
-        <div className="bg-gray-200 min-h-screen pt-16 flex justify-center">
+        <div className="bg-[#F0F3F9] min-h-screen pt-16 flex justify-center">
           <div className="w-[840px] bg-white">{children}</div>
         </div>
       </body>
