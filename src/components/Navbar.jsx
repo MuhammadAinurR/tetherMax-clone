@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { useAuthContext } from "@/context/GlobalContext";
-import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -57,6 +56,30 @@ export default function Navbar() {
           path: "/payback",
         },
       ];
+
+  const mobileMenuList = isAuthenticated
+    ? [
+        {
+          name: "Home",
+          path: "/",
+        },
+        ...menuList,
+      ]
+    : [
+        {
+          name: "Home",
+          path: "/",
+        },
+        {
+          name: "Login",
+          path: "/login",
+        },
+        {
+          name: "Register",
+          path: "/signup",
+        },
+        ...menuList,
+      ];
   return (
     <div className="fixed top-0 left-0 right-0 flex px-5 md:justify-center items-center w-full h-[52px] md:h-16 bg-white text-gray-500 z-50 font-bold border">
       <div className="flex gap-6 items-center">
@@ -71,21 +94,7 @@ export default function Navbar() {
         {isSidebarOpen && (
           <div className="fixed top-0 left-0 w-64 h-full bg-white shadow-lg z-50">
             <div className="flex flex-col gap-4 p-4">
-              {[
-                {
-                  name: "Home",
-                  path: "/",
-                },
-                {
-                  name: "Login",
-                  path: "/login",
-                },
-                {
-                  name: "Register",
-                  path: "/signup",
-                },
-                ...menuList,
-              ].map((menu, idx) => {
+              {mobileMenuList.map((menu, idx) => {
                 return (
                   <Link key={idx} href={menu.path} onClick={toggleSidebar}>
                     <p
