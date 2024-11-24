@@ -214,14 +214,14 @@ export default function InvitationCodePage() {
 
           <section className="space-y-6 bg-white/50 backdrop-blur rounded-3xl p-10">
             <div className="w-20 h-20 mx-auto bg-primary-1/10 rounded-full flex items-center justify-center">
-              <span className="text-3xl">🎁</span>
+              <span className="text-3xl md:text-5xl">🎁</span>
             </div>
             <h2 className="text-2xl md:text-3xl font-bold leading-tight">
               {t('giftSection.title.prefix')}
               <br />
               <span className="text-primary-1">
                 {t('giftSection.title.highlight')}
-              </span>
+              </span>{' '}
               {t('giftSection.title.suffix')}
             </h2>
           </section>
