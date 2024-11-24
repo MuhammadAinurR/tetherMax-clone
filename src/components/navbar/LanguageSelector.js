@@ -8,11 +8,12 @@ import {
   DialogContent,
   DialogTitle,
 } from '@/components/ui/dialog';
-import { UserButton, SignInButton } from '@clerk/nextjs';
+import { UserButton, SignInButton, useUser } from '@clerk/nextjs';
 import LocaleLink from '../LocaleLink';
 import { useEffect, useState } from 'react';
 
-export const LanguageSelector = ({ user, tAuth, isOpen, onOpenChange, t }) => {
+export const LanguageSelector = ({ tAuth, isOpen, onOpenChange, t }) => {
+  const { user } = useUser();
   const { switchLanguage, currentLocale } = useLanguageSwitch();
   const [totalCashback, setTotalCashback] = useState(0);
 
@@ -49,7 +50,7 @@ export const LanguageSelector = ({ user, tAuth, isOpen, onOpenChange, t }) => {
   };
 
   return (
-    <div className="flex items-center gap-2 fixed right-6 top-4">
+    <div className="flex items-center gap-2 fixed right-6 top-3">
       <Dialog open={isOpen} onOpenChange={onOpenChange}>
         <DialogTrigger asChild>
           <button className="hidden md:flex items-center px-2 py-2 bg-white/90 hover:bg-white text-gray-700 rounded-xl uppercase transition-colors">
@@ -80,40 +81,42 @@ export const LanguageSelector = ({ user, tAuth, isOpen, onOpenChange, t }) => {
         </DialogContent>
       </Dialog>
 
-      <div className="relative group hidden md:block">
-        <button className="flex items-center gap-2 px-2 py-2 rounded-xl bg-white/90 hover:bg-white transition-colors">
-          <span className="font-medium">
-            {totalCashback.toLocaleString()} USDT
-          </span>
-          <svg
-            className="w-4 h-4 transition-transform group-hover:rotate-180"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M19 9l-7 7-7-7"
-            />
-          </svg>
-        </button>
-        <div className="absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-          <div className="py-2">
-            <LocaleLink href="/benefit/invitation-code">
-              <button className="w-full px-4 py-3 text-left hover:bg-gray-50 transition-colors">
-                {t('referralCode')}
-              </button>
-            </LocaleLink>
-            <LocaleLink href="/benefit/cashback-history">
-              <button className="w-full px-4 py-3 text-left hover:bg-gray-50 transition-colors">
-                {t('myCashback')}
-              </button>
-            </LocaleLink>
+      {user && (
+        <div className="relative group hidden md:block">
+          <button className="flex items-center gap-2 px-2 py-2 rounded-xl bg-white/90 hover:bg-white transition-colors">
+            <span className="font-medium">
+              {totalCashback.toLocaleString()} USDT
+            </span>
+            <svg
+              className="w-4 h-4 transition-transform group-hover:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </button>
+          <div className="absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+            <div className="py-2">
+              <LocaleLink href="/benefit/invitation-code">
+                <button className="w-full px-4 py-3 text-left hover:bg-gray-50 transition-colors">
+                  {t('referralCode')}
+                </button>
+              </LocaleLink>
+              <LocaleLink href="/benefit/cashback-history">
+                <button className="w-full px-4 py-3 text-left hover:bg-gray-50 transition-colors">
+                  {t('myCashback')}
+                </button>
+              </LocaleLink>
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       {user ? (
         <div className="hidden md:block">
