@@ -15,6 +15,7 @@ export default function BenefitsPage() {
       title: t('missions.firstVisit.title'),
       description: t('missions.firstVisit.description'),
       isNew: true,
+      link: '/',
     },
     {
       icon: <Bell className="h-6 w-6 text-yellow-500" />,

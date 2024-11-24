@@ -10,9 +10,38 @@ import {
 } from '@/components/ui/dialog';
 import { UserButton, SignInButton } from '@clerk/nextjs';
 import LocaleLink from '../LocaleLink';
+import { useEffect, useState } from 'react';
 
 export const LanguageSelector = ({ user, tAuth, isOpen, onOpenChange, t }) => {
   const { switchLanguage, currentLocale } = useLanguageSwitch();
+  const [totalCashback, setTotalCashback] = useState(0);
+
+  useEffect(() => {
+    const fetchCashbackTotal = async () => {
+      if (!user) return;
+
+      try {
+        const historyResponse = await fetch('/api/cashback-history', {
+          headers: {
+            'x-user-id': user.id,
+          },
+        });
+        const historyData = await historyResponse.json();
+
+        if (Array.isArray(historyData)) {
+          const total = historyData.reduce((sum, item) => {
+            const amount = Number(item.amount);
+            return item.type === 'EARN' ? sum + amount : sum - amount;
+          }, 0);
+          setTotalCashback(total);
+        }
+      } catch (error) {
+        console.error('Error fetching cashback total:', error);
+      }
+    };
+
+    fetchCashbackTotal();
+  }, [user]);
 
   const handleLanguageChange = (langCode) => {
     switchLanguage(langCode);
@@ -53,7 +82,9 @@ export const LanguageSelector = ({ user, tAuth, isOpen, onOpenChange, t }) => {
 
       <div className="relative group hidden md:block">
         <button className="flex items-center gap-2 px-2 py-2 rounded-xl bg-white/90 hover:bg-white transition-colors">
-          <span className="font-medium">200 USDT</span>
+          <span className="font-medium">
+            {totalCashback.toLocaleString()} USDT
+          </span>
           <svg
             className="w-4 h-4 transition-transform group-hover:rotate-180"
             fill="none"
@@ -72,12 +103,12 @@ export const LanguageSelector = ({ user, tAuth, isOpen, onOpenChange, t }) => {
           <div className="py-2">
             <LocaleLink href="/benefit/invitation-code">
               <button className="w-full px-4 py-3 text-left hover:bg-gray-50 transition-colors">
-                Referral Code
+                {t('referralCode')}
               </button>
             </LocaleLink>
             <LocaleLink href="/benefit/cashback-history">
               <button className="w-full px-4 py-3 text-left hover:bg-gray-50 transition-colors">
-                My Cashback
+                {t('myCashback')}
               </button>
             </LocaleLink>
           </div>

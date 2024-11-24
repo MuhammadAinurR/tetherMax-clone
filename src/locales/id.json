@@ -9,7 +9,9 @@
     "benefits": "Keuntungan",
     "appDownload": "Unduh Aplikasi",
     "serviceIntro": "Pengenalan Layanan",
-    "calculator": "Kalkulator"
+    "calculator": "Kalkulator",
+    "myCashback": "Cashback Saya",
+    "referralCode": "Kode Referral"
   },
   "home": {
     "metadata": {
@@ -350,7 +352,7 @@
     "earnMore": "Tahukah Anda bisa mendapatkan lebih banyak USDT? periksa fitur kami",
     "missions": {
       "firstVisit": {
-        "title": "Ini kunjungan pertama Anda ke situs kami",
+        "title": "Apakah ini pertama kalinya Anda mengunjungi situs kami?",
         "description": "Selamat datang di degenMax"
       },
       "alarm": {
@@ -634,5 +636,56 @@
       "description": "Berdasarkan data dari trader lain, Anda dapat mengetahui jumlah untuk cashback!"
     },
     "button": "Periksa cashback Anda dan Dapatkan 2 USDT"
+  },
+  "cashbackHistory": {
+    "title": "Riwayat Cashback",
+    "platformBalance": {
+      "title": "Saldo Platform",
+      "columns": {
+        "platform": "Platform",
+        "balance": "Saldo",
+        "actions": "Tindakan"
+      },
+      "withdraw": "Tarik",
+      "minimumWithdraw": "Minimal 10 USDT diperlukan",
+      "linkedExchanges": "Exchange Terhubung",
+      "noLinkedExchanges": "Tidak ditemukan exchange yang terhubung"
+    },
+    "history": {
+      "title": "Riwayat",
+      "columns": {
+        "date": "Tanggal",
+        "type": "Tipe",
+        "amount": "Jumlah",
+        "status": "Status",
+        "network": "Jaringan",
+        "transaction": "Transaksi"
+      },
+      "types": {
+        "withdraw": "Penarikan",
+        "cryptoWithdraw": "Penarikan {crypto}"
+      },
+      "status": {
+        "success": "Berhasil",
+        "failed": "Gagal",
+        "pending": "Menunggu"
+      },
+      "viewTransaction": "Lihat"
+    },
+    "withdrawDialog": {
+      "title": "Tarik ke Dompet Crypto",
+      "withdrawNow": "Tarik Sekarang",
+      "availableBalance": "Saldo Tersedia",
+      "amount": "Jumlah (USDT)",
+      "amountPlaceholder": "Min. 10 USDT",
+      "selectNetwork": "Pilih Jaringan",
+      "withdrawButton": "Tarik ke Dompet Crypto",
+      "walletAddress": "Alamat Dompet {crypto}",
+      "walletAddressPlaceholder": "Masukkan alamat {crypto} Anda",
+      "warningMessage": "Pastikan Anda telah memasukkan alamat {crypto} yang benar di jaringan {network}. Kesalahan input alamat dapat mengakibatkan kehilangan dana secara permanen.",
+      "confirmButton": "Konfirmasi Penarikan",
+      "youWillReceive": "Anda akan menerima: {amount} {crypto}"
+    },
+    "totalAvailable": "Total Cashback Tersedia"
   }
 }

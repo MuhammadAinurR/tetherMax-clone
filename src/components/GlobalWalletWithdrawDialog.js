@@ -7,6 +7,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
+  DialogDescription,
 } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -18,6 +19,7 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 import { DollarSign } from 'lucide-react';
+import { useTranslations } from 'use-intl';
 
 const CRYPTO_OPTIONS = [
   { value: 'ETH', label: 'Ethereum (ERC20)', rate: 0.000431, network: 'ETH' },
@@ -32,6 +34,7 @@ const NETWORKS = {
 };
 
 export function GlobalWalletWithdrawDialog({ onWithdraw, globalBalance }) {
+  const t = useTranslations('cashbackHistory.withdrawDialog');
   const [amount, setAmount] = useState('');
   const [selectedCrypto, setSelectedCrypto] = useState(CRYPTO_OPTIONS[0]);
   const [walletAddress, setWalletAddress] = useState('');
@@ -63,25 +66,26 @@ export function GlobalWalletWithdrawDialog({ onWithdraw, globalBalance }) {
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogTrigger asChild>
-        <Button variant="default" size="sm" className="px-8">
+        <Button variant="default" size="sm">
           <DollarSign className="h-4 w-4 mr-2" />
-          Withdraw to Crypto Wallet
+          {t('withdrawButton')}
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
-          <DialogTitle>Withdraw to Crypto Wallet</DialogTitle>
+          <DialogTitle>{t('title')}</DialogTitle>
+          <DialogDescription> </DialogDescription>
         </DialogHeader>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="space-y-2">
-            <label>Available Balance</label>
+            <label>{t('availableBalance')}</label>
             <div className="text-lg font-semibold">
               {globalBalance.toFixed(2)} USDT
             </div>
           </div>
 
           <div className="space-y-2">
-            <label>Amount (USDT)</label>
+            <label>{t('amount')}</label>
             <Input
               type="number"
               value={amount}
@@ -89,12 +93,12 @@ export function GlobalWalletWithdrawDialog({ onWithdraw, globalBalance }) {
               max={globalBalance}
               min="10"
               required
-              placeholder="Min. 10 USDT"
+              placeholder={t('amountPlaceholder')}
             />
           </div>
 
           <div className="space-y-2">
-            <label>Select Network</label>
+            <label>{t('selectNetwork')}</label>
             <Select
               value={selectedCrypto.value}
               onValueChange={(value) =>
@@ -116,26 +120,33 @@ export function GlobalWalletWithdrawDialog({ onWithdraw, globalBalance }) {
 
           {amount && (
             <div className="text-sm text-gray-500">
-              You will receive: {convertedAmount.toFixed(8)}{' '}
-              {selectedCrypto.value}
+              {t('youWillReceive', {
+                amount: convertedAmount.toFixed(8),
+                crypto: selectedCrypto.value,
+              })}
             </div>
           )}
 
           <div className="space-y-2">
-            <label>{selectedCrypto.value} Wallet Address</label>
+            <label>
+              {t('walletAddress', { crypto: selectedCrypto.value })}
+            </label>
             <Input
               type="text"
               value={walletAddress}
               onChange={(e) => setWalletAddress(e.target.value)}
               required
-              placeholder={`Enter your ${selectedCrypto.value} address`}
+              placeholder={t('walletAddressPlaceholder', {
+                crypto: selectedCrypto.value,
+              })}
             />
           </div>
 
           <div className="text-sm text-yellow-600 bg-yellow-50 p-3 rounded">
-            Make sure you have entered the correct {selectedCrypto.value}{' '}
-            address on {selectedCrypto.network} network. Wrong address input may
-            result in permanent loss of funds.
+            {t('warningMessage', {
+              crypto: selectedCrypto.value,
+              network: selectedCrypto.network,
+            })}
           </div>
 
           <Button
@@ -145,7 +156,7 @@ export function GlobalWalletWithdrawDialog({ onWithdraw, globalBalance }) {
               !amount || !walletAddress || Number(amount) > globalBalance
             }
           >
-            Confirm Withdrawal
+            {t('confirmButton')}
           </Button>
         </form>
       </DialogContent>

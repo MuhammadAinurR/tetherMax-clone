@@ -9,7 +9,9 @@
     "benefits": "优惠",
     "appDownload": "应用下载",
     "serviceIntro": "服务介绍",
-    "calculator": "计算器"
+    "calculator": "计算器",
+    "myCashback": "我的返佣",
+    "referralCode": "推荐码"
   },
   "home": {
     "metadata": {
@@ -43,7 +45,7 @@
         "submitButton": {
           "default": "登录",
           "loading": "加载中...",
-          "tryAgain": "{time}后重试"
+          "tryAgain": "{time}重试"
         },
         "verification": {
           "title": "检查您的邮箱",
@@ -78,7 +80,7 @@
           "of": "。",
           "error": "您必须同意条款和隐私政策"
         },
-        "haveAccount": "已有账号？",
+        "haveAccount": "已账号？",
         "loginLink": "登录",
         "submitButton": {
           "default": "注册",
@@ -186,7 +188,7 @@
           "description": "与交易所的官方合约"
         },
         "users": {
-          "title": "众多用户的选择",
+          "title": "众多户的选择",
           "description": "超过23,000"
         }
       }
@@ -221,7 +223,7 @@
         "maximum": "如果您在返佣交易者中排名前5%，您可以获得超过3,500 USDT的返佣"
       },
       "note": {
-        "part1": "总统计数据如上所示，但这包括许多使用小额种子资金（低于100 USDT）或很少交易（每月少于5次）的用户。",
+        "part1": "总统计数据如上所示，但这包括许多使用小额种子资金（低于100 USDT）或很少交易（每月少于5次）的用",
         "part2": "通常，经常进行期货交易的用户都在前50%。"
       }
     },
@@ -301,7 +303,7 @@
       },
       "step2": {
         "title": "绑定UID",
-        "description": "请验证UID并将其绑定到您的账户。",
+        "description": "请证UID并将其绑定到您的账户。",
         "button": "绑定UID"
       },
       "step3": {
@@ -331,7 +333,7 @@
     "benefits": {
       "waiting": "优惠正在等待您！",
       "maxDay": "今天是MAX日",
-      "earnUsdt": "🎁 想赚取USDT吗？"
+      "earnUsdt": "🎁 想赚取USDT吗"
     },
     "myExchange": {
       "title": "我的交易所",
@@ -344,13 +346,13 @@
     "title": "degenMax的优惠",
     "subtitle": "查看我们的功能以赚取USDT，通过degenMax提升您的收益！",
     "received": {
-      "title": "等待您的可用返佣",
+      "title": "等待您的用返佣",
       "subtitle": "可在degenMax提现"
     },
     "earnMore": "您知道可以赚取更多USDT吗？查看我们的功能",
     "missions": {
       "firstVisit": {
-        "title": "这是您首次访问我们的网站",
+        "title": "这是您第一次访问我们的网站吗？",
         "description": "欢迎来到degenMax"
       },
       "alarm": {
@@ -371,7 +373,7 @@
       },
       "events": {
         "title": "参加活动",
-        "description": "参与专属活动"
+        "description": "参与属活动"
       },
       "monthlyClaim": {
         "title": "每月领取返佣",
@@ -634,5 +636,56 @@
       "description": "根据其他交易者的数据，您可以了解返佣金额！"
     },
     "button": "查看您的返佣并获得2 USDT"
+  },
+  "cashbackHistory": {
+    "title": "返佣历史",
+    "platformBalance": {
+      "title": "平台余额",
+      "columns": {
+        "platform": "平台",
+        "balance": "余额",
+        "actions": "操作"
+      },
+      "withdraw": "提现",
+      "minimumWithdraw": "最低需要10 USDT",
+      "linkedExchanges": "关联交易所",
+      "noLinkedExchanges": "未找到关联的交易所"
+    },
+    "history": {
+      "title": "历史记录",
+      "columns": {
+        "date": "日期",
+        "type": "类型",
+        "amount": "金额",
+        "status": "状态",
+        "network": "网络",
+        "transaction": "交易"
+      },
+      "types": {
+        "withdraw": "提现",
+        "cryptoWithdraw": "{crypto}提现"
+      },
+      "status": {
+        "success": "成功",
+        "failed": "失败",
+        "pending": "处理中"
+      },
+      "viewTransaction": "查看"
+    },
+    "withdrawDialog": {
+      "title": "提现到加密钱包",
+      "withdrawNow": "立即提现",
+      "availableBalance": "可用余额",
+      "amount": "金额 (USDT)",
+      "amountPlaceholder": "最低 10 USDT",
+      "selectNetwork": "选择网络",
+      "withdrawButton": "提现到加密钱包",
+      "walletAddress": "{crypto}钱包地址",
+      "walletAddressPlaceholder": "输入您的{crypto}地址",
+      "warningMessage": "请确保您已在{network}网络上输入正确的{crypto}地址。输入错误的地址可能导致资金永久丢失。",
+      "confirmButton": "确认提现",
+      "youWillReceive": "您将收到: {amount} {crypto}"
+    },
+    "totalAvailable": "可用返佣总额"
   }
 }

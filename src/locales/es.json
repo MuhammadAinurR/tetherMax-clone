@@ -9,7 +9,9 @@
     "benefits": "Beneficios",
     "appDownload": "Descargar App",
     "serviceIntro": "Introducción al Servicio",
-    "calculator": "Calculadora"
+    "calculator": "Calculadora",
+    "myCashback": "Mi Cashback",
+    "referralCode": "Código de Referido"
   },
   "home": {
     "metadata": {
@@ -350,7 +352,7 @@
     "earnMore": "¿Sabes que puedes ganar más USDT? revisa nuestras características",
     "missions": {
       "firstVisit": {
-        "title": "Es tu primera vez visitando nuestro sitio",
+        "title": "¿Es tu primera vez visitando nuestro sitio?",
         "description": "Bienvenido a degenMax"
       },
       "alarm": {
@@ -634,5 +636,56 @@
       "description": "¡Según los datos de otros traders, puedes descubrir el monto del cashback!"
     },
     "button": "Verifica tu cashback y Obtén 2 USDT"
+  },
+  "cashbackHistory": {
+    "title": "Historial de Cashback",
+    "platformBalance": {
+      "title": "Saldo en Plataforma",
+      "columns": {
+        "platform": "Plataforma",
+        "balance": "Saldo",
+        "actions": "Acciones"
+      },
+      "withdraw": "Retirar",
+      "minimumWithdraw": "Mínimo 10 USDT requerido",
+      "linkedExchanges": "Exchanges Vinculados",
+      "noLinkedExchanges": "No se encontraron exchanges vinculados"
+    },
+    "history": {
+      "title": "Historial",
+      "columns": {
+        "date": "Fecha",
+        "type": "Tipo",
+        "amount": "Monto",
+        "status": "Estado",
+        "network": "Red",
+        "transaction": "Transacción"
+      },
+      "types": {
+        "withdraw": "Retiro",
+        "cryptoWithdraw": "Retiro de {crypto}"
+      },
+      "status": {
+        "success": "Exitoso",
+        "failed": "Fallido",
+        "pending": "Pendiente"
+      },
+      "viewTransaction": "Ver"
+    },
+    "withdrawDialog": {
+      "title": "Retirar a Billetera Crypto",
+      "withdrawNow": "Retirar Ahora",
+      "availableBalance": "Saldo Disponible",
+      "amount": "Monto (USDT)",
+      "amountPlaceholder": "Mín. 10 USDT",
+      "selectNetwork": "Seleccionar Red",
+      "withdrawButton": "Retirar a Billetera Crypto",
+      "walletAddress": "Dirección de Billetera {crypto}",
+      "walletAddressPlaceholder": "Ingrese su dirección de {crypto}",
+      "warningMessage": "Asegúrese de haber ingresado la dirección correcta de {crypto} en la red {network}. El ingreso de una dirección incorrecta puede resultar en la pérdida permanente de fondos.",
+      "confirmButton": "Confirmar Retiro",
+      "youWillReceive": "Recibirás: {amount} {crypto}"
+    },
+    "totalAvailable": "Total de Cashback Disponible"
   }
 }

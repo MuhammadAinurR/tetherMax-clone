@@ -5,9 +5,7 @@ import { routing } from './i18n/i18nNavigation';
 const intlMiddleware = createMiddleware(routing);
 
 const isProtectedRoute = createRouteMatcher([
-  '/dashboard(.*)',
-  '/:locale/dashboard(.*)',
-  '/uidlinking',
+  '/:locale/benefit(.*)',
   '/:locale/uidlinking',
 ]);
 
@@ -20,7 +18,23 @@ const isAuthPage = createRouteMatcher([
 
 const isApiRoute = createRouteMatcher(['/api/(.*)']);
 
+const publicApiRoutes = createRouteMatcher([
+  // Add your public API routes here
+  '/api/public/(.*)',
+]);
+
 export default clerkMiddleware(async (auth, request) => {
+  if (isApiRoute(request)) {
+    // Allow public API routes to bypass authentication
+    if (publicApiRoutes(request)) {
+      return;
+    }
+
+    // Protect all other API routes
+    await auth.protect();
+    return;
+  }
+
   // Skip middleware for API routes
   if (isApiRoute(request)) {
     return;

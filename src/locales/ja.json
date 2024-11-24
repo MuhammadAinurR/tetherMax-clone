@@ -9,7 +9,9 @@
     "benefits": "特典",
     "appDownload": "アプリダウンロード",
     "serviceIntro": "サービス紹介",
-    "calculator": "計算機"
+    "calculator": "計算機",
+    "myCashback": "マイキャッシュバック",
+    "referralCode": "紹介コード"
   },
   "home": {
     "metadata": {
@@ -182,7 +184,7 @@
           "description": "2022年8月開始"
         },
         "safety": {
-          "title": "高い安全性",
+          "title": "高い安全",
           "description": "取引所との公式契約"
         },
         "users": {
@@ -273,7 +275,7 @@
       "button": "連携する"
     },
     "welcome": {
-      "greeting": "お帰りなさい",
+      "greeting": "お帰りさい",
       "intro": "取引キャッシュバックを確認しましょう"
     },
     "hero": {
@@ -350,7 +352,7 @@
     "earnMore": "もっとUSDTを稼げることをご存知ですか？機能をチェック",
     "missions": {
       "firstVisit": {
-        "title": "初めてのサイト訪問です",
+        "title": "当サイトに初めてお越しですか？",
         "description": "degenMaxへようこそ"
       },
       "alarm": {
@@ -366,7 +368,7 @@
         "description": "取引所アカウントを連携"
       },
       "firstClaim": {
-        "title": "初回キャッシュバックを請求",
+        "title": "初回キャッュバック請",
         "description": "取引からの収益を開始"
       },
       "events": {
@@ -385,7 +387,7 @@
     "new": "新規",
     "details": "詳細",
     "exchanges": {
-      "title": "トップトレーダーに報酬を贈呈！",
+      "title": "トップトレーダーに報酬を贈！",
       "subtitle": "ランキングが高いほど、報酬も良くなります！",
       "withdrawalNote": "キャッシュバックは50 USDT以上から出金可能",
       "monthlyReward": "毎月最大100 USDTを獲得！",
@@ -420,7 +422,7 @@
       },
       "noRanking": {
         "title": "ランキングを確認できません",
-        "message": "UID連携後にランキングを確認できます",
+        "message": "UID連携後にンキングを確認できます",
         "button": "UIDを連携する"
       },
       "notes": {
@@ -504,7 +506,7 @@
     },
     "cta": {
       "title": "degenMaxアプリでより速く簡単にキャッシュバックを獲得！",
-      "question": "すでにdegenMaxウェブサイトでキャッシュバックを楽しんでいますか？",
+      "question": "すでにdegenMaxウェブサイトでキャッシュバックを楽しんでますか？",
       "tryApp": "では、degenMaxアプリも使ってみましょう！"
     },
     "appScreenshot": "アプリスクリーンショット",
@@ -557,7 +559,7 @@
     "reward": {
       "amount": "3 USDT",
       "title": "クーポンをプレゼント",
-      "description": "このUSDTクーポンは出金可能です",
+      "description": "このUSDTーポンは出金可能です",
       "button": "UIDを連携して3 USDTを獲得"
     },
     "images": {
@@ -634,5 +636,56 @@
       "description": "他のトレーダーのデータに基づいて、キャッシュバック額を確認できます！"
     },
     "button": "キャッシュバックを確認して2 USDTを獲得"
+  },
+  "cashbackHistory": {
+    "title": "キャッシュバック履歴",
+    "platformBalance": {
+      "title": "プラットフォーム残高",
+      "columns": {
+        "platform": "プラットフォーム",
+        "balance": "残高",
+        "actions": "アクション"
+      },
+      "withdraw": "出金",
+      "minimumWithdraw": "最低10 USDTが必要です",
+      "linkedExchanges": "連携取引所",
+      "noLinkedExchanges": "連携された取引所が見つかりません"
+    },
+    "history": {
+      "title": "履歴",
+      "columns": {
+        "date": "日付",
+        "type": "種類",
+        "amount": "金額",
+        "status": "状態",
+        "network": "ネットワーク",
+        "transaction": "取引"
+      },
+      "types": {
+        "withdraw": "出金",
+        "cryptoWithdraw": "{crypto}出金"
+      },
+      "status": {
+        "success": "成功",
+        "failed": "失敗",
+        "pending": "処理中"
+      },
+      "viewTransaction": "表示"
+    },
+    "withdrawDialog": {
+      "title": "暗号資産ウォレットへ出金",
+      "withdrawNow": "今すぐ出金",
+      "availableBalance": "利用可能残高",
+      "amount": "金額 (USDT)",
+      "amountPlaceholder": "最低 10 USDT",
+      "selectNetwork": "ネットワークを選択",
+      "withdrawButton": "暗号資産ウォレットへ出金",
+      "walletAddress": "{crypto}ウォレットアドレス",
+      "walletAddressPlaceholder": "{crypto}アドレスを入力してください",
+      "warningMessage": "{network}ネットワーク上の正しい{crypto}アドレスを入力したことを確認してください。誤ったアドレスの入力は資金の永久的な損失につながる可能性があります。",
+      "confirmButton": "出金を確認",
+      "youWillReceive": "受け取り額: {amount} {crypto}"
+    },
+    "totalAvailable": "利用可能な総キャッシュバック"
   }
 }

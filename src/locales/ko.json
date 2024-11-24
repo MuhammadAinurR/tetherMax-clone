@@ -9,7 +9,9 @@
     "benefits": "혜택",
     "appDownload": "앱 다운로드",
     "serviceIntro": "서비스 소개",
-    "calculator": "계산기"
+    "calculator": "계산기",
+    "myCashback": "내 캐시백",
+    "referralCode": "추천 코드"
   },
   "home": {
     "metadata": {
@@ -87,7 +89,7 @@
         "verification": {
           "title": "인증 코드 입력",
           "subtitle": "인증 코드를 다음 주소로 보냈습니다",
-          "noCode": "코드를 받지 못하셨나요?",
+          "noCode": "코드를 받지 하셨나요?",
           "resendButton": {
             "default": "인증 코드 재전송",
             "sending": "전송 중...",
@@ -140,7 +142,7 @@
       "terms": "이용약관",
       "privacy": "개인정보처리방침"
     },
-    "disclaimer": "degenMax와 관련된 모든 콘텐츠(정보, 이벤트, UI 포함)는 저작권법과 콘텐츠산업진흥법의 보호를 받습니다. DEGENMAX PTE.LTD의 사전 서면 동의 없이 무단 복제, 전송, 배포, 스크래핑 등의 행위는 관련 법령에 의거 엄격히 금지됩니다.",
+    "disclaimer": "degenMax와 관련된 모든 콘텐츠(정보, 이벤트, UI 포함)는 저작권법과 콘텐츠산업진흥법의 보호를 받습니다. DEGENMAX PTE.LTD의 사전 서면 동의 없이 무단 복제, 전송, 배포, 스크래핑 등의 행위는 관련 법령에 의거 ���격히 금지됩니다.",
     "socialLinks": {
       "instagram": "인스타그램",
       "discord": "디스코드",
@@ -217,7 +219,7 @@
     "cashbackRange": {
       "title": "월 50 USDT에서 3,500 USDT까지의 캐시백",
       "conditions": {
-        "minimum": "월 5회 이상 거래하고 시드머니가 100 USDT 이상이면 50 USDT 이상의 캐시백을 받을 수 있습니다",
+        "minimum": "월 5회 이상 거래하고 시드머니가 100 USDT 이상이면 50 USDT 이상의 캐시백을 받을 수 ��습니다",
         "maximum": "캐시백 트레이더 상위 5% 안에 들면 3,500 USDT 이상의 캐시백을 받을 수 있습니다"
       },
       "note": {
@@ -281,7 +283,7 @@
       "subtitle": "거래 수수료 캐시백 플랫폼, degenMax"
     },
     "averageCashback": {
-      "title": "사용자당 평균 캐시백",
+      "title": "사용자당 평균 캐��백",
       "monthlyAverage": "월평균 캐시백 확인하기",
       "checkTime": "확인하는 데 5분도 걸리지 않습니다",
       "calculateButton": "지금 계산하기"
@@ -350,7 +352,7 @@
     "earnMore": "더 많은 USDT를 받을 수 있다는 것을 알고 계신가요? 우리의 기능을 확인해 보세요",
     "missions": {
       "firstVisit": {
-        "title": "우리 사이트에 처음 방문하셨네요",
+        "title": "우리 사이트를 처음 방문하시나요?",
         "description": "degenMax에 오신 것을 환영합니다"
       },
       "alarm": {
@@ -367,7 +369,7 @@
       },
       "firstClaim": {
         "title": "첫 캐시백 받기",
-        "description": "거래에서 수익 시작하기"
+        "description": "거래서 수익 시작하기"
       },
       "events": {
         "title": "이벤트 참여하기",
@@ -386,7 +388,7 @@
     "details": "상세 정보",
     "exchanges": {
       "title": "최고의 트레이더에게 보상을 드립니다!",
-      "subtitle": "순위가 높을수록 더 좋은 보상이 기다립니다!",
+      "subtitle": "순위가 높을수록 더 은 보상 기다립니다!",
       "withdrawalNote": "캐시백은 50 USDT 이상부터 출금 가능합니다",
       "monthlyReward": "매월 최대 100 USDT를 받으세요!",
       "greeting": {
@@ -425,7 +427,7 @@
       },
       "notes": {
         "title": "참고",
-        "item1": "매월 1일부터 말일까지(UTC)의 캐시백 지급분에만 적용됩니다.",
+        "item1": "매월 1일부터 말일까지(UTC)의 캐시백 ��급분에만 적용됩니다.",
         "item2": "이벤트 보상은 해당 월의 캐시백 내역에 따라 계산되며 월말 이후 5일 이내에 지급됩니다.",
         "item3": "이 이벤트는 해당 월에 캐시백 내역이 있는 트레이더에게 적용됩니다.",
         "item4": "각 거래소별로 개별 처리되므로 여러 거래소에서 보상을 받으실 수 있습니다.",
@@ -447,7 +449,7 @@
         "subtitle": "친구가 캐시백을 많이 받을수록 여러분의 수익도 늘어납니다!",
         "friendCard": {
           "label": "친구",
-          "cashbackLabel": "Bybit 캐시백",
+          "cashbackLabel": "Bybit 시백",
           "cashbackAmount": "+123,123 USDT"
         },
         "yourCard": {
@@ -568,7 +570,7 @@
   },
   "uidLinking": {
     "title": "거래소 선택",
-    "subtitle": "degenMax의 추천인으로 가입한 거래소를 선택하세요",
+    "subtitle": "degenMax의 추천인으로 가입한 거래소를 선하세요",
     "signupButton": "degenMax의 초대 코드로 가입하기",
     "uidPlaceholder": "UID를 입력하세요",
     "submitButton": "계정 연동",
@@ -583,7 +585,7 @@
     "exchangeStatus": {
       "title": "거래소 상태",
       "message": "지원되는 거래소에 가입하고 캐시백 적립을 시작하세요",
-      "chooseExchange": "취향에 맞는 거래소를 선택하세요",
+      "chooseExchange": "취향에 는 거래소를 선하세요",
       "browseExchanges": "캐시백을 제공하는 거래소 둘러보기"
     },
     "firstCashback": {
@@ -630,9 +632,62 @@
       "description": "쉽지만 정확한 계산!"
     },
     "curious": {
-      "title": "캐시백 금액이 궁금하지 않으신가요?",
+      "title": "캐시백 금액이 금하지 않으신가요?",
       "description": "다른 트레이더들의 데이터를 바탕으로 캐시백 금액을 알아보세요!"
     },
     "button": "캐시백 확인하고 2 USDT 받기"
+  },
+  "cashbackHistory": {
+    "title": "캐시백 내역",
+    "platformBalance": {
+      "title": "플랫폼 잔액",
+      "columns": {
+        "platform": "플랫폼",
+        "balance": "잔액",
+        "actions": "작업"
+      },
+      "withdraw": "출금",
+      "minimumWithdraw": "최소 10 USDT 필요",
+      "linkedExchanges": "연동된 거래소",
+      "noLinkedExchanges": "연동된 거래소를 찾을 수 없습니다"
+    },
+    "history": {
+      "title": "내역",
+      "columns": {
+        "date": "날짜",
+        "type": "유형",
+        "amount": "금액",
+        "status": "상태",
+        "network": "네트워크",
+        "transaction": "거래"
+      },
+      "types": {
+        "withdraw": "출금",
+        "cryptoWithdraw": "{crypto} 출금"
+      },
+      "status": {
+        "success": "성공",
+        "failed": "실패",
+        "pending": "대기중"
+      },
+      "viewTransaction": "보기"
+    },
+    "withdrawDialog": {
+      "title": "암호화폐 지갑으로 출금",
+      "withdrawNow": "지금 출금",
+      "availableBalance": "사용 가능한 잔액",
+      "amount": "금액 (USDT)",
+      "amountPlaceholder": "최소 10 USDT",
+      "selectNetwork": "네트워크 선택",
+      "withdrawButton": "암호화폐 지갑으로 출금",
+      "walletAddress": "{crypto} 지갑 주소",
+      "walletAddressPlaceholder": "{crypto} 주소를 입력하세요",
+      "warningMessage": "{network} 네트워크에서 올바른 {crypto} 주소를 입력했는지 확인하세요. 잘못된 주소 입력은 자금의 영구적인 손실을 초래할 수 있습니다.",
+      "confirmButton": "출금 확인",
+      "youWillReceive": "받으실 금액: {amount} {crypto}"
+    },
+    "noLinkedExchanges": "연동된 거래소를 찾을 수 없습니다",
+    "linkedExchanges": "연동된 거래소",
+    "totalAvailable": "사용 가능한 총 캐시백"
   }
 }

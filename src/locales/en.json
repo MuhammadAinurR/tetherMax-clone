@@ -9,7 +9,9 @@
     "benefits": "Benefits",
     "appDownload": "App Download",
     "serviceIntro": "Service Introduction",
-    "calculator": "Calculator"
+    "calculator": "Calculator",
+    "myCashback": "My Cashback",
+    "referralCode": "Referral Code"
   },
   "home": {
     "metadata": {
@@ -350,7 +352,7 @@
     "earnMore": "Do you know you can earn more USDT? check our features",
     "missions": {
       "firstVisit": {
-        "title": "It's your first time visiting our site",
+        "title": "It's your first time visiting our site?",
         "description": "Welcome to degenMax"
       },
       "alarm": {
@@ -634,5 +636,56 @@
       "description": "According to data from other traders, you can find out the amount for cashback!"
     },
     "button": "Check your cashback and Get 2 USDT"
+  },
+  "cashbackHistory": {
+    "title": "Cashback History",
+    "platformBalance": {
+      "title": "Platform Balance",
+      "columns": {
+        "platform": "Platform",
+        "balance": "Balance",
+        "actions": "Actions"
+      },
+      "withdraw": "Withdraw",
+      "minimumWithdraw": "Minimum 10 USDT required",
+      "linkedExchanges": "Linked Exchanges",
+      "noLinkedExchanges": "No linked exchanges found"
+    },
+    "history": {
+      "title": "History",
+      "columns": {
+        "date": "Date",
+        "type": "Type",
+        "amount": "Amount",
+        "status": "Status",
+        "network": "Network",
+        "transaction": "Transaction"
+      },
+      "types": {
+        "withdraw": "Withdrawal",
+        "cryptoWithdraw": "{crypto} Withdrawal"
+      },
+      "status": {
+        "success": "Success",
+        "failed": "Failed",
+        "pending": "Pending"
+      },
+      "viewTransaction": "View"
+    },
+    "withdrawDialog": {
+      "title": "Withdraw to Crypto Wallet",
+      "withdrawNow": "Withdraw Now",
+      "availableBalance": "Available Balance",
+      "amount": "Amount (USDT)",
+      "amountPlaceholder": "Min. 10 USDT",
+      "selectNetwork": "Select Network",
+      "withdrawButton": "Withdraw to Crypto Wallet",
+      "walletAddress": "{crypto} Wallet Address",
+      "walletAddressPlaceholder": "Enter your {crypto} address",
+      "warningMessage": "Make sure you have entered the correct {crypto} address on {network} network. Wrong address input may result in permanent loss of funds.",
+      "confirmButton": "Confirm Withdrawal",
+      "youWillReceive": "You will receive: {amount} {crypto}"
+    },
+    "totalAvailable": "Total Available Cashback"
   }
 }

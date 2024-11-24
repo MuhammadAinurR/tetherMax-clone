@@ -17,6 +17,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
+  DialogDescription,
 } from '@/components/ui/dialog';
 import { DollarSign } from 'lucide-react';
 import { useUser } from '@clerk/nextjs';
@@ -26,7 +27,7 @@ import { GlobalWalletWithdrawDialog } from '@/components/GlobalWalletWithdrawDia
 
 export default function CashbackHistory() {
   const { user } = useUser();
-  const t = useTranslations('cashback');
+  const t = useTranslations('cashbackHistory');
   const [platformCashbacks, setPlatformCashbacks] = useState([]);
   const [cashbackHistory, setCashbackHistory] = useState([]);
   const [totalCashback, setTotalCashback] = useState(0);
@@ -147,67 +148,72 @@ export default function CashbackHistory() {
   return (
     <div className="container mx-auto px-4 py-8 max-w-7xl">
       <div className="flex flex-col gap-6">
-        <div className="flex justify-between items-center">
-          <h1 className="text-3xl font-bold">Cashback History</h1>
-          <div className="flex gap-3">
+        <div className="flex justify-between items-center flex-col sm:flex-row gap-4 sm:gap-0">
+          <h1 className="text-3xl font-bold">{t('title')}</h1>
+          <div className="flex gap-3 flex-wrap justify-center sm:justify-end">
             <Dialog>
               <DialogTrigger asChild>
                 <Button variant="default" size="sm" className="px-8">
                   <DollarSign className="h-4 w-4 mr-2" />
-                  Linked Exchanges
+                  {t('platformBalance.linkedExchanges')}
                 </Button>
               </DialogTrigger>
-              <DialogContent className="max-w-2xl bg-white">
+              <DialogContent className="max-w-2xl bg-white w-[95vw] sm:w-auto max-h-[90vh] overflow-y-auto">
                 <DialogHeader>
-                  <DialogTitle>Linked Exchanges</DialogTitle>
+                  <DialogTitle>
+                    {t('platformBalance.linkedExchanges')}
+                  </DialogTitle>
+                  <DialogDescription> </DialogDescription>
                 </DialogHeader>
-                <Table>
-                  <TableHeader>
-                    <TableRow>
-                      <TableHead>Exchange</TableHead>
-                      <TableHead className="text-right">
-                        Cashback (USDT)
-                      </TableHead>
-                      <TableHead></TableHead>
-                    </TableRow>
-                  </TableHeader>
-                  <TableBody>
-                    {Array.isArray(platformCashbacks) &&
-                    platformCashbacks.length > 0 ? (
-                      platformCashbacks.map((cashback) => (
-                        <TableRow key={cashback.platformId}>
-                          <TableCell>{cashback.platform.name}</TableCell>
-                          <TableCell className="text-right">
-                            {Number(cashback.balance).toLocaleString()}
-                          </TableCell>
-                          <TableCell className="text-right">
-                            <Button
-                              variant="outline"
-                              size="sm"
-                              disabled={cashback.balance < 10 || isLoading}
-                              onClick={() =>
-                                handlePlatformWithdraw(
-                                  cashback.platformId,
-                                  cashback.balance
-                                )
-                              }
-                            >
-                              {cashback.balance < 10
-                                ? t('minRequired')
-                                : t('withdrawToMain')}
-                            </Button>
+                <div className="overflow-x-auto">
+                  <Table>
+                    <TableHeader>
+                      <TableRow>
+                        <TableHead>
+                          {t('platformBalance.columns.platform')}
+                        </TableHead>
+                        <TableHead className="text-right">
+                          {t('platformBalance.columns.balance')}
+                        </TableHead>
+                        <TableHead></TableHead>
+                      </TableRow>
+                    </TableHeader>
+                    <TableBody>
+                      {Array.isArray(platformCashbacks) &&
+                      platformCashbacks.length > 0 ? (
+                        platformCashbacks.map((cashback) => (
+                          <TableRow key={cashback.platformId}>
+                            <TableCell>{cashback.platform.name}</TableCell>
+                            <TableCell className="text-right">
+                              {Number(cashback.balance).toLocaleString()}
+                            </TableCell>
+                            <TableCell className="text-right">
+                              <Button
+                                variant="outline"
+                                size="sm"
+                                disabled={cashback.balance < 10 || isLoading}
+                                onClick={() =>
+                                  handlePlatformWithdraw(
+                                    cashback.platformId,
+                                    cashback.balance
+                                  )
+                                }
+                              >
+                                {t('platformBalance.withdraw')}
+                              </Button>
+                            </TableCell>
+                          </TableRow>
+                        ))
+                      ) : (
+                        <TableRow>
+                          <TableCell colSpan={3} className="text-center py-4">
+                            {t('platformBalance.noLinkedExchanges')}
                           </TableCell>
                         </TableRow>
-                      ))
-                    ) : (
-                      <TableRow>
-                        <TableCell colSpan={3} className="text-center py-4">
-                          No linked exchanges found
-                        </TableCell>
-                      </TableRow>
-                    )}
-                  </TableBody>
-                </Table>
+                      )}
+                    </TableBody>
+                  </Table>
+                </div>
               </DialogContent>
             </Dialog>
             <GlobalWalletWithdrawDialog
@@ -217,22 +223,25 @@ export default function CashbackHistory() {
             <Dialog>
               <DialogTrigger asChild>
                 <Button variant="default" size="sm">
-                  Withdrawal History
+                  {t('history.title')}
                 </Button>
               </DialogTrigger>
               <DialogContent className="max-w-2xl bg-white">
                 <DialogHeader>
-                  <DialogTitle>Withdrawal History</DialogTitle>
+                  <DialogTitle>{t('history.title')}</DialogTitle>
+                  <DialogDescription> </DialogDescription>
                 </DialogHeader>
                 <Table>
                   <TableHeader>
                     <TableRow>
-                      <TableHead>Date</TableHead>
-                      <TableHead>Type</TableHead>
-                      <TableHead className="text-right">Amount</TableHead>
-                      <TableHead>Status</TableHead>
-                      <TableHead>Network</TableHead>
-                      <TableHead>Transaction</TableHead>
+                      <TableHead>{t('history.columns.date')}</TableHead>
+                      <TableHead>{t('history.columns.type')}</TableHead>
+                      <TableHead className="text-right">
+                        {t('history.columns.amount')}
+                      </TableHead>
+                      <TableHead>{t('history.columns.status')}</TableHead>
+                      <TableHead>{t('history.columns.network')}</TableHead>
+                      <TableHead>{t('history.columns.transaction')}</TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
@@ -245,8 +254,10 @@ export default function CashbackHistory() {
                           </TableCell>
                           <TableCell>
                             {item.crypto
-                              ? `${item.crypto} Withdrawal`
-                              : 'Platform Withdrawal'}
+                              ? t('history.types.cryptoWithdraw', {
+                                  crypto: item.crypto,
+                                })
+                              : t('history.types.withdraw')}
                           </TableCell>
                           <TableCell className="text-right">
                             {Number(item.amount).toLocaleString()} USDT
@@ -267,7 +278,7 @@ export default function CashbackHistory() {
                                   : 'bg-yellow-100 text-yellow-800'
                               }`}
                             >
-                              {item.status}
+                              {t(`history.status.${item.status.toLowerCase()}`)}
                             </span>
                           </TableCell>
                           <TableCell>{item.network || '-'}</TableCell>
@@ -283,7 +294,7 @@ export default function CashbackHistory() {
                                 rel="noopener noreferrer"
                                 className="text-blue-600 hover:underline"
                               >
-                                View
+                                {t('history.viewTransaction')}
                               </a>
                             ) : (
                               '-'
@@ -303,7 +314,7 @@ export default function CashbackHistory() {
             <div className="flex justify-between items-center">
               <div>
                 <p className="text-gray-600 text-sm mb-1">
-                  Total Available Cashback
+                  {t('totalAvailable')}
                 </p>
                 <p className="text-2xl font-bold">
                   {totalCashback.toLocaleString()} USDT
@@ -321,11 +332,13 @@ export default function CashbackHistory() {
             <Table>
               <TableHeader>
                 <TableRow>
-                  <TableHead>Date</TableHead>
-                  <TableHead>Type</TableHead>
-                  <TableHead className="text-right">Amount (USDT)</TableHead>
-                  <TableHead>Status</TableHead>
-                  <TableHead>Transaction</TableHead>
+                  <TableHead>{t('history.columns.date')}</TableHead>
+                  <TableHead>{t('history.columns.type')}</TableHead>
+                  <TableHead className="text-right">
+                    {t('history.columns.amount')}
+                  </TableHead>
+                  <TableHead>{t('history.columns.status')}</TableHead>
+                  <TableHead>{t('history.columns.transaction')}</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -335,7 +348,10 @@ export default function CashbackHistory() {
                       {new Date(item.createdAt).toLocaleDateString()}
                     </TableCell>
                     <TableCell>
-                      {item.platform?.name || 'Crypto Withdrawal'}
+                      {item.platform?.name ||
+                        t('history.types.cryptoWithdraw', {
+                          crypto: item.crypto || 'USDT', // Provide a default value if item.crypto is undefined
+                        })}
                     </TableCell>
                     <TableCell
                       className={`text-right ${
@@ -361,7 +377,7 @@ export default function CashbackHistory() {
                             : 'bg-yellow-100 text-yellow-800'
                         }`}
                       >
-                        {item.status}
+                        {t(`history.status.${item.status.toLowerCase()}`)}
                       </span>
                     </TableCell>
                     <TableCell>
@@ -376,7 +392,7 @@ export default function CashbackHistory() {
                           rel="noopener noreferrer"
                           className="text-blue-600 hover:underline"
                         >
-                          View
+                          {t('history.viewTransaction')}
                         </a>
                       ) : (
                         '-'

@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { forwardRef } from 'react';
+import { forwardRef, useEffect, useState } from 'react';
 import LocaleLink from '@/components/LocaleLink';
 import { LANGUAGES } from '@/constants/navigation';
 import { SignInButton, SignUpButton } from '@clerk/nextjs';
@@ -22,6 +22,35 @@ export const MobileMenu = forwardRef(
     },
     ref
   ) => {
+    const [totalCashback, setTotalCashback] = useState(0);
+
+    useEffect(() => {
+      const fetchCashbackTotal = async () => {
+        if (!user) return;
+
+        try {
+          const historyResponse = await fetch('/api/cashback-history', {
+            headers: {
+              'x-user-id': user.id,
+            },
+          });
+          const historyData = await historyResponse.json();
+
+          if (Array.isArray(historyData)) {
+            const total = historyData.reduce((sum, item) => {
+              const amount = Number(item.amount);
+              return item.type === 'EARN' ? sum + amount : sum - amount;
+            }, 0);
+            setTotalCashback(total);
+          }
+        } catch (error) {
+          console.error('Error fetching cashback total:', error);
+        }
+      };
+
+      fetchCashbackTotal();
+    }, [user]);
+
     const { signOut } = useClerk();
 
     const getMobileMenuItems = (user) => {
@@ -108,6 +137,36 @@ export const MobileMenu = forwardRef(
                   </div>
                 </LocaleLink>
               ))}
+
+              {/* Add Cashback Section for authenticated users */}
+              {user && (
+                <>
+                  <div className="my-2 border-t"></div>
+                  <div className="p-1 bg-white/90 rounded-lg">
+                    <div className="font-medium">
+                      Cashback: {totalCashback.toLocaleString()} USDT
+                    </div>
+                    <div className="flex flex-col">
+                      <LocaleLink
+                        href="/benefit/invitation-code"
+                        onClick={onClose}
+                      >
+                        <button className="w-full px-3 py-2 text-left hover:bg-gray-50 rounded-lg transition-colors text-xs">
+                          {t('referralCode')}
+                        </button>
+                      </LocaleLink>
+                      <LocaleLink
+                        href="/benefit/cashback-history"
+                        onClick={onClose}
+                      >
+                        <button className="w-full px-3 py-2 text-left hover:bg-gray-50 rounded-lg transition-colors text-xs">
+                          {t('myCashback')}
+                        </button>
+                      </LocaleLink>
+                    </div>
+                  </div>
+                </>
+              )}
 
               {/* Auth Buttons */}
               {!user && (
