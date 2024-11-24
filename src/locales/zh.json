@@ -11,7 +11,8 @@
     "serviceIntro": "服务介绍",
     "calculator": "计算器",
     "myCashback": "我的返佣",
-    "referralCode": "推荐码"
+    "referralCode": "推荐码",
+    "loading": "加载中..."
   },
   "home": {
     "metadata": {
@@ -224,7 +225,7 @@
       },
       "note": {
         "part1": "总统计数据如上所示，但这包括许多使用小额种子资金（低于100 USDT）或很少交易（每月少于5次）的用",
-        "part2": "通常，经常进行期货交易的用户都在前50%。"
+        "part2": "通��，经常进行期货交易的用户都在前50%。"
       }
     },
     "callToAction": {
@@ -670,7 +671,9 @@
         "failed": "失败",
         "pending": "处理中"
       },
-      "viewTransaction": "查看"
+      "viewTransaction": "查看",
+      "noWithdrawals": "无提现记录",
+      "noTransactions": "无交易记录"
     },
     "withdrawDialog": {
       "title": "提现到加密钱包",
@@ -686,6 +689,7 @@
       "confirmButton": "确认提现",
       "youWillReceive": "您将收到: {amount} {crypto}"
     },
-    "totalAvailable": "可用返佣总额"
+    "totalAvailable": "可用返佣总额",
+    "loading": "加载中..."
   }
 }

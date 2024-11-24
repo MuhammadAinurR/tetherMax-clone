@@ -11,7 +11,8 @@
     "serviceIntro": "サービス紹介",
     "calculator": "計算機",
     "myCashback": "マイキャッシュバック",
-    "referralCode": "紹介コード"
+    "referralCode": "紹介コード",
+    "loading": "読み込み中..."
   },
   "home": {
     "metadata": {
@@ -388,7 +389,7 @@
     "details": "詳細",
     "exchanges": {
       "title": "トップトレーダーに報酬を贈！",
-      "subtitle": "ランキングが高いほど、報酬も良くなります！",
+      "subtitle": "ラ���キングが高いほど、報酬も良くなります！",
       "withdrawalNote": "キャッシュバックは50 USDT以上から出金可能",
       "monthlyReward": "毎月最大100 USDTを獲得！",
       "greeting": {
@@ -564,7 +565,7 @@
     },
     "images": {
       "envelope": "UID封筒",
-      "signup": "モバイル登録",
+      "signup": "モバ��ル登録",
       "binding": "UID連携フォーム"
     }
   },
@@ -670,7 +671,9 @@
         "failed": "失敗",
         "pending": "処理中"
       },
-      "viewTransaction": "表示"
+      "viewTransaction": "表示",
+      "noWithdrawals": "出金履歴がありません",
+      "noTransactions": "取引履歴がありません"
     },
     "withdrawDialog": {
       "title": "暗号資産ウォレットへ出金",
@@ -686,6 +689,7 @@
       "confirmButton": "出金を確認",
       "youWillReceive": "受け取り額: {amount} {crypto}"
     },
-    "totalAvailable": "利用可能な総キャッシュバック"
+    "totalAvailable": "利用可能な総キャッシュバック",
+    "loading": "読み込み中..."
   }
 }

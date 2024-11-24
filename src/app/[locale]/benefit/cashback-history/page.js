@@ -32,10 +32,12 @@ export default function CashbackHistory() {
   const [cashbackHistory, setCashbackHistory] = useState([]);
   const [totalCashback, setTotalCashback] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
+  const [isLoadingData, setIsLoadingData] = useState(true);
 
   // Combine both fetch functions
   const fetchData = async () => {
     if (!user) return;
+    setIsLoadingData(true);
 
     try {
       // Fetch platform cashbacks
@@ -68,6 +70,8 @@ export default function CashbackHistory() {
       setPlatformCashbacks([]);
       setCashbackHistory([]);
       setTotalCashback(0);
+    } finally {
+      setIsLoadingData(false);
     }
   };
 
@@ -153,7 +157,11 @@ export default function CashbackHistory() {
           <div className="flex gap-3 flex-wrap justify-center sm:justify-end">
             <Dialog>
               <DialogTrigger asChild>
-                <Button variant="default" size="sm" className="px-8">
+                <Button
+                  variant="default"
+                  size="sm"
+                  className="px-8 md:rounded-l-xl"
+                >
                   <DollarSign className="h-4 w-4 mr-2" />
                   {t('platformBalance.linkedExchanges')}
                 </Button>
@@ -179,8 +187,14 @@ export default function CashbackHistory() {
                       </TableRow>
                     </TableHeader>
                     <TableBody>
-                      {Array.isArray(platformCashbacks) &&
-                      platformCashbacks.length > 0 ? (
+                      {isLoadingData ? (
+                        <TableRow>
+                          <TableCell colSpan={3} className="text-center py-4">
+                            {t('loading')}
+                          </TableCell>
+                        </TableRow>
+                      ) : Array.isArray(platformCashbacks) &&
+                        platformCashbacks.length > 0 ? (
                         platformCashbacks.map((cashback) => (
                           <TableRow key={cashback.platformId}>
                             <TableCell>{cashback.platform.name}</TableCell>
@@ -222,7 +236,11 @@ export default function CashbackHistory() {
             />
             <Dialog>
               <DialogTrigger asChild>
-                <Button variant="default" size="sm">
+                <Button
+                  variant="default"
+                  size="sm"
+                  className="px-8 md:rounded-r-xl"
+                >
                   {t('history.title')}
                 </Button>
               </DialogTrigger>
@@ -245,63 +263,81 @@ export default function CashbackHistory() {
                     </TableRow>
                   </TableHeader>
                   <TableBody>
-                    {cashbackHistory
-                      .filter((item) => item.type === 'WITHDRAW')
-                      .map((item) => (
-                        <TableRow key={item.id}>
-                          <TableCell>
-                            {new Date(item.createdAt).toLocaleDateString()}
-                          </TableCell>
-                          <TableCell>
-                            {item.crypto
-                              ? t('history.types.cryptoWithdraw', {
-                                  crypto: item.crypto,
-                                })
-                              : t('history.types.withdraw')}
-                          </TableCell>
-                          <TableCell className="text-right">
-                            {Number(item.amount).toLocaleString()} USDT
-                            {item.convertedAmount && (
-                              <div className="text-xs text-gray-500">
-                                ≈ {Number(item.convertedAmount).toFixed(8)}{' '}
-                                {item.crypto}
-                              </div>
-                            )}
-                          </TableCell>
-                          <TableCell>
-                            <span
-                              className={`px-2 py-1 rounded-full text-xs ${
-                                item.status === 'SUCCESS'
-                                  ? 'bg-green-100 text-green-800'
-                                  : item.status === 'FAILED'
-                                  ? 'bg-red-100 text-red-800'
-                                  : 'bg-yellow-100 text-yellow-800'
-                              }`}
-                            >
-                              {t(`history.status.${item.status.toLowerCase()}`)}
-                            </span>
-                          </TableCell>
-                          <TableCell>{item.network || '-'}</TableCell>
-                          <TableCell>
-                            {item.hashLink ? (
-                              <a
-                                href={
-                                  item.hashLink.startsWith('@')
-                                    ? item.hashLink.slice(1)
-                                    : item.hashLink
-                                }
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-blue-600 hover:underline"
+                    {isLoadingData ? (
+                      <TableRow>
+                        <TableCell colSpan={6} className="text-center py-4">
+                          {t('loading')}
+                        </TableCell>
+                      </TableRow>
+                    ) : cashbackHistory.filter(
+                        (item) => item.type === 'WITHDRAW'
+                      ).length > 0 ? (
+                      cashbackHistory
+                        .filter((item) => item.type === 'WITHDRAW')
+                        .map((item) => (
+                          <TableRow key={item.id}>
+                            <TableCell>
+                              {new Date(item.createdAt).toLocaleDateString()}
+                            </TableCell>
+                            <TableCell>
+                              {item.crypto
+                                ? t('history.types.cryptoWithdraw', {
+                                    crypto: item.crypto,
+                                  })
+                                : t('history.types.withdraw')}
+                            </TableCell>
+                            <TableCell className="text-right">
+                              {Number(item.amount).toLocaleString()} USDT
+                              {item.convertedAmount && (
+                                <div className="text-xs text-gray-500">
+                                  ≈ {Number(item.convertedAmount).toFixed(8)}{' '}
+                                  {item.crypto}
+                                </div>
+                              )}
+                            </TableCell>
+                            <TableCell>
+                              <span
+                                className={`px-2 py-1 rounded-full text-xs ${
+                                  item.status === 'SUCCESS'
+                                    ? 'bg-green-100 text-green-800'
+                                    : item.status === 'FAILED'
+                                    ? 'bg-red-100 text-red-800'
+                                    : 'bg-yellow-100 text-yellow-800'
+                                }`}
                               >
-                                {t('history.viewTransaction')}
-                              </a>
-                            ) : (
-                              '-'
-                            )}
-                          </TableCell>
-                        </TableRow>
-                      ))}
+                                {t(
+                                  `history.status.${item.status.toLowerCase()}`
+                                )}
+                              </span>
+                            </TableCell>
+                            <TableCell>{item.network || '-'}</TableCell>
+                            <TableCell>
+                              {item.hashLink ? (
+                                <a
+                                  href={
+                                    item.hashLink.startsWith('@')
+                                      ? item.hashLink.slice(1)
+                                      : item.hashLink
+                                  }
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-blue-600 hover:underline"
+                                >
+                                  {t('history.viewTransaction')}
+                                </a>
+                              ) : (
+                                '-'
+                              )}
+                            </TableCell>
+                          </TableRow>
+                        ))
+                    ) : (
+                      <TableRow>
+                        <TableCell colSpan={6} className="text-center py-4">
+                          {t('history.noWithdrawals')}
+                        </TableCell>
+                      </TableRow>
+                    )}
                   </TableBody>
                 </Table>
               </DialogContent>
@@ -342,64 +378,80 @@ export default function CashbackHistory() {
                 </TableRow>
               </TableHeader>
               <TableBody>
-                {cashbackHistory.map((item) => (
-                  <TableRow key={item.id}>
-                    <TableCell>
-                      {new Date(item.createdAt).toLocaleDateString()}
-                    </TableCell>
-                    <TableCell>
-                      {item.platform?.name ||
-                        t('history.types.cryptoWithdraw', {
-                          crypto: item.crypto || 'USDT', // Provide a default value if item.crypto is undefined
-                        })}
-                    </TableCell>
-                    <TableCell
-                      className={`text-right ${
-                        item.type === 'EARN' ? 'text-green-600' : 'text-red-600'
-                      }`}
-                    >
-                      {item.type === 'EARN' ? '+' : '-'}
-                      {Number(item.amount).toLocaleString()}
-                      {item.convertedAmount && (
-                        <div className="text-xs text-gray-500">
-                          ≈ {Number(item.convertedAmount).toFixed(8)}{' '}
-                          {item.crypto}
-                        </div>
-                      )}
-                    </TableCell>
-                    <TableCell>
-                      <span
-                        className={`px-2 py-1 rounded-full text-xs ${
-                          item.status === 'SUCCESS'
-                            ? 'bg-green-100 text-green-800'
-                            : item.status === 'FAILED'
-                            ? 'bg-red-100 text-red-800'
-                            : 'bg-yellow-100 text-yellow-800'
-                        }`}
-                      >
-                        {t(`history.status.${item.status.toLowerCase()}`)}
-                      </span>
-                    </TableCell>
-                    <TableCell>
-                      {item.hashLink ? (
-                        <a
-                          href={
-                            item.hashLink.startsWith('@')
-                              ? item.hashLink.slice(1)
-                              : item.hashLink
-                          }
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-blue-600 hover:underline"
-                        >
-                          {t('history.viewTransaction')}
-                        </a>
-                      ) : (
-                        '-'
-                      )}
+                {isLoadingData ? (
+                  <TableRow>
+                    <TableCell colSpan={5} className="text-center py-4">
+                      {t('loading')}
                     </TableCell>
                   </TableRow>
-                ))}
+                ) : cashbackHistory.length > 0 ? (
+                  cashbackHistory.map((item) => (
+                    <TableRow key={item.id}>
+                      <TableCell>
+                        {new Date(item.createdAt).toLocaleDateString()}
+                      </TableCell>
+                      <TableCell>
+                        {item.platform?.name ||
+                          t('history.types.cryptoWithdraw', {
+                            crypto: item.crypto || 'USDT', // Provide a default value if item.crypto is undefined
+                          })}
+                      </TableCell>
+                      <TableCell
+                        className={`text-right ${
+                          item.type === 'EARN'
+                            ? 'text-green-600'
+                            : 'text-red-600'
+                        }`}
+                      >
+                        {item.type === 'EARN' ? '+' : '-'}
+                        {Number(item.amount).toLocaleString()}
+                        {item.convertedAmount && (
+                          <div className="text-xs text-gray-500">
+                            ≈ {Number(item.convertedAmount).toFixed(8)}{' '}
+                            {item.crypto}
+                          </div>
+                        )}
+                      </TableCell>
+                      <TableCell>
+                        <span
+                          className={`px-2 py-1 rounded-full text-xs ${
+                            item.status === 'SUCCESS'
+                              ? 'bg-green-100 text-green-800'
+                              : item.status === 'FAILED'
+                              ? 'bg-red-100 text-red-800'
+                              : 'bg-yellow-100 text-yellow-800'
+                          }`}
+                        >
+                          {t(`history.status.${item.status.toLowerCase()}`)}
+                        </span>
+                      </TableCell>
+                      <TableCell>
+                        {item.hashLink ? (
+                          <a
+                            href={
+                              item.hashLink.startsWith('@')
+                                ? item.hashLink.slice(1)
+                                : item.hashLink
+                            }
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:underline"
+                          >
+                            {t('history.viewTransaction')}
+                          </a>
+                        ) : (
+                          '-'
+                        )}
+                      </TableCell>
+                    </TableRow>
+                  ))
+                ) : (
+                  <TableRow>
+                    <TableCell colSpan={5} className="text-center py-4">
+                      {t('history.noTransactions')}
+                    </TableCell>
+                  </TableRow>
+                )}
               </TableBody>
             </Table>
           </CardContent>

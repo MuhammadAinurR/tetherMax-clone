@@ -11,7 +11,8 @@
     "serviceIntro": "서비스 소개",
     "calculator": "계산기",
     "myCashback": "내 캐시백",
-    "referralCode": "추천 코드"
+    "referralCode": "추천 코드",
+    "loading": "로딩 중..."
   },
   "home": {
     "metadata": {
@@ -142,7 +143,7 @@
       "terms": "이용약관",
       "privacy": "개인정보처리방침"
     },
-    "disclaimer": "degenMax와 관련된 모든 콘텐츠(정보, 이벤트, UI 포함)는 저작권법과 콘텐츠산업진흥법의 보호를 받습니다. DEGENMAX PTE.LTD의 사전 서면 동의 없이 무단 복제, 전송, 배포, 스크래핑 등의 행위는 관련 법령에 의거 ���격히 금지됩니다.",
+    "disclaimer": "degenMax와 관련된 모든 콘텐츠(정보, 이벤트, UI 포함)는 저작권법과 콘텐츠산업진흥법의 보호를 받습니다. DEGENMAX PTE.LTD의 사전 서면 동의 없이 무단 복제, 전송, 배포, 스크래핑 등의 행위는 관련 법령에 의거 격히 금지됩니다.",
     "socialLinks": {
       "instagram": "인스타그램",
       "discord": "디스코드",
@@ -219,7 +220,7 @@
     "cashbackRange": {
       "title": "월 50 USDT에서 3,500 USDT까지의 캐시백",
       "conditions": {
-        "minimum": "월 5회 이상 거래하고 시드머니가 100 USDT 이상이면 50 USDT 이상의 캐시백을 받을 수 ��습니다",
+        "minimum": "월 5회 이상 거래하고 시드머니가 100 USDT 이상이면 50 USDT 이상의 캐시백을 받을 수 있습니다",
         "maximum": "캐시백 트레이더 상위 5% 안에 들면 3,500 USDT 이상의 캐시백을 받을 수 있습니다"
       },
       "note": {
@@ -283,7 +284,7 @@
       "subtitle": "거래 수수료 캐시백 플랫폼, degenMax"
     },
     "averageCashback": {
-      "title": "사용자당 평균 캐��백",
+      "title": "사용자당 평균 캐시백",
       "monthlyAverage": "월평균 캐시백 확인하기",
       "checkTime": "확인하는 데 5분도 걸리지 않습니다",
       "calculateButton": "지금 계산하기"
@@ -427,7 +428,7 @@
       },
       "notes": {
         "title": "참고",
-        "item1": "매월 1일부터 말일까지(UTC)의 캐시백 ��급분에만 적용됩니다.",
+        "item1": "매월 1일부터 말일까지(UTC)의 캐시백 급분에만 적용됩니다.",
         "item2": "이벤트 보상은 해당 월의 캐시백 내역에 따라 계산되며 월말 이후 5일 이내에 지급됩니다.",
         "item3": "이 이벤트는 해당 월에 캐시백 내역이 있는 트레이더에게 적용됩니다.",
         "item4": "각 거래소별로 개별 처리되므로 여러 거래소에서 보상을 받으실 수 있습니다.",
@@ -670,7 +671,9 @@
         "failed": "실패",
         "pending": "대기중"
       },
-      "viewTransaction": "보기"
+      "viewTransaction": "보기",
+      "noWithdrawals": "출금 내역이 없습니다",
+      "noTransactions": "거래 내역이 없습니다"
     },
     "withdrawDialog": {
       "title": "암호화폐 지갑으로 출금",
@@ -688,6 +691,7 @@
     },
     "noLinkedExchanges": "연동된 거래소를 찾을 수 없습니다",
     "linkedExchanges": "연동된 거래소",
-    "totalAvailable": "사용 가능한 총 캐시백"
+    "totalAvailable": "사용 가능한 총 캐시백",
+    "loading": "로딩 중..."
   }
 }

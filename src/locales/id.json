@@ -11,7 +11,8 @@
     "serviceIntro": "Pengenalan Layanan",
     "calculator": "Kalkulator",
     "myCashback": "Cashback Saya",
-    "referralCode": "Kode Referral"
+    "referralCode": "Kode Referral",
+    "loading": "Memuat..."
   },
   "home": {
     "metadata": {
@@ -670,7 +671,9 @@
         "failed": "Gagal",
         "pending": "Menunggu"
       },
-      "viewTransaction": "Lihat"
+      "viewTransaction": "Lihat",
+      "noWithdrawals": "Tidak ada riwayat penarikan",
+      "noTransactions": "Tidak ada riwayat transaksi"
     },
     "withdrawDialog": {
       "title": "Tarik ke Dompet Crypto",
@@ -686,6 +689,7 @@
       "confirmButton": "Konfirmasi Penarikan",
       "youWillReceive": "Anda akan menerima: {amount} {crypto}"
     },
-    "totalAvailable": "Total Cashback Tersedia"
+    "totalAvailable": "Total Cashback Tersedia",
+    "loading": "Memuat..."
   }
 }

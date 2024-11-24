@@ -11,7 +11,8 @@
     "serviceIntro": "Service Introduction",
     "calculator": "Calculator",
     "myCashback": "My Cashback",
-    "referralCode": "Referral Code"
+    "referralCode": "Referral Code",
+    "loading": "Loading..."
   },
   "home": {
     "metadata": {
@@ -670,7 +671,9 @@
         "failed": "Failed",
         "pending": "Pending"
       },
-      "viewTransaction": "View"
+      "viewTransaction": "View",
+      "noWithdrawals": "No withdrawal history",
+      "noTransactions": "No transaction history"
     },
     "withdrawDialog": {
       "title": "Withdraw to Crypto Wallet",
@@ -686,6 +689,7 @@
       "confirmButton": "Confirm Withdrawal",
       "youWillReceive": "You will receive: {amount} {crypto}"
     },
-    "totalAvailable": "Total Available Cashback"
+    "totalAvailable": "Total Available Cashback",
+    "loading": "Loading..."
   }
 }

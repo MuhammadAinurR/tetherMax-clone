@@ -11,7 +11,8 @@
     "serviceIntro": "Introducción al Servicio",
     "calculator": "Calculadora",
     "myCashback": "Mi Cashback",
-    "referralCode": "Código de Referido"
+    "referralCode": "Código de Referido",
+    "loading": "Cargando..."
   },
   "home": {
     "metadata": {
@@ -404,7 +405,7 @@
             "icon": "🏆"
           },
           "second": {
-            "position": "2º",
+            "position": "2��",
             "reward": "50 USDT",
             "icon": "🥈"
           },
@@ -670,7 +671,9 @@
         "failed": "Fallido",
         "pending": "Pendiente"
       },
-      "viewTransaction": "Ver"
+      "viewTransaction": "Ver",
+      "noWithdrawals": "Sin historial de retiros",
+      "noTransactions": "Sin historial de transacciones"
     },
     "withdrawDialog": {
       "title": "Retirar a Billetera Crypto",
@@ -686,6 +689,7 @@
       "confirmButton": "Confirmar Retiro",
       "youWillReceive": "Recibirás: {amount} {crypto}"
     },
-    "totalAvailable": "Total de Cashback Disponible"
+    "totalAvailable": "Total de Cashback Disponible",
+    "loading": "Cargando..."
   }
 }
