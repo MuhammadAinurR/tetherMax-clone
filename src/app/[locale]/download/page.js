@@ -109,7 +109,7 @@ export default function Download() {
             {t('cta.tryApp')}
           </h2>
           <Image
-            src="https://tethermax.io/static/images/landing/landingQr.png"
+            src="/qr/domainUrl.png"
             alt={t('qrCode')}
             width={200}
             height={200}
