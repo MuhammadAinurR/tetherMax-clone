@@ -421,12 +421,14 @@ export default function UserContent({ exchangesTable }) {
                 </p>
               </div>
               <div className="flex justify-end">
-                <Button
-                  size="lg"
-                  className="bg-primary-1 hover:bg-primary-1/90 text-white text-lg px-5  py-3 h-auto rounded-xl"
-                >
-                  {t('averageCashback.calculateButton')}
-                </Button>
+                <LocaleLink href="/payback">
+                  <Button
+                    size="lg"
+                    className="bg-primary-1 hover:bg-primary-1/90 text-white text-lg px-5  py-3 h-auto rounded-xl"
+                  >
+                    {t('averageCashback.calculateButton')}
+                  </Button>
+                </LocaleLink>
               </div>
             </div>
           </CardContent>
