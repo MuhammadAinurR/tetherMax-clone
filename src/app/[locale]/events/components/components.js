@@ -222,7 +222,7 @@ function EventCard({ title, reward, timeRange, imageUrl, url }) {
       className="overflow-hidden p-0 transition-all duration-300 hover:shadow-lg"
       onClick={() => window.open(url, '_blank')}
     >
-      <div className="relative h-72 w-full">
+      <div className="relative h-80 w-full">
         <Image
           src={imageUrl}
           alt={title}

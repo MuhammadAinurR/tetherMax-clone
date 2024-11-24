@@ -71,17 +71,17 @@ export default function InvitationCodePage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-slate-50 flex items-center justify-center">
-      <main className="container px-4 py-16 max-w-7xl">
-        <div className="mx-auto max-w-7xl text-center space-y-20">
+      <main className="container px-4 py-8 md:py-16 max-w-7xl">
+        <div className="mx-auto max-w-7xl text-center space-y-10 md:space-y-20">
           <section className="space-y-6">
-            <h1 className="text-4xl font-bold leading-tight">
+            <h1 className="text-3xl md:text-4xl font-bold leading-tight px-2">
               {t('hero.title')}{' '}
               <span className="text-primary-1 inline-block animate-pulse">
                 {t('hero.inviteFriendsText')}
               </span>
             </h1>
             <div className="relative group flex items-center justify-center w-full">
-              <div className="w-[400px] h-[240px] mt-5">
+              <div className="w-[280px] md:w-[400px] h-auto md:h-[240px] mt-5">
                 <Image
                   src="/images/inviteFriends.jpg"
                   alt={`${siteConfig.name} calculator`}
@@ -95,8 +95,8 @@ export default function InvitationCodePage() {
             </div>
           </section>
 
-          <section className="bg-green-50/80 backdrop-blur rounded-3xl p-10 space-y-6 shadow-xl">
-            <h2 className="text-2xl md:text-3xl font-bold leading-tight">
+          <section className="bg-green-50/80 backdrop-blur rounded-3xl p-4 md:p-10 space-y-4 md:space-y-6 shadow-xl">
+            <h2 className="text-xl md:text-3xl font-bold leading-tight px-2">
               {t('profitSection.title.prefix')}{' '}
               <span className="text-primary-1">
                 {t('profitSection.title.highlight')}
@@ -152,22 +152,22 @@ export default function InvitationCodePage() {
             </div>
           </section>
 
-          <section className="bg-blue-50/80 backdrop-blur rounded-3xl p-10 space-y-6 shadow-xl">
-            <h2 className="text-2xl md:text-3xl font-bold leading-tight">
+          <section className="bg-blue-50/80 backdrop-blur rounded-3xl p-4 md:p-10 space-y-4 md:space-y-6 shadow-xl">
+            <h2 className="text-xl md:text-3xl font-bold leading-tight px-2">
               {t('referralCodeSection.title')}
             </h2>
-            <div className="max-w-md mx-auto space-y-4 rounded-xl overflow-hidden">
+            <div className="max-w-md mx-auto space-y-4 rounded-xl overflow-hidden px-2">
               {loading ? (
                 <p>{t('referralCodeSection.loading')}</p>
               ) : referralCode ? (
-                <div className="bg-white p-4 flex items-center justify-between border shadow-sm rounded-xl">
-                  <code className="text-xl font-mono text-primary-1">
+                <div className="bg-white p-3 md:p-4 flex flex-col md:flex-row items-center justify-between gap-3 border shadow-sm rounded-xl">
+                  <code className="text-lg md:text-xl font-mono text-primary-1 break-all">
                     {referralCode}
                   </code>
                   <Button
                     variant="ghost"
                     size="sm"
-                    className="text-primary-1 hover:text-primary-1/80"
+                    className="text-primary-1 hover:text-primary-1/80 w-full md:w-auto"
                     onClick={copyToClipboard}
                   >
                     <span className="mr-2">📋</span>
@@ -189,17 +189,20 @@ export default function InvitationCodePage() {
             </div>
           </section>
 
-          <section className="bg-purple-50/80 backdrop-blur rounded-3xl p-10 space-y-6 shadow-xl">
-            <h2 className="text-2xl md:text-3xl font-bold leading-tight">
+          <section className="bg-purple-50/80 backdrop-blur rounded-3xl p-4 md:p-10 space-y-4 md:space-y-6 shadow-xl">
+            <h2 className="text-xl md:text-3xl font-bold leading-tight">
               {t('enterCodeSection.title')}
             </h2>
-            <div className="max-w-md mx-auto space-y-4">
-              <div className="flex gap-3">
+            <div className="max-w-md mx-auto space-y-4 px-2">
+              <div className="flex flex-col md:flex-row gap-3">
                 <Input
                   placeholder={t('enterCodeSection.inputPlaceholder')}
-                  className="text-lg h-12 rounded-l-xl border-1 shadow-md focus:border-2"
+                  className="text-lg h-12 rounded-xl md:rounded-l-xl md:rounded-r-none border-1 shadow-md focus:border-2"
                 />
-                <Button className="px-8 h-12 rounded-r-xl shadow-md">
+                <Button
+                  variant="default"
+                  className="px-8 h-12 shadow-md rounded-xl md:rounded-l-none md:rounded-r-xl w-full md:w-auto"
+                >
                   {t('enterCodeSection.applyButton')}
                 </Button>
               </div>
@@ -232,7 +235,7 @@ export default function InvitationCodePage() {
             </p>
             <Button
               size="lg"
-              className="mt-6 text-lg px-8 py-6 hover:scale-105 transition-transform rounded-xl shadow-md"
+              className="mt-6 text-base md:text-lg px-6 md:px-8 py-4 md:py-6 hover:scale-105 transition-transform rounded-xl shadow-md max-w-[280px] md:max-w-none"
             >
               {t('callToAction.button')}
             </Button>

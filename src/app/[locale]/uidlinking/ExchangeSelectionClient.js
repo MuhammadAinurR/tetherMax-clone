@@ -13,6 +13,7 @@ import { Input } from '@/components/ui/input';
 import { useState, useEffect } from 'react';
 import { useUser } from '@clerk/nextjs';
 import { useRouter } from 'next/navigation';
+import LocaleLink from '@/components/LocaleLink';
 
 export default function ExchangeSelectionClient({ exchanges, translations }) {
   const [selectedExchange, setSelectedExchange] = useState(null);
@@ -212,27 +213,28 @@ export default function ExchangeSelectionClient({ exchanges, translations }) {
             })}
 
           <li className="mt-6 pt-6 border-t border-gray-200">
-            <Button
-              variant="outline"
-              className="w-full justify-between text-left font-normal hover:bg-blue-50 transition-colors duration-200 p-6 rounded-xl border-blue-200 overflow-hidden py-10"
-              onClick={handleAffiliatedClick}
-            >
-              <div className="flex items-center space-x-4">
-                <div className="p-2 rounded-lg shadow-sm">
-                  <Image
-                    src="https://tethermax.io/static/images/exchange/TethermaxIcon.png"
-                    alt="degenMax logo"
-                    width={48}
-                    height={48}
-                    className="rounded-lg"
-                  />
+            <LocaleLink href="/registExchange">
+              <Button
+                variant="outline"
+                className="w-full justify-between text-left font-normal hover:bg-blue-50 transition-colors duration-200 p-4 md:p-6 rounded-xl border-blue-200 overflow-hidden md:py-10"
+              >
+                <div className="flex items-center gap-2 md:space-x-4">
+                  <div className="hidden md:block p-1 md:p-2 rounded-lg shadow-sm">
+                    <Image
+                      src="https://tethermax.io/static/images/exchange/TethermaxIcon.png"
+                      alt="degenMax logo"
+                      width={48}
+                      height={48}
+                      className="rounded-lg w-8 h-8 md:w-12 md:h-12"
+                    />
+                  </div>
+                  <span className="text-sm md:text-lg font-medium text-blue-600 break-words">
+                    {translations.signupButton}
+                  </span>
                 </div>
-                <span className="text-lg font-medium text-blue-600">
-                  {translations.signupButton}
-                </span>
-              </div>
-              <ChevronRight className="h-6 w-6 text-blue-400" />
-            </Button>
+                <ChevronRight className="h-4 w-4 md:h-6 md:w-6 text-blue-400 flex-shrink-0" />
+              </Button>
+            </LocaleLink>
           </li>
         </ul>
 

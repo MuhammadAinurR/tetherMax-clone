@@ -13,8 +13,12 @@ export default function Events({ events }) {
       <div className="max-w-[1280px] mx-auto px-4 md:px-6 py-8">
         <div className="flex justify-between items-center mb-6">
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-800">{t('title')}</h2>
-            <p className="text-gray-600 text-sm md:text-base mt-1">{t('subtitle')}</p>
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
+              {t('title')}
+            </h2>
+            <p className="text-gray-600 text-sm md:text-base mt-1">
+              {t('subtitle')}
+            </p>
           </div>
           <LocaleLink href="/events">
             <button className="text-primary-1 hover:text-primary-1/80 transition-colors flex items-center text-sm font-medium">
@@ -41,11 +45,17 @@ export default function Events({ events }) {
                       className="object-cover rounded-xl shadow-sm"
                     />
                   </div>
-                  <h3 className="font-medium text-gray-600 text-sm mb-1">{event.title}</h3>
-                  <p className="text-lg font-bold text-gray-900 mb-2 line-clamp-2">{event.subTitle}</p>
+                  <h3 className="font-medium text-gray-600 text-sm mb-1">
+                    {event.title}
+                  </h3>
+                  <p className="text-lg font-bold text-gray-900 mb-2 line-clamp-2">
+                    {event.subTitle}
+                  </p>
                   <div className="flex items-center text-sm text-gray-500">
                     <Calendar className="mr-2 h-4 w-4" />
-                    <time>{new Date(event.startDate).toLocaleDateString()}</time>
+                    <time>
+                      {new Date(event.startDate).toLocaleDateString()}
+                    </time>
                     <span className="mx-2">-</span>
                     <time>{new Date(event.endDate).toLocaleDateString()}</time>
                   </div>

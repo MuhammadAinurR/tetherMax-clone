@@ -93,35 +93,39 @@ export default function RegistExchangeContent({ platforms }) {
   );
 
   return (
-    <div className="flex flex-col gap-6 bg-[#F0F3F9] min-h-screen px-4 py-6">
+    <div className="flex flex-col gap-4 sm:gap-6 bg-[#F0F3F9] min-h-screen px-3 sm:px-4 py-4 sm:py-6">
       <div className="max-w-3xl mx-auto w-full">
-        <Card className="rounded-xl shadow-sm mb-6">
-          <CardHeader className="pb-4 space-y-2">
-            <CardTitle className="text-2xl font-bold">
+        <Card className="rounded-xl shadow-sm mb-4 sm:mb-6">
+          <CardHeader className="pb-3 sm:pb-4 space-y-1 sm:space-y-2">
+            <CardTitle className="text-xl sm:text-2xl font-bold">
               {t('step1.title', 'Join the Exchange')}
             </CardTitle>
-            <CardDescription className="text-base text-gray-600">
+            <CardDescription className="text-sm sm:text-base text-gray-600">
               {t(
                 'step1.description',
                 'Create an exchange account eligible for Cashback'
               )}
             </CardDescription>
           </CardHeader>
-          <CardContent className="space-y-4">
+          <CardContent className="space-y-3 sm:space-y-4">
             {renderExchangeGrid()}
-            <Button
-              variant="secondary"
-              className="w-full mt-4 py-5 text-sm font-medium hover:bg-gray-100"
-            >
-              {t(
-                'step1.compareButton',
-                'Curious about the benefits of each exchange?'
-              )}
-            </Button>
-            <hr className="my-4" />
+            <LocaleLink href="/affiliated">
+              <Button
+                variant="default"
+                className="w-full mt-3 sm:mt-4 py-4 sm:py-5 text-xs sm:text-sm font-medium hover:bg-gray-100 px-2 sm:px-4"
+              >
+                <span className="line-clamp-2 text-center">
+                  {t(
+                    'step1.compareButton',
+                    'Curious about the benefits of each exchange?'
+                  )}
+                </span>
+              </Button>
+            </LocaleLink>
+            <hr className="my-3 sm:my-4" />
             <Button
               variant="link"
-              className="w-full text-primary-1 text-lg font-bold hover:text-primary-1/80"
+              className="w-full text-primary-1 text-base sm:text-lg font-bold hover:text-primary-1/80"
               onClick={() => setIsMore(!isMore)}
             >
               {isMore ? t('showLess', 'Show Less') : t('showMore', 'Show More')}
@@ -129,12 +133,12 @@ export default function RegistExchangeContent({ platforms }) {
           </CardContent>
         </Card>
 
-        <Card className="rounded-xl shadow-sm mb-6">
-          <CardHeader className="space-y-2">
-            <CardTitle className="text-2xl font-bold">
+        <Card className="rounded-xl shadow-sm mb-4 sm:mb-6">
+          <CardHeader className="space-y-1 sm:space-y-2">
+            <CardTitle className="text-xl sm:text-2xl font-bold">
               {t('step2.title', 'Bind UID')}
             </CardTitle>
-            <CardDescription className="text-base text-gray-600">
+            <CardDescription className="text-sm sm:text-base text-gray-600">
               {t(
                 'step2.description',
                 'Please verify the UID and bind it to your account.'
@@ -143,7 +147,7 @@ export default function RegistExchangeContent({ platforms }) {
           </CardHeader>
           <CardContent>
             <LocaleLink href="/uidlinking">
-              <Button className="w-full bg-primary-2 text-primary-1 hover:bg-primary-2/90 py-6 text-lg font-medium transition-colors">
+              <Button className="w-full bg-primary-2 text-primary-1 hover:bg-primary-2/90 py-4 sm:py-6 text-base sm:text-lg font-medium transition-colors">
                 {t('step2.button', 'Bind UID')}
               </Button>
             </LocaleLink>
@@ -151,11 +155,11 @@ export default function RegistExchangeContent({ platforms }) {
         </Card>
 
         <Card className="rounded-xl shadow-sm">
-          <CardHeader className="space-y-2">
-            <CardTitle className="text-2xl font-bold">
+          <CardHeader className="space-y-1 sm:space-y-2">
+            <CardTitle className="text-xl sm:text-2xl font-bold">
               {t('step3.title', 'Invite Friends & Earn More')}
             </CardTitle>
-            <CardDescription className="text-base text-gray-600">
+            <CardDescription className="text-sm sm:text-base text-gray-600">
               {t(
                 'step3.description',
                 'Share the wealth! Invite friends with your redemption code and both get rewarded 🎁'
@@ -164,7 +168,7 @@ export default function RegistExchangeContent({ platforms }) {
           </CardHeader>
           <CardContent>
             <LocaleLink href="/benefit/invitation-code">
-              <Button className="w-full bg-primary-2 text-primary-1 hover:bg-primary-2/90 py-6 text-lg font-medium transition-colors">
+              <Button className="w-full bg-primary-2 text-primary-1 hover:bg-primary-2/90 py-4 sm:py-6 text-base sm:text-lg font-medium transition-colors">
                 {t('step3.button', 'Share & Earn USDT')}
               </Button>
             </LocaleLink>
