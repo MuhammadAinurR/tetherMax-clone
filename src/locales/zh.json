@@ -1,0 +1,638 @@
+{
+  "common": {
+    "welcome": "欢迎",
+    "home": "首页",
+    "about": "关于",
+    "selectLanguage": "选择语言",
+    "language": "语言",
+    "partnerExchange": "合作交易所",
+    "benefits": "优惠",
+    "appDownload": "应用下载",
+    "serviceIntro": "服务介绍",
+    "calculator": "计算器"
+  },
+  "home": {
+    "metadata": {
+      "title": "DegenMax - 终极加密货币交易返佣平台",
+      "description": "通过DegenMax获取最佳加密货币交易返佣。主要加密货币交易所的官方合作伙伴，提供独家返佣和交易竞赛。"
+    }
+  },
+  "auth": {
+    "login": "登录",
+    "signup": "注册",
+    "logout": "退出登录",
+    "loginPage": {
+      "title": "登录",
+      "description": {
+        "main": "唯一为您的加密货币交易提供优质返佣的平台。",
+        "highlight": "与主要交易所的官方合约",
+        "platform": "就是degenMax。",
+        "subtext": "加入后，每次交易都能赚取USDT。"
+      },
+      "metadata": {
+        "title": "注册 | DegenMax",
+        "description": "注册DegenMax - 加密货币交易所任务的官方平台"
+      },
+      "verifiedMessage": "邮箱验证成功！请登录继续。",
+      "form": {
+        "email": "邮箱",
+        "password": "密码",
+        "forgotPassword": "忘记密码？",
+        "noAccount": "没有账号？",
+        "signUpLink": "注册",
+        "submitButton": {
+          "default": "登录",
+          "loading": "加载中...",
+          "tryAgain": "{time}后重试"
+        },
+        "verification": {
+          "title": "检查您的邮箱",
+          "subtitle": "我们已发送验证码至",
+          "codeExpires": "验证码将在以下时间后过期",
+          "noCode": "没有收到验证码？",
+          "resendButton": {
+            "default": "重新发送验证码",
+            "sending": "发送中...",
+            "countdown": "{time}后重新发送"
+          }
+        }
+      }
+    },
+    "signupPage": {
+      "title": "欢迎来到",
+      "highlight": "加密货币交易返佣平台，degenMax",
+      "description": "degenMax是一个直接返还加密货币交易者手续费的返佣平台",
+      "metadata": {
+        "title": "注册 | DegenMax",
+        "description": "注册DegenMax - 加密货币交易所任务的官方平台"
+      },
+      "form": {
+        "email": "邮箱",
+        "password": "密码",
+        "inviteCode": "好友邀请码（可选）",
+        "terms": {
+          "agree": "我已阅读并同意",
+          "termsLink": "使用条款",
+          "and": "和",
+          "privacyLink": "隐私政策",
+          "of": "。",
+          "error": "您必须同意条款和隐私政策"
+        },
+        "haveAccount": "已有账号？",
+        "loginLink": "登录",
+        "submitButton": {
+          "default": "注册",
+          "loading": "创建账号中..."
+        },
+        "verification": {
+          "title": "输入验证码",
+          "subtitle": "我们已发送验证码至",
+          "noCode": "没有收到验证码？",
+          "resendButton": {
+            "default": "重新发送验证码",
+            "sending": "发送中...",
+            "wait": "等待{time}"
+          }
+        },
+        "errors": {
+          "email": {
+            "required": "请输入邮箱",
+            "invalid": "邮箱格式无效"
+          },
+          "password": {
+            "required": "请输入密码",
+            "length": "密码至少需要8个字符"
+          }
+        }
+      }
+    }
+  },
+  "affiliated": {
+    "metadata": {
+      "title": "合作交易所 | DegenMax",
+      "description": "探索我们的合作加密货币交易所，获取最佳返佣率和交易条件。",
+      "ogImageAlt": "DegenMax合作交易所概览"
+    },
+    "title": "探索degenMax的<highlight>合作交易所</highlight>！",
+    "subtitle": "degenMax与全球领先的加密货币交易所合作",
+    "disclaimer": "* 唯一与主要合作伙伴签订<highlight>官方合约</highlight>的平台是degenMax。",
+    "tableTitle": "degenMax的合作交易所",
+    "tableSubtitle": "我们不仅提供返佣，还有交易竞赛",
+    "columns": {
+      "exchangeName": "交易所名称",
+      "cashbackRate": "返佣率 (%)",
+      "tradingDiscount": "交易折扣 (%)",
+      "averageRebate": "每用户平均返佣",
+      "limitPrice": "限价 (%)",
+      "marketPrice": "市价 (%)"
+    }
+  },
+  "footer": {
+    "companyName": "DEGENMAX PTE. LTD",
+    "companyInfo": {
+      "uen": "统一企业号 (UEN) : 202326628N",
+      "location": "地址 : 531A UPPER CROSS STREET #04-98 HONG LIM COMPLEX SINGAPORE (051531)",
+      "consultation": "咨询 : 聊天支持 (00:00 - 24:00)",
+      "email": "邮箱 : support@degenmax.io"
+    },
+    "copyright": "版权所有 2022 degenMax 保留所有权利。",
+    "legalLinks": {
+      "terms": "使用条款",
+      "privacy": "隐私政策"
+    },
+    "disclaimer": "所有与degenMax相关的内容，包括信息、活动和用户界面，均受版权法和内容产业促进法保护。未经DEGENMAX PTE.LTD事先书面同意，严禁未经授权的复制、传播、分发、抓取或任何类似行为。",
+    "socialLinks": {
+      "instagram": "Instagram",
+      "discord": "Discord",
+      "youtube": "YouTube",
+      "twitter": "Twitter",
+      "telegram": "Telegram"
+    }
+  },
+  "serviceIntro": {
+    "hero": {
+      "subtitle": "使用交易所的最智能方式",
+      "title": {
+        "part1": "为了您的",
+        "highlight": "稳定期货交易",
+        "part2": "信任degenMax"
+      },
+      "features": {
+        "credibility": {
+          "title": "可信度",
+          "subtitle": "技术为中心"
+        },
+        "payback": {
+          "title": "返佣",
+          "subtitle": "享受快速服务"
+        },
+        "simple": {
+          "title": "简单易用",
+          "subtitle": "一键操作"
+        }
+      }
+    },
+    "sellingPoints": {
+      "subtitle": "我们的服务专为像您这样的交易者设计！",
+      "title": "degenMax的独特卖点",
+      "description": "degenMax与其他返佣模仿者不同",
+      "points": {
+        "first": {
+          "title": "首个返佣服务",
+          "description": "始于2022年8月"
+        },
+        "safety": {
+          "title": "高度安全",
+          "description": "与交易所的官方合约"
+        },
+        "users": {
+          "title": "众多用户的选择",
+          "description": "超过23,000"
+        }
+      }
+    },
+    "officialPartner": {
+      "text": {
+        "highlight1": "degenMax",
+        "part1": "是唯一一个",
+        "part2": "与主要交易所签订",
+        "highlight2": "官方合约",
+        "part3": "的实体"
+      }
+    },
+    "howToEnjoy": {
+      "subtitle": "degenMax返佣流程",
+      "title": "如何享受degenMax",
+      "steps": [
+        "使用degenMax的代码注册交易所",
+        "将您的UID连接到degenMax",
+        "尽情享受交易",
+        "获取您的返佣！"
+      ],
+      "discount": {
+        "title": "degenMax代码",
+        "description": "您将获得30天20%的手续费折扣"
+      }
+    },
+    "cashbackRange": {
+      "title": "每月返佣从50 USDT到3,500 USDT",
+      "conditions": {
+        "minimum": "如果您每月交易超过5次且种子资金超过100 USDT，您可以获得超过50 USDT的返佣",
+        "maximum": "如果您在返佣交易者中排名前5%，您可以获得超过3,500 USDT的返佣"
+      },
+      "note": {
+        "part1": "总统计数据如上所示，但这包括许多使用小额种子资金（低于100 USDT）或很少交易（每月少于5次）的用户。",
+        "part2": "通常，经常进行期货交易的用户都在前50%。"
+      }
+    },
+    "callToAction": {
+      "subtitle": "degenMax返佣流程",
+      "title": "通过degenMax收回您的交易手续费",
+      "bitget": {
+        "question": "您是Bitget用户吗？",
+        "savings": "使用degenMax，您可以额外节省$360",
+        "note": "*基于$4000的种子资金和平均月度手续费"
+      },
+      "howTo": {
+        "title": "如何享受服务？",
+        "subtitle": "我该怎么做？",
+        "button": "浏览合作交易所"
+      }
+    }
+  },
+  "events": {
+    "title": "degenMax用户专属活动",
+    "subtitle": "仅限degenMax交易者",
+    "viewAll": "查看全部",
+    "tabs": {
+      "all": "全部"
+    },
+    "notes": {
+      "title": "注意：",
+      "item1": "活动说明可能因交易所而异，请查看交易所的活动详情。",
+      "item2": "请务必通过本页面的degenMax账户参与。通过其他渠道参与可能会有不利影响。"
+    },
+    "banners": {
+      "wsot": "WSOT竞赛",
+      "second": "第二个横幅",
+      "counter": "{current} | {total}"
+    },
+    "card": {
+      "timeRange": "{startDate} - {endDate}"
+    }
+  },
+  "userContent": {
+    "userGuide": {
+      "title": "用户指南",
+      "description": "只需一分钟即可完成",
+      "button": "查看"
+    },
+    "bindUid": {
+      "title": "绑定您的UID",
+      "description": "如果您已在交易所注册",
+      "button": "绑定"
+    },
+    "welcome": {
+      "greeting": "欢迎回来",
+      "intro": "让我们查看您的交易返佣"
+    },
+    "hero": {
+      "title": "一键轻松享受返佣！",
+      "subtitle": "交易手续费返佣平台，degenMax"
+    },
+    "averageCashback": {
+      "title": "每用户平均返佣",
+      "monthlyAverage": "查看您的月平均返佣",
+      "checkTime": "查看只需不到5分钟",
+      "calculateButton": "立即计算"
+    },
+    "appPromo": {
+      "subtitle": "现在更简单更快速",
+      "title": "近距离了解degenMax应用"
+    },
+    "stats": {
+      "totalPlatformLinked": "已连接平台总数"
+    },
+    "registerExchange": {
+      "step1": {
+        "title": "加入交易所",
+        "description": "创建符合返佣资格的交易所账户",
+        "compareButton": "想了解各交易所的优势？"
+      },
+      "step2": {
+        "title": "绑定UID",
+        "description": "请验证UID并将其绑定到您的账户。",
+        "button": "绑定UID"
+      },
+      "step3": {
+        "title": "邀请好友赚取更多",
+        "description": "分享财富！使用您的兑换码邀请好友，双方都能获得奖励🎁",
+        "button": "分享并赚取USDT"
+      },
+      "showMore": "显示更多",
+      "showLess": "显示更少"
+    },
+    "bindUidCard": {
+      "subtitle": "连接您的交易所账户",
+      "features": {
+        "sync": "与您的账户自动同步"
+      }
+    },
+    "quickActions": {
+      "viewAnalytics": "查看分析",
+      "trackProgress": "跟踪进度",
+      "quickSettings": "快速设置"
+    },
+    "rewards": {
+      "title": "可提现金额",
+      "withdraw": "提现",
+      "analytics": "我获得了多少返佣？"
+    },
+    "benefits": {
+      "waiting": "优惠正在等待您！",
+      "maxDay": "今天是MAX日",
+      "earnUsdt": "🎁 想赚取USDT吗？"
+    },
+    "myExchange": {
+      "title": "我的交易所",
+      "uid": "UID",
+      "addExchange": "添加我的交易所"
+    },
+    "loading": "加载中..."
+  },
+  "benefits": {
+    "title": "degenMax的优惠",
+    "subtitle": "查看我们的功能以赚取USDT，通过degenMax提升您的收益！",
+    "received": {
+      "title": "等待您的可用返佣",
+      "subtitle": "可在degenMax提现"
+    },
+    "earnMore": "您知道可以赚取更多USDT吗？查看我们的功能",
+    "missions": {
+      "firstVisit": {
+        "title": "这是您首次访问我们的网站",
+        "description": "欢迎来到degenMax"
+      },
+      "alarm": {
+        "title": "开启提醒",
+        "description": "及时获取重要通知"
+      },
+      "calculate": {
+        "title": "计算预估返佣",
+        "description": "看看您能赚多少"
+      },
+      "bindUid": {
+        "title": "绑定您的UID",
+        "description": "连接您的交易所账户"
+      },
+      "firstClaim": {
+        "title": "领取您的首笔返佣",
+        "description": "开始从您的交易中赚取收益"
+      },
+      "events": {
+        "title": "参加活动",
+        "description": "参与专属活动"
+      },
+      "monthlyClaim": {
+        "title": "每月领取返佣",
+        "description": "从您的交易中获得定期收益"
+      },
+      "invite": {
+        "title": "邀请好友",
+        "description": "一起发展社区"
+      }
+    },
+    "new": "新",
+    "details": "详情",
+    "exchanges": {
+      "title": "我们正在奖励顶级交易者！",
+      "subtitle": "排名越高，奖励越好！",
+      "withdrawalNote": "返佣提现金额需超过50 USDT",
+      "monthlyReward": "每月最高获得100 USDT！",
+      "greeting": {
+        "title": "亲爱的交易者，",
+        "message": "查看您的排名！"
+      },
+      "rankings": {
+        "title": "根据排名名单分发优惠券！",
+        "positions": {
+          "first": {
+            "position": "第1名",
+            "reward": "100 USDT",
+            "icon": "🏆"
+          },
+          "second": {
+            "position": "第2名",
+            "reward": "50 USDT",
+            "icon": "🥈"
+          },
+          "third": {
+            "position": "第3名",
+            "reward": "20 USDT",
+            "icon": "🥉"
+          },
+          "topTen": {
+            "position": "前10%以内",
+            "reward": "10 USDT",
+            "icon": "🏅"
+          }
+        }
+      },
+      "noRanking": {
+        "title": "无法查看您的排名",
+        "message": "绑定UID后可查看您的排名",
+        "button": "绑定您的UID"
+      },
+      "notes": {
+        "title": "注意",
+        "item1": "仅适用于每月1日至月末期间（UTC）的返佣支付。",
+        "item2": "活动奖励根据当月返佣历史计算，并在月末后5天内支付。",
+        "item3": "此活动仅适用于当月有返佣历史的交易者。",
+        "item4": "由于每个交易所单独处理，您可以从多个交易所获得奖励。",
+        "item5": "排名标准基于每个引荐到degenMax账户的交易所UID。",
+        "item6": "此优惠可能会根据我们的情况随时更改。"
+      }
+    },
+    "invitation": {
+      "hero": {
+        "title": "要邀请好友加入degenMax吗？",
+        "inviteFriendsText": "邀请好友"
+      },
+      "profitSection": {
+        "title": {
+          "prefix": "获得",
+          "highlight": "额外收益",
+          "suffix": "与好友的返佣成正比"
+        },
+        "subtitle": "好友获得的返佣越多，您的收益就越高！",
+        "friendCard": {
+          "label": "您的好友",
+          "cashbackLabel": "Bybit返佣",
+          "cashbackAmount": "+123,123 USDT"
+        },
+        "yourCard": {
+          "label": "您获得了",
+          "profit": "额外收益！"
+        }
+      },
+      "referralCodeSection": {
+        "title": "您的推荐码",
+        "loading": "加载中...",
+        "noCode": "未找到推荐码。",
+        "generateButton": "生成推荐码",
+        "copyButton": "复制",
+        "copySuccess": "推荐码已复制到剪贴板！"
+      },
+      "enterCodeSection": {
+        "title": "有推荐码？",
+        "inputPlaceholder": "输入推荐码",
+        "applyButton": "应用",
+        "helperText": "输入好友的推荐码以获得特别优惠"
+      },
+      "giftSection": {
+        "title": {
+          "prefix": "您的好友获得特别礼物！",
+          "highlight": "欢迎奖励",
+          "suffix": "每次推荐都有"
+        }
+      },
+      "callToAction": {
+        "title": "让我们与好友一起返佣",
+        "subtitle": "对您和您的好友都有利！",
+        "button": "邀请好友并获得额外收益"
+      }
+    }
+  },
+  "download": {
+    "hero": {
+      "title": "每当您需要返佣时，尽享degenMax",
+      "subtitle": "通过移动应用程序随时随地轻松获取返佣"
+    },
+    "buttons": {
+      "downloadApp": "下载移动应用",
+      "appStore": "从App Store下载",
+      "googlePlay": "在Google Play获取"
+    },
+    "benefits": {
+      "title": "您可以在应用中查看独家优惠，包括大型交易所奖励",
+      "subtitle": "通过交易所竞赛发现应用内独家奖励和激动人心的奖品机会。"
+    },
+    "features": {
+      "contests": "degenMax的竞赛和活动",
+      "prizes": "交易所大型奖励竞赛",
+      "airdrop": "交易所空投活动"
+    },
+    "cta": {
+      "title": "使用degenMax应用更快更轻松地赚取返佣！",
+      "question": "您已经在degenMax网站享受返佣了吗？",
+      "tryApp": "那就也试试degenMax应用吧！"
+    },
+    "appScreenshot": "应用截图",
+    "qrCode": "下载二维码"
+  },
+  "notification": {
+    "title": "degenMax",
+    "subtitle": "通知已开启！",
+    "benefits": {
+      "title": "优惠触手可及！",
+      "coupon": "现在开启通知即可获得1 USDT优惠券"
+    },
+    "notifications": {
+      "title": "degenMax只发送重要通知",
+      "types": {
+        "withdrawal": "返佣提现",
+        "airdrop": "交易所空投活动",
+        "competition": "交易所大型奖励竞赛"
+      },
+      "toggle": "可随时关闭通知"
+    },
+    "app": {
+      "title": "在degenMax应用中，",
+      "subtitle": "您可以开启通知",
+      "exclusive": "移动应用专属活动",
+      "download": {
+        "title": "应用下载",
+        "name": "degenMax应用",
+        "googleStore": "Google商店",
+        "appStore": "App Store"
+      }
+    }
+  },
+  "uidBinding": {
+    "title": "获取返佣的第一步",
+    "subtitle": "UID绑定",
+    "notices": {
+      "required": "获取返佣必需",
+      "reward": "绑定UID获得3 USDT优惠券"
+    },
+    "steps": {
+      "signup": {
+        "title": "使用degenMax推荐码注册交易所"
+      },
+      "binding": {
+        "title": "绑定UID，",
+        "subtitle": "您可以查看累计返佣"
+      }
+    },
+    "reward": {
+      "amount": "3 USDT",
+      "title": "优惠券送给您",
+      "description": "此USDT优惠券可提现",
+      "button": "绑定您的UID，获得3 USDT"
+    },
+    "images": {
+      "envelope": "UID信封",
+      "signup": "移动注册",
+      "binding": "UID绑定表单"
+    }
+  },
+  "uidLinking": {
+    "title": "选择您的交易所",
+    "subtitle": "选择您作为degenMax推荐用户加入的交易所",
+    "signupButton": "使用degenMax的邀请码注册",
+    "uidPlaceholder": "输入您的UID",
+    "submitButton": "链接账户",
+    "successDialog": {
+      "title": "UID提交成功",
+      "message": "感谢提交您的UID。我们的团队将处理您的请求。",
+      "processingTime": "处理时间：2-5个工作日",
+      "closeButton": "关闭"
+    }
+  },
+  "payback": {
+    "exchangeStatus": {
+      "title": "交易所状态",
+      "message": "在我们支持的交易所注册以开始赚取返佣",
+      "chooseExchange": "选择适合您口味的交易所",
+      "browseExchanges": "浏览提供返佣的交易所"
+    },
+    "firstCashback": {
+      "title": "用优惠券获得首笔返佣！",
+      "subtitle": "返佣提现金额需超过50 USDT",
+      "benefits": "优惠触手可及！",
+      "couponInfo": "首次返佣提现后获得优惠券"
+    },
+    "extraCoupon": {
+      "title": "获得首笔返佣后，领取额外{amount}优惠券！",
+      "subtitle": "此USDT优惠券可提现",
+      "button": "返佣提现后获得{amount}"
+    }
+  },
+  "cashback": {
+    "title": "返佣历史",
+    "totalAvailable": "可用返佣总额",
+    "linkedExchanges": "已链接交易所",
+    "withdraw": "提现",
+    "withdrawalHistory": "提现历史",
+    "date": "日期",
+    "exchange": "交易所",
+    "amount": "金额 (USDT)",
+    "minRequired": "最低需要10 USDT",
+    "withdrawToMain": "提现到主钱包"
+  },
+  "paybackTest": {
+    "title": {
+      "main": "能获得",
+      "sub": "多少返佣？"
+    },
+    "checkTime": {
+      "icon": "⚡",
+      "text": "30秒内即可查看"
+    },
+    "benefit": {
+      "icon": "✓",
+      "text": "查看预估返佣金额并获得",
+      "coupon": "2 USDT优惠券"
+    },
+    "calculator": {
+      "title": "计算器",
+      "timeRequired": "平均所需时间：30秒！",
+      "description": "简单但准确的计算！"
+    },
+    "curious": {
+      "title": "不好奇返佣金额吗？",
+      "description": "根据其他交易者的数据，您可以了解返佣金额！"
+    },
+    "button": "查看您的返佣并获得2 USDT"
+  }
+}

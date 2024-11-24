@@ -1,0 +1,132 @@
+[
+  {
+    "language": "en",
+    "title": "Nov Bitget Competition",
+    "subTitle": "Up to 30,000 USDT + Cashback",
+    "startDate": "2024-10-31T14:59:00Z",
+    "endDate": "2024-11-30T14:59:00Z",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/c157996c-d752-49f7-99de-3c8a33892a71.png",
+    "url": "https://www.bitget.com/asia/events/competition/fc382ac51ff15ce9b2949747e4bcfa48",
+    "tags": ["Bitget"]
+  },
+  {
+    "language": "en",
+    "title": "DeepCoin Sign-up Event",
+    "subTitle": "Deposit to Earn 3,000 USDT",
+    "startDate": "2024-10-01T15:00:00Z",
+    "endDate": "2024-11-10T15:59:00Z",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/f1f79a96-f3d3-40d2-8661-532c94e26cb2.png",
+    "url": "https://www.deepcoin.com/ps/en/activity/kol?id=170",
+    "tags": ["DeepCoin"]
+  },
+  {
+    "language": "en",
+    "title": "Nov MEXC Competition",
+    "subTitle": "30,000 USDT Reward + Cashback",
+    "startDate": "2024-10-31T14:59:00Z",
+    "endDate": "2024-11-30T15:59:00Z",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/97bd5076-23f5-4dc2-8a72-7f2480adb792.png",
+    "url": "https://www.mexc.com/ko-KR/activity/competition/agent/MTkyLXBlcnNvbmFsR2FtZQ==?inviteCode=mexc-1PsaL",
+    "tags": ["MEXC"]
+  },
+  {
+    "language": "en",
+    "title": "Nov Bybit Competition",
+    "subTitle": "50,000 USDT Reward + Cashback",
+    "startDate": "2024-10-31T14:59:00Z",
+    "endDate": "2024-11-30T15:59:00Z",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/dec1bb2f-f8bf-4622-81fe-376fe004506b.png",
+    "url": "https://www.bybit.com/en/trading-contest/game/?name=39156and69861Nov",
+    "tags": ["Bybit"]
+  },
+  {
+    "language": "en",
+    "title": "Nov OKX Competition",
+    "subTitle": "40,000 USDT Reward",
+    "startDate": "2024-10-31T14:59:00Z",
+    "endDate": "2024-11-30T15:59:00Z",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/43c67dd6-7528-4caa-bb3f-6f102f6bf111.png",
+    "url": "https://www.okx.com/campaigns/tethermax-trading-competition-november?channelid=paybacks",
+    "tags": ["OKX"]
+  },
+  {
+    "language": "en",
+    "title": "Nov BingX Competition",
+    "subTitle": "60,000 USDT Reward + Cashback",
+    "startDate": "2024-10-31T14:59:00Z",
+    "endDate": "2024-11-30T14:59:00Z",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/56de05f3-6ba3-4606-94d4-7b2ce2859d32.png",
+    "url": "https://bingx.com/en-sa/act/contestNew/0085606808/",
+    "tags": ["BingX"]
+  },
+  {
+    "language": "en",
+    "title": "BVOX Signup Event",
+    "subTitle": "Sign up & Trade for 4,500 USDT!",
+    "startDate": "2024-10-31T14:59:00Z",
+    "endDate": "2024-11-30T15:59:00Z",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/0fa65c8f-9868-4132-adca-75e9750ea540.png",
+    "url": "https://www.bvox.com/event?code=AC2024102901",
+    "tags": ["BVOX"]
+  },
+  {
+    "language": "en",
+    "title": "Nov BVOX Competition",
+    "subTitle": "30,000 USDT Reward + Cashback",
+    "startDate": "2024-10-31T14:59:00Z",
+    "endDate": "2024-11-30T15:59:00Z",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/a2d46088-9892-42bd-a244-d7b82f549e06.png",
+    "url": "https://www.bvox.com/promote/2411trade?source=2411",
+    "tags": ["BVOX"]
+  },
+  {
+    "language": "en",
+    "title": "BitMart Signup Event",
+    "subTitle": "SignUp / Trading with up to 14,600 USDT bonus",
+    "startDate": "2024-10-31T14:59:00Z",
+    "endDate": "2024-11-30T15:59:00Z",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/1f74e42d-8a03-4528-92c8-a0c30c827af8.png",
+    "url": "https://www.bitmart.com/activity/with_tethermax_k0283/en-US",
+    "tags": ["BitMart"]
+  },
+  {
+    "language": "en",
+    "title": "Nov Coincatch Event",
+    "subTitle": "Sign up with $77,977+2M SHIB!",
+    "startDate": "2024-10-31T14:59:00Z",
+    "endDate": "2024-11-30T15:59:00Z",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/5ecc69c6-3fea-439e-8c4a-af657850c5d0.jpg",
+    "url": "https://partner.coincatch.cc/bg/tethermax_11_signup",
+    "tags": ["CoinCatch"]
+  },
+  {
+    "language": "en",
+    "title": "Nov Blofin Competition",
+    "subTitle": "30,000 USDT Reward + Cashback",
+    "startDate": "2024-10-31T14:59:00Z",
+    "endDate": "2024-11-30T15:59:00Z",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/788cdfee-dd50-4a9d-a95d-ed269ff25029.png",
+    "url": "https://blofin.com/activity/competition/happy/584?referral_code=tetherMaxCompetition",
+    "tags": ["Blofin"]
+  },
+  {
+    "language": "en",
+    "title": "Zoomex Deposit & Trading Event",
+    "subTitle": "Up to 15,000 USDT",
+    "startDate": "2024-10-24T10:00:00Z",
+    "endDate": "2024-11-30T23:59:00Z",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/7e308d9e-00d1-42a3-bd7c-1ae16ea4d016.png",
+    "url": "https://www.zoomex.com/ko-KR/promotion/Tethermax-welcome-campaign",
+    "tags": ["Zoomex"]
+  },
+  {
+    "language": "en",
+    "title": "October Bitget Newbie Event",
+    "subTitle": "Sign up to get $15,730 worth of XRP and USDT",
+    "startDate": "2024-10-11T15:00:00Z",
+    "endDate": "2024-11-11T15:59:00Z",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/60cd49ed-4ada-4da5-b4ec-5ccab1ec6ac0.png",
+    "url": "https://www.bitget.com/asia/events/activities/ac7898371c725f4198ad95793c8a31eb?color=black&channelCode=zx6x&vipCode=wh4h",
+    "tags": ["Bitget"]
+  }
+]

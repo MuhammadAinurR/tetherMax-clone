@@ -1,0 +1,638 @@
+{
+  "common": {
+    "welcome": "ようこそ",
+    "home": "ホーム",
+    "about": "概要",
+    "selectLanguage": "言語選択",
+    "language": "言語",
+    "partnerExchange": "提携取引所",
+    "benefits": "特典",
+    "appDownload": "アプリダウンロード",
+    "serviceIntro": "サービス紹介",
+    "calculator": "計算機"
+  },
+  "home": {
+    "metadata": {
+      "title": "DegenMax - 究極の暗号資産取引キャッシュバックプラットフォーム",
+      "description": "DegenMaxで暗号資産取引の最高のキャッシュバックレートを獲得。独占的なリベートと取引コンテストを提供する主要暗号資産取引所の公式パートナー。"
+    }
+  },
+  "auth": {
+    "login": "ログイン",
+    "signup": "新規登録",
+    "logout": "ログアウト",
+    "loginPage": {
+      "title": "ログイン",
+      "description": {
+        "main": "暗号資産取引で最高のキャッシュバックを提供する唯一のプラットフォーム。",
+        "highlight": "主要取引所との公式契約",
+        "platform": "それがdegenMaxです。",
+        "subtext": "登録すると、取引のたびにUSDTを獲得できます。"
+      },
+      "metadata": {
+        "title": "新規登録 | DegenMax",
+        "description": "DegenMax新規登録 - 暗号資産取引所ミッションの公式プラットフォーム"
+      },
+      "verifiedMessage": "メール認証が完了しました！続けるにはログインしてください。",
+      "form": {
+        "email": "メールアドレス",
+        "password": "パスワード",
+        "forgotPassword": "パスワードをお忘れですか？",
+        "noAccount": "アカウントをお持ちでないですか？",
+        "signUpLink": "新規登録",
+        "submitButton": {
+          "default": "ログイン",
+          "loading": "読み込み中...",
+          "tryAgain": "{time}後に再試行"
+        },
+        "verification": {
+          "title": "メールをご確認ください",
+          "subtitle": "認証コードを送信しました",
+          "codeExpires": "コードの有効期限",
+          "noCode": "コードが届きませんでしたか？",
+          "resendButton": {
+            "default": "コードを再送信",
+            "sending": "送信中...",
+            "countdown": "{time}後に再送信"
+          }
+        }
+      }
+    },
+    "signupPage": {
+      "title": "ようこそ",
+      "highlight": "暗号資産取引キャッシュバックプラットフォーム、degenMaxへ",
+      "description": "degenMaxは暗号資産トレーダーの手数料を直接リベートするキャッシュバックプラットフォームです",
+      "metadata": {
+        "title": "新規登録 | DegenMax",
+        "description": "DegenMax新規登録 - 暗号資産取引所ミッションの公式プラットフォーム"
+      },
+      "form": {
+        "email": "メールアドレス",
+        "password": "パスワード",
+        "inviteCode": "友達招待コード（任意）",
+        "terms": {
+          "agree": "以下に同意します",
+          "termsLink": "利用規約",
+          "and": "および",
+          "privacyLink": "プライバシーポリシー",
+          "of": "",
+          "error": "利用規約とプライバシーポリシーに同意する必要があります"
+        },
+        "haveAccount": "すでにアカウントをお持ちですか？",
+        "loginLink": "ログイン",
+        "submitButton": {
+          "default": "新規登録",
+          "loading": "アカウント作成中..."
+        },
+        "verification": {
+          "title": "認証コードを入力",
+          "subtitle": "認証コードを送信しました",
+          "noCode": "コードが届きませんでしたか？",
+          "resendButton": {
+            "default": "認証コードを再送信",
+            "sending": "送信中...",
+            "wait": "{time}お待ちください"
+          }
+        },
+        "errors": {
+          "email": {
+            "required": "メールアドレスを入力してください",
+            "invalid": "無効なメールアドレス形式です"
+          },
+          "password": {
+            "required": "パスワードを入力してください",
+            "length": "パスワードは8文字以上である必要があります"
+          }
+        }
+      }
+    }
+  },
+  "affiliated": {
+    "metadata": {
+      "title": "提携取引所 | DegenMax",
+      "description": "最高のキャッシュバックレートと取引条件を提供する提携暗号資産取引所をご覧ください。",
+      "ogImageAlt": "DegenMax提携取引所の概要"
+    },
+    "title": "degenMaxの<highlight>提携取引所</highlight>をご覧ください！",
+    "subtitle": "degenMaxは世界をリードする暗号資産取引所と提携しています",
+    "disclaimer": "* <highlight>主要パートナーとの公式契約</highlight>を持つ唯一のプラットフォームがdegenMaxです。",
+    "tableTitle": "degenMaxの提携取引所",
+    "tableSubtitle": "キャッシュバックだけでなく、取引コンテストもご用意しています",
+    "columns": {
+      "exchangeName": "取引所名",
+      "cashbackRate": "キャッシュバック率（%）",
+      "tradingDiscount": "取引手数料割引（%）",
+      "averageRebate": "ユーザーあたりの平均リベート",
+      "limitPrice": "指値価格（%）",
+      "marketPrice": "成行価格（%）"
+    }
+  },
+  "footer": {
+    "companyName": "DEGENMAX PTE. LTD",
+    "companyInfo": {
+      "uen": "法人番号（UEN）：202326628N",
+      "location": "所在地：531A UPPER CROSS STREET #04-98 HONG LIM COMPLEX SINGAPORE (051531)",
+      "consultation": "お問い合わせ：チャットサポート（24時間対応）",
+      "email": "メール：support@degenmax.io"
+    },
+    "copyright": "Copyright 2022 degenMax All Rights Reserved.",
+    "legalLinks": {
+      "terms": "利用規約",
+      "privacy": "プライバシーポリシー"
+    },
+    "disclaimer": "degenMaxに関連するすべてのコンテンツ（情報、イベント、UIを含む）は、著作権法およびコンテンツ産業振興法により保護されています。DEGENMAX PTE.LTDの事前の書面による同意なく、無断での複製、転送、配布、スクレイピング、またはその他類似の行為は、関連法規により厳しく禁止されています。",
+    "socialLinks": {
+      "instagram": "Instagram",
+      "discord": "Discord",
+      "youtube": "YouTube",
+      "twitter": "Twitter",
+      "telegram": "Telegram"
+    }
+  },
+  "serviceIntro": {
+    "hero": {
+      "subtitle": "取引所を利用するスマートな方法",
+      "title": {
+        "part1": "安定した先物取引のために",
+        "highlight": "degenMaxを",
+        "part2": "信頼してください"
+      },
+      "features": {
+        "credibility": {
+          "title": "信頼性",
+          "subtitle": "テクノロジー中心"
+        },
+        "payback": {
+          "title": "ペイバック",
+          "subtitle": "迅速なサービス"
+        },
+        "simple": {
+          "title": "シンプル＆簡単",
+          "subtitle": "ワンクリック操作"
+        }
+      }
+    },
+    "sellingPoints": {
+      "subtitle": "私たちのサービスはトレーダーの皆様のためだけのものです！",
+      "title": "degenMaxの独自の強み",
+      "description": "degenMaxは他のキャッシュバックの模倣者とは異なります",
+      "points": {
+        "first": {
+          "title": "初のキャッシュバックサービス",
+          "description": "2022年8月開始"
+        },
+        "safety": {
+          "title": "高い安全性",
+          "description": "取引所との公式契約"
+        },
+        "users": {
+          "title": "多くのユーザーの選択",
+          "description": "23,000人以上"
+        }
+      }
+    },
+    "officialPartner": {
+      "text": {
+        "highlight1": "degenMax",
+        "part1": "は",
+        "part2": "主要取引所と",
+        "highlight2": "公式契約",
+        "part3": "を結んだ唯一の企業です"
+      }
+    },
+    "howToEnjoy": {
+      "subtitle": "degenMaxのキャッシュバックプロセス",
+      "title": "degenMaxの利用方法",
+      "steps": [
+        "degenMaxのコードで取引所に登録",
+        "UIDをdegenMaxに連携",
+        "思う存分取引を楽しむ",
+        "キャッシュバックを獲得！"
+      ],
+      "discount": {
+        "title": "degenMaxコード",
+        "description": "30日間20%の手数料割引を受けられます"
+      }
+    },
+    "cashbackRange": {
+      "title": "月額50 USDTから3,500 USDTのキャッシュバック",
+      "conditions": {
+        "minimum": "月に5回以上取引し、シードマネーが100 USDT以上の場合、50 USDT以上のキャッシュバックを獲得できます",
+        "maximum": "キャッシュバックトレーダーの上位5%に入ると、3,500 USDT以上のキャッシュバックを獲得できます"
+      },
+      "note": {
+        "part1": "総統計データは上記の通りですが、これには少額のシードマネー（100 USDT未満）や取引頻度の低い（月5回未満）ユーザーも含まれています。",
+        "part2": "通常、定期的に先物取引を行うユーザーは上位50%に入ります。"
+      }
+    },
+    "callToAction": {
+      "subtitle": "degenMaxのキャッシュバックプロセス",
+      "title": "degenMaxで取引手数料を取り戻しましょう",
+      "bitget": {
+        "question": "Bitgetユーザーですか？",
+        "savings": "degenMaxを利用すると、さらに$360節約できます",
+        "note": "*$4000のシードマネーと平均月間手数料に基づく"
+      },
+      "howTo": {
+        "title": "サービスの利用方法は？",
+        "subtitle": "何をすればいいですか？",
+        "button": "提携取引所を見る"
+      }
+    }
+  },
+  "events": {
+    "title": "degenMaxユーザー限定イベント",
+    "subtitle": "degenMaxトレーダーのみ",
+    "viewAll": "すべて表示",
+    "tabs": {
+      "all": "すべて"
+    },
+    "notes": {
+      "title": "注意：",
+      "item1": "イベントの注意事項は取引所によって異なる場合があります。取引所のイベント詳細をご確認ください。",
+      "item2": "必ずこのページのdegenMaxアカウントから参加してください。他のチャネルからの参加は不利になる可能性があります。"
+    },
+    "banners": {
+      "wsot": "WSOTコンペティション",
+      "second": "セカンドバナー",
+      "counter": "{current} | {total}"
+    },
+    "card": {
+      "timeRange": "{startDate} - {endDate}"
+    }
+  },
+  "userContent": {
+    "userGuide": {
+      "title": "ユーザーガイド",
+      "description": "1分で完了",
+      "button": "確認する"
+    },
+    "bindUid": {
+      "title": "UIDを連携",
+      "description": "取引所に登録済みの場合",
+      "button": "連携する"
+    },
+    "welcome": {
+      "greeting": "お帰りなさい",
+      "intro": "取引キャッシュバックを確認しましょう"
+    },
+    "hero": {
+      "title": "ワンクリックでシームレスにキャッシュバックを楽しもう！",
+      "subtitle": "取引手数料キャッシュバックプラットフォーム、degenMax"
+    },
+    "averageCashback": {
+      "title": "ユーザーあたりの平均キャッシュバック",
+      "monthlyAverage": "月間平均キャッシュバックを確認",
+      "checkTime": "確認に5分もかかりません",
+      "calculateButton": "今すぐ計算"
+    },
+    "appPromo": {
+      "subtitle": "より簡単で速くなりました",
+      "title": "degenMaxアプリをより詳しく見る"
+    },
+    "stats": {
+      "totalPlatformLinked": "連携済み総プラットフォーム数"
+    },
+    "registerExchange": {
+      "step1": {
+        "title": "取引所に参加",
+        "description": "キャッシュバック対象の取引所アカウントを作成",
+        "compareButton": "各取引所の特典が気になりますか？"
+      },
+      "step2": {
+        "title": "UID連携",
+        "description": "UIDを確認してアカウントに連携してください。",
+        "button": "UID連携"
+      },
+      "step3": {
+        "title": "友達を招待してさらに稼ぐ",
+        "description": "友達と一緒に！招待コードを共有して両者に報酬をプレゼント 🎁",
+        "button": "シェアしてUSDTを獲得"
+      },
+      "showMore": "もっと見る",
+      "showLess": "閉じる"
+    },
+    "bindUidCard": {
+      "subtitle": "取引所アカウントを連携",
+      "features": {
+        "sync": "アカウントとの自動同期"
+      }
+    },
+    "quickActions": {
+      "viewAnalytics": "分析を表示",
+      "trackProgress": "進捗を追跡",
+      "quickSettings": "クイック設定"
+    },
+    "rewards": {
+      "title": "出金可能額",
+      "withdraw": "出金",
+      "analytics": "いくら戻ってきたか？"
+    },
+    "benefits": {
+      "waiting": "特典があなたを待っています！",
+      "maxDay": "今日はMAXデーです",
+      "earnUsdt": "🎁 USDTを獲得しませんか？"
+    },
+    "myExchange": {
+      "title": "マイ取引所",
+      "uid": "UID",
+      "addExchange": "取引所を追加"
+    },
+    "loading": "読み込み中..."
+  },
+  "benefits": {
+    "title": "degenMaxの特典",
+    "subtitle": "USDTを獲得する機能をチェック。degenMaxで収益を増やしましょう！",
+    "received": {
+      "title": "お待ちのキャッシュバック",
+      "subtitle": "degenMaxで出金可能"
+    },
+    "earnMore": "もっとUSDTを稼げることをご存知ですか？機能をチェック",
+    "missions": {
+      "firstVisit": {
+        "title": "初めてのサイト訪問です",
+        "description": "degenMaxへようこそ"
+      },
+      "alarm": {
+        "title": "アラームをオン",
+        "description": "重要な通知を受け取る"
+      },
+      "calculate": {
+        "title": "予想キャッシュバックを計算",
+        "description": "獲得可能額を確認"
+      },
+      "bindUid": {
+        "title": "UIDを連携",
+        "description": "取引所アカウントを連携"
+      },
+      "firstClaim": {
+        "title": "初回キャッシュバックを請求",
+        "description": "取引からの収益を開始"
+      },
+      "events": {
+        "title": "イベントに参加",
+        "description": "限定イベントに参加"
+      },
+      "monthlyClaim": {
+        "title": "月次キャッシュバックを請求",
+        "description": "取引からの定期的な収益"
+      },
+      "invite": {
+        "title": "友達を招待",
+        "description": "コミュニティを一緒に成長させる"
+      }
+    },
+    "new": "新規",
+    "details": "詳細",
+    "exchanges": {
+      "title": "トップトレーダーに報酬を贈呈！",
+      "subtitle": "ランキングが高いほど、報酬も良くなります！",
+      "withdrawalNote": "キャッシュバックは50 USDT以上から出金可能",
+      "monthlyReward": "毎月最大100 USDTを獲得！",
+      "greeting": {
+        "title": "トレーダーの皆様へ、",
+        "message": "ランキングをチェック！"
+      },
+      "rankings": {
+        "title": "ランキングリストに応じてクーポンを配布！",
+        "positions": {
+          "first": {
+            "position": "1位",
+            "reward": "100 USDT",
+            "icon": "🏆"
+          },
+          "second": {
+            "position": "2位",
+            "reward": "50 USDT",
+            "icon": "🥈"
+          },
+          "third": {
+            "position": "3位",
+            "reward": "20 USDT",
+            "icon": "🥉"
+          },
+          "topTen": {
+            "position": "上位10%以内",
+            "reward": "10 USDT",
+            "icon": "🏅"
+          }
+        }
+      },
+      "noRanking": {
+        "title": "ランキングを確認できません",
+        "message": "UID連携後にランキングを確認できます",
+        "button": "UIDを連携する"
+      },
+      "notes": {
+        "title": "注意事項",
+        "item1": "毎月1日から月末までのキャッシュバック支払いが対象です（UTC）。",
+        "item2": "イベント報酬は月間キャッシュバック履歴に基づいて計算され、月末から5日以内に支払われます。",
+        "item3": "このイベントは、その月にキャッシュバック履歴のあるトレーダーが対象です。",
+        "item4": "各取引所が個別に処理するため、複数の取引所から報酬を受け取ることができます。",
+        "item5": "ランキング基準は、取引所のdegenMaxアカウントに紐づけられた各UIDに基づきます。",
+        "item6": "この特典は当社の状況により予告なく変更される場合があります。"
+      }
+    },
+    "invitation": {
+      "hero": {
+        "title": "友達をdegenMaxに招待しませんか？",
+        "inviteFriendsText": "友達を招待"
+      },
+      "profitSection": {
+        "title": {
+          "prefix": "友達のキャッシュバックに",
+          "highlight": "応じて追加収益",
+          "suffix": "を獲得"
+        },
+        "subtitle": "友達のキャッシュバックが増えるほど、あなたの収益も増加！",
+        "friendCard": {
+          "label": "あなたの友達",
+          "cashbackLabel": "Bybitキャッシュバック",
+          "cashbackAmount": "+123,123 USDT"
+        },
+        "yourCard": {
+          "label": "あなたの獲得",
+          "profit": "追加収益！"
+        }
+      },
+      "referralCodeSection": {
+        "title": "あなたの紹介コード",
+        "loading": "読み込み中...",
+        "noCode": "紹介コードが見つかりません。",
+        "generateButton": "紹介コードを生成",
+        "copyButton": "コピー",
+        "copySuccess": "紹介コードをクリップボードにコピーしました！"
+      },
+      "enterCodeSection": {
+        "title": "紹介コードをお持ちですか？",
+        "inputPlaceholder": "紹介コードを入力",
+        "applyButton": "適用",
+        "helperText": "友達の紹介コードを入力して特別な特典を受け取る"
+      },
+      "giftSection": {
+        "title": {
+          "prefix": "友達に特別なギフトをプレゼント！",
+          "highlight": "ウェルカムボーナス",
+          "suffix": "を全ての紹介者に"
+        }
+      },
+      "callToAction": {
+        "title": "友達と一緒にキャッシュバック",
+        "subtitle": "あなたと友達の両方に特典が！",
+        "button": "友達を招待して追加収益を獲得"
+      }
+    }
+  },
+  "download": {
+    "hero": {
+      "title": "キャッシュバックが必要な全ての瞬間に、degenMaxと共に",
+      "subtitle": "モバイルアプリで、いつでもどこでも簡単にキャッシュバックを受け取れます"
+    },
+    "buttons": {
+      "downloadApp": "モバイルアプリをダウンロード",
+      "appStore": "App Storeでダウンロード",
+      "googlePlay": "Google Playで入手"
+    },
+    "benefits": {
+      "title": "アプリ限定の特典や取引所の大型賞金をチェック",
+      "subtitle": "取引所のコンテストを通じて、アプリ限定の報酬とエキサイティングな賞金のチャンスを発見。"
+    },
+    "features": {
+      "contests": "degenMaxのコンテスト＆イベント",
+      "prizes": "取引所の大型賞金コンペティション",
+      "airdrop": "取引所エアドロップイベント"
+    },
+    "cta": {
+      "title": "degenMaxアプリでより速く簡単にキャッシュバックを獲得！",
+      "question": "すでにdegenMaxウェブサイトでキャッシュバックを楽しんでいますか？",
+      "tryApp": "では、degenMaxアプリも使ってみましょう！"
+    },
+    "appScreenshot": "アプリスクリーンショット",
+    "qrCode": "ダウンロード用QRコード"
+  },
+  "notification": {
+    "title": "degenMax",
+    "subtitle": "通知オン！",
+    "benefits": {
+      "title": "特典があなたの手に！",
+      "coupon": "今すぐ通知をオンにして1 USDTクーポンを獲得"
+    },
+    "notifications": {
+      "title": "degenMaxは重要な通知のみを送信します",
+      "types": {
+        "withdrawal": "キャッシュバック出金",
+        "airdrop": "取引所エアドロップイベント",
+        "competition": "取引所大型賞金コンペティション"
+      },
+      "toggle": "通知はいつでもオフにできます"
+    },
+    "app": {
+      "title": "degenMaxアプリで、",
+      "subtitle": "通知をオンにできます",
+      "exclusive": "モバイルアプリ限定イベント",
+      "download": {
+        "title": "アプリダウンロード",
+        "name": "degenMaxアプリ",
+        "googleStore": "Google Store",
+        "appStore": "App Store"
+      }
+    }
+  },
+  "uidBinding": {
+    "title": "キャッシュバック獲得への第一歩",
+    "subtitle": "UID連携",
+    "notices": {
+      "required": "キャッシュバック獲得に必要です",
+      "reward": "UID連携で3 USDTクーポン"
+    },
+    "steps": {
+      "signup": {
+        "title": "degenMax紹介コードで取引所に登録"
+      },
+      "binding": {
+        "title": "UIDを連携、",
+        "subtitle": "累積キャッシュバックを確認できます"
+      }
+    },
+    "reward": {
+      "amount": "3 USDT",
+      "title": "クーポンをプレゼント",
+      "description": "このUSDTクーポンは出金可能です",
+      "button": "UIDを連携して3 USDTを獲得"
+    },
+    "images": {
+      "envelope": "UID封筒",
+      "signup": "モバイル登録",
+      "binding": "UID連携フォーム"
+    }
+  },
+  "uidLinking": {
+    "title": "取引所を選択",
+    "subtitle": "degenMaxの紹介で登録した取引所を選択してください",
+    "signupButton": "degenMaxの招待コードで登録",
+    "uidPlaceholder": "UIDを入力",
+    "submitButton": "アカウントを連携",
+    "successDialog": {
+      "title": "UID送信完了",
+      "message": "UIDをご送信いただき、ありがとうございます。担当チームが処理いたします。",
+      "processingTime": "処理時間：2-5営業日",
+      "closeButton": "閉じる"
+    }
+  },
+  "payback": {
+    "exchangeStatus": {
+      "title": "取引所ステータス",
+      "message": "対応取引所に登録してキャッシュバック獲得を開始",
+      "chooseExchange": "お好みの取引所を選択",
+      "browseExchanges": "キャッシュバックを提供する取引所を閲覧"
+    },
+    "firstCashback": {
+      "title": "クーポンで初回キャッシュバックを受け取ろう！",
+      "subtitle": "キャッシュバックは50 USDT以上から出金可能",
+      "benefits": "特典があなたの手に！",
+      "couponInfo": "初回キャッシュバック出金後にクーポン獲得"
+    },
+    "extraCoupon": {
+      "title": "初回キャッシュバック後、追加{amount}クーポンを獲得！",
+      "subtitle": "このUSDTクーポンは出金可能です",
+      "button": "キャッシュバック出金後に{amount}を獲得"
+    }
+  },
+  "cashback": {
+    "title": "キャッシュバック履歴",
+    "totalAvailable": "利用可能な総キャッシュバック",
+    "linkedExchanges": "連携済み取引所",
+    "withdraw": "出金",
+    "withdrawalHistory": "出金履歴",
+    "date": "日付",
+    "exchange": "取引所",
+    "amount": "金額 (USDT)",
+    "minRequired": "最低10 USDT必要",
+    "withdrawToMain": "メインウォレットへ出金"
+  },
+  "paybackTest": {
+    "title": {
+      "main": "いくら",
+      "sub": "キャッシュバックされるか？"
+    },
+    "checkTime": {
+      "icon": "⚡",
+      "text": "30秒で確認できます"
+    },
+    "benefit": {
+      "icon": "✓",
+      "text": "予想キャッシュバック額を確認して",
+      "coupon": "2 USDTクーポンを獲得"
+    },
+    "calculator": {
+      "title": "計算機",
+      "timeRequired": "平均所要時間：30秒！",
+      "description": "簡単で正確な計算！"
+    },
+    "curious": {
+      "title": "キャッシュバック額が気になりませんか？",
+      "description": "他のトレーダーのデータに基づいて、キャッシュバック額を確認できます！"
+    },
+    "button": "キャッシュバックを確認して2 USDTを獲得"
+  }
+}

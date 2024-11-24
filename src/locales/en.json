@@ -1,0 +1,638 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "home": "Home",
+    "about": "About",
+    "selectLanguage": "Select Language",
+    "language": "Language",
+    "partnerExchange": "Partner Exchange",
+    "benefits": "Benefits",
+    "appDownload": "App Download",
+    "serviceIntro": "Service Introduction",
+    "calculator": "Calculator"
+  },
+  "home": {
+    "metadata": {
+      "title": "DegenMax - The Ultimate Crypto Trading Cashback Platform",
+      "description": "Get the best cashback rates for your crypto trading with DegenMax. Official partner of major crypto exchanges offering exclusive rebates and trading contests."
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Log out",
+    "loginPage": {
+      "title": "Login",
+      "description": {
+        "main": "The only platform that has nice cashback for your crypto trading.",
+        "highlight": "official contracts with major exchanges",
+        "platform": "is degenMax.",
+        "subtext": "If you join, you can earn USDT each time you trade."
+      },
+      "metadata": {
+        "title": "Signup | DegenMax",
+        "description": "Signup to DegenMax - The official platform for crypto exchange missions"
+      },
+      "verifiedMessage": "Email verified successfully! Please log in to continue.",
+      "form": {
+        "email": "Email",
+        "password": "Password",
+        "forgotPassword": "Forgot password?",
+        "noAccount": "Don't have an account?",
+        "signUpLink": "Sign Up",
+        "submitButton": {
+          "default": "Login",
+          "loading": "Loading...",
+          "tryAgain": "Try again in {time}"
+        },
+        "verification": {
+          "title": "Check your email",
+          "subtitle": "We sent a verification code to",
+          "codeExpires": "Code expires in",
+          "noCode": "Didn't receive the code?",
+          "resendButton": {
+            "default": "Resend code",
+            "sending": "Sending...",
+            "countdown": "Resend in {time}"
+          }
+        }
+      }
+    },
+    "signupPage": {
+      "title": "Welcome to",
+      "highlight": "Crypto Trading Cashback Platform, degenMax",
+      "description": "degenMax is a cashback platform that directly rebates the fees incurred by crypto traders",
+      "metadata": {
+        "title": "Signup | DegenMax",
+        "description": "Signup to DegenMax - The official platform for crypto exchange missions"
+      },
+      "form": {
+        "email": "Email",
+        "password": "Password",
+        "inviteCode": "Friend invitation code (optional)",
+        "terms": {
+          "agree": "I have read and agree to the",
+          "termsLink": "Terms of Use",
+          "and": "and",
+          "privacyLink": "Privacy Policy",
+          "of": "of degenMax.",
+          "error": "You must agree to the Terms and Privacy Policy"
+        },
+        "haveAccount": "Already have an account?",
+        "loginLink": "Login",
+        "submitButton": {
+          "default": "Sign Up",
+          "loading": "Creating Account..."
+        },
+        "verification": {
+          "title": "Enter verification code",
+          "subtitle": "We sent a verification code to",
+          "noCode": "Didn't receive the code?",
+          "resendButton": {
+            "default": "Resend verification code",
+            "sending": "Sending...",
+            "wait": "Wait {time}"
+          }
+        },
+        "errors": {
+          "email": {
+            "required": "Email is required",
+            "invalid": "Invalid email format"
+          },
+          "password": {
+            "required": "Password is required",
+            "length": "Password must be at least 8 characters"
+          }
+        }
+      }
+    }
+  },
+  "affiliated": {
+    "metadata": {
+      "title": "Partner Exchanges | DegenMax",
+      "description": "Discover our partner cryptocurrency exchanges with the best cashback rates and trading conditions.",
+      "ogImageAlt": "DegenMax Partner Exchanges Overview"
+    },
+    "title": "Explore the <highlight>Partner Exchanges</highlight> of degenMax!",
+    "subtitle": "degenMax partners with the world's leading crypto exchanges",
+    "disclaimer": "* The only place that has <highlight>official contracts with major partners</highlight> is degenMax.",
+    "tableTitle": "degenMax's Partner Exchanges",
+    "tableSubtitle": "We've prepared not only cashback but also trading contests",
+    "columns": {
+      "exchangeName": "Exchange Name",
+      "cashbackRate": "Cashback Rate (%)",
+      "tradingDiscount": "Trading Discount (%)",
+      "averageRebate": "Average Rebate per User",
+      "limitPrice": "Limit Price (%)",
+      "marketPrice": "Market Price (%)"
+    }
+  },
+  "footer": {
+    "companyName": "DEGENMAX PTE. LTD",
+    "companyInfo": {
+      "uen": "Unique Entity Number (UEN) : 202326628N",
+      "location": "Location : 531A UPPER CROSS STREET #04-98 HONG LIM COMPLEX SINGAPORE (051531)",
+      "consultation": "Consultation : Chat Support (00:00 - 24:00)",
+      "email": "Email : support@degenmax.io"
+    },
+    "copyright": "Copyright 2022 degenMax All Rights Reserved.",
+    "legalLinks": {
+      "terms": "Terms of Use",
+      "privacy": "Privacy Policy"
+    },
+    "disclaimer": "All contents related to degenMax, including information, events, and UI, are protected under copyright law and the Content Industry Promotion Act. Unauthorized reproduction, transmission, distribution, scraping, or any similar actions are strictly prohibited under relevant laws and regulations without the prior written consent of DEGENMAX PTE.LTD.",
+    "socialLinks": {
+      "instagram": "Instagram",
+      "discord": "Discord",
+      "youtube": "YouTube",
+      "twitter": "Twitter",
+      "telegram": "Telegram"
+    }
+  },
+  "serviceIntro": {
+    "hero": {
+      "subtitle": "The smartest way to use the exchange",
+      "title": {
+        "part1": "For your",
+        "highlight": "stable futures trading",
+        "part2": "trust in degenMax"
+      },
+      "features": {
+        "credibility": {
+          "title": "Credibility",
+          "subtitle": "Tech-centered"
+        },
+        "payback": {
+          "title": "Payback",
+          "subtitle": "Enjoy speedy service"
+        },
+        "simple": {
+          "title": "Simple & Easy",
+          "subtitle": "One-click process"
+        }
+      }
+    },
+    "sellingPoints": {
+      "subtitle": "Our service is only for traders like you!",
+      "title": "The unique selling point of degenMax",
+      "description": "degenMax is different from other cashback copycats",
+      "points": {
+        "first": {
+          "title": "The first Cashback service",
+          "description": "Started in August 2022"
+        },
+        "safety": {
+          "title": "High safety",
+          "description": "Official contracts with exchanges"
+        },
+        "users": {
+          "title": "The choice of many users",
+          "description": "Over 23,000"
+        }
+      }
+    },
+    "officialPartner": {
+      "text": {
+        "highlight1": "degenMax",
+        "part1": "is the only entity",
+        "part2": "that has entered into",
+        "highlight2": "official contracts",
+        "part3": "with major exchanges"
+      }
+    },
+    "howToEnjoy": {
+      "subtitle": "The process for degenMax cashback",
+      "title": "How to enjoy degenMax",
+      "steps": [
+        "Sign up for an exchange with degenMax's code",
+        "Connect your UID to degenMax",
+        "Enjoy trading to the fullest",
+        "Get your Cashback!"
+      ],
+      "discount": {
+        "title": "degenMax code",
+        "description": "You will receive a 20% fee discount for 30 days"
+      }
+    },
+    "cashbackRange": {
+      "title": "Cashback, from 50 USDT to 3,500 USDT a month",
+      "conditions": {
+        "minimum": "If you trade more than 5 times a month and seed money is over 100 USDT, you can get cashback for more than 50 USDT",
+        "maximum": "If you are in the top 5% of cashback traders, you can get cashback more than 3,500 USDT"
+      },
+      "note": {
+        "part1": "The total statistics data looks as shown above, but this includes many users who trade with small seed money (below 100 USDT) or who rarely trade (less than 5 times a month).",
+        "part2": "Typically, users who usually do futures trading are at top 50%."
+      }
+    },
+    "callToAction": {
+      "subtitle": "The process for degenMax cashback",
+      "title": "Get your trading fees back through degenMax",
+      "bitget": {
+        "question": "Are you a Bitget user?",
+        "savings": "By using degenMax, you can save an additional $360",
+        "note": "*Based on seed money for $4000 and average monthly fees"
+      },
+      "howTo": {
+        "title": "How to enjoy the service?",
+        "subtitle": "What should I do?",
+        "button": "Browse Partner Exchange"
+      }
+    }
+  },
+  "events": {
+    "title": "Exclusive Events for degenMax Users",
+    "subtitle": "Only for degenMax traders",
+    "viewAll": "View All",
+    "tabs": {
+      "all": "All"
+    },
+    "notes": {
+      "title": "Note:",
+      "item1": "Event notes may vary by the exchange, so please check the event details of the exchange.",
+      "item2": "Be sure to participate through your degenMax account on this page. There may be disadvantages if you participate through other channels."
+    },
+    "banners": {
+      "wsot": "WSOT Competition",
+      "second": "Second Banner",
+      "counter": "{current} | {total}"
+    },
+    "card": {
+      "timeRange": "{startDate} - {endDate}"
+    }
+  },
+  "userContent": {
+    "userGuide": {
+      "title": "User Guide",
+      "description": "Finish in just one minute",
+      "button": "Check"
+    },
+    "bindUid": {
+      "title": "Bind your UID",
+      "description": "If you've signed up in exchange",
+      "button": "Bind"
+    },
+    "welcome": {
+      "greeting": "Welcome back",
+      "intro": "Let's check your trading cashback"
+    },
+    "hero": {
+      "title": "Enjoy Cashback Seamlessly with One Click!",
+      "subtitle": "Trading fee cashback platform, degenMax"
+    },
+    "averageCashback": {
+      "title": "Average Cashback per User",
+      "monthlyAverage": "Check Your Average Monthly Cashback",
+      "checkTime": "It takes less than 5 minutes to check",
+      "calculateButton": "Calculate Now"
+    },
+    "appPromo": {
+      "subtitle": "It's simpler and faster now",
+      "title": "Take a closer look at the degenMax app"
+    },
+    "stats": {
+      "totalPlatformLinked": "Total Platform Linked"
+    },
+    "registerExchange": {
+      "step1": {
+        "title": "Join the Exchange",
+        "description": "Create an exchange account eligible for Cashback",
+        "compareButton": "Curious about the benefits of each exchange?"
+      },
+      "step2": {
+        "title": "Bind UID",
+        "description": "Please verify the UID and bind it to your account.",
+        "button": "Bind UID"
+      },
+      "step3": {
+        "title": "Invite Friends & Earn More",
+        "description": "Share the wealth! Invite friends with your redemption code and both get rewarded 🎁",
+        "button": "Share & Earn USDT"
+      },
+      "showMore": "Show More",
+      "showLess": "Show Less"
+    },
+    "bindUidCard": {
+      "subtitle": "Connect your exchange accounts",
+      "features": {
+        "sync": "Automatic synchronization with your accounts"
+      }
+    },
+    "quickActions": {
+      "viewAnalytics": "View Analytics",
+      "trackProgress": "Track Progress",
+      "quickSettings": "Quick Settings"
+    },
+    "rewards": {
+      "title": "Available Withdrawal",
+      "withdraw": "Withdraw",
+      "analytics": "How much did I get back?"
+    },
+    "benefits": {
+      "waiting": "Benefits has been waiting for you!",
+      "maxDay": "Today is only for MAX day",
+      "earnUsdt": "🎁 Would you like to earn USDT?"
+    },
+    "myExchange": {
+      "title": "My Exchange",
+      "uid": "UID",
+      "addExchange": "Add My Exchange"
+    },
+    "loading": "Loading..."
+  },
+  "benefits": {
+    "title": "degenMax's Benefits",
+    "subtitle": "Check our features to earn USDT, Boost your earnings with degenMax!",
+    "received": {
+      "title": "Available cashback waiting for you",
+      "subtitle": "ready to withdraw at degenMax"
+    },
+    "earnMore": "Do you know you can earn more USDT? check our features",
+    "missions": {
+      "firstVisit": {
+        "title": "It's your first time visiting our site",
+        "description": "Welcome to degenMax"
+      },
+      "alarm": {
+        "title": "Turn on alarm",
+        "description": "Stay updated with important notifications"
+      },
+      "calculate": {
+        "title": "Calculate estimated cashback",
+        "description": "See how much you can earn"
+      },
+      "bindUid": {
+        "title": "Bind your UID",
+        "description": "Connect your exchange account"
+      },
+      "firstClaim": {
+        "title": "Claim your first cashback",
+        "description": "Start earning from your trades"
+      },
+      "events": {
+        "title": "Join events",
+        "description": "Participate in exclusive events"
+      },
+      "monthlyClaim": {
+        "title": "Claim cashback monthly",
+        "description": "Regular earnings from your trading"
+      },
+      "invite": {
+        "title": "Invite friends",
+        "description": "Grow the community together"
+      }
+    },
+    "new": "New",
+    "details": "Details",
+    "exchanges": {
+      "title": "We're rewarding our top traders!",
+      "subtitle": "The higher your ranking, the better your rewards!",
+      "withdrawalNote": "Cashback withdrawals are available for amounts over 50 USDT",
+      "monthlyReward": "Get up to 100 USDT every month!",
+      "greeting": {
+        "title": "Dear Trader,",
+        "message": "Check out your ranking!"
+      },
+      "rankings": {
+        "title": "Coupons are distributed according to ranking list!",
+        "positions": {
+          "first": {
+            "position": "1st",
+            "reward": "100 USDT",
+            "icon": "🏆"
+          },
+          "second": {
+            "position": "2nd",
+            "reward": "50 USDT",
+            "icon": "🥈"
+          },
+          "third": {
+            "position": "3rd",
+            "reward": "20 USDT",
+            "icon": "🥉"
+          },
+          "topTen": {
+            "position": "Within the top 10%",
+            "reward": "10 USDT",
+            "icon": "🏅"
+          }
+        }
+      },
+      "noRanking": {
+        "title": "Cannot check your ranking",
+        "message": "You can check your ranking after binding UID",
+        "button": "Bind your UID"
+      },
+      "notes": {
+        "title": "Note",
+        "item1": "Applies only to cashback payments made from the 1st to the last day of each month (UTC).",
+        "item2": "Event rewards are calculated according to the cashback history for the month and are paid within 5 days after the end of the month.",
+        "item3": "This event is eligible to traders who have cashback history in that month.",
+        "item4": "Since each exchange processes it individually, you can receive rewards from more than one exchange.",
+        "item5": "The ranking criteria are based on each UID referred to the degenMax account in exchange.",
+        "item6": "This benefit may change at any time depending on our circumstances."
+      }
+    },
+    "invitation": {
+      "hero": {
+        "title": "Shall we invite friends to degenMax?",
+        "inviteFriendsText": "invite friends"
+      },
+      "profitSection": {
+        "title": {
+          "prefix": "Make",
+          "highlight": "extra profit",
+          "suffix": "in proportion to your friend's cashback"
+        },
+        "subtitle": "The more your friends receive cashback, the more your profits increase!",
+        "friendCard": {
+          "label": "Your friend",
+          "cashbackLabel": "Bybit Cashback",
+          "cashbackAmount": "+123,123 USDT"
+        },
+        "yourCard": {
+          "label": "You made",
+          "profit": "an extra profit!"
+        }
+      },
+      "referralCodeSection": {
+        "title": "Your Referral Code",
+        "loading": "Loading...",
+        "noCode": "No referral code found.",
+        "generateButton": "Generate Referral Code",
+        "copyButton": "Copy",
+        "copySuccess": "Referral code copied to clipboard!"
+      },
+      "enterCodeSection": {
+        "title": "Have a Referral Code?",
+        "inputPlaceholder": "Enter referral code",
+        "applyButton": "Apply",
+        "helperText": "Enter your friend's referral code to receive special benefits"
+      },
+      "giftSection": {
+        "title": {
+          "prefix": "Your friends get a special gift!",
+          "highlight": "Welcome bonus",
+          "suffix": "for every referral"
+        }
+      },
+      "callToAction": {
+        "title": "Let's cashback with your friend",
+        "subtitle": "A benefit for both you and your friends!",
+        "button": "Invite friends and make extra profit"
+      }
+    }
+  },
+  "download": {
+    "hero": {
+      "title": "For every moment you need cashback, enjoy degenMax",
+      "subtitle": "Enjoy degenMax through the mobile app to easily receive cashback anytime, anywhere"
+    },
+    "buttons": {
+      "downloadApp": "Download mobile app",
+      "appStore": "Download on the App Store",
+      "googlePlay": "GET IT ON Google Play"
+    },
+    "benefits": {
+      "title": "You can check exclusive benefits only in the app, including large exchange prizes",
+      "subtitle": "Discover exclusive in-app rewards and exciting prize opportunities through exchange contests."
+    },
+    "features": {
+      "contests": "degenMax's Contests & Events",
+      "prizes": "Exchanges' Large-Scale Prize Competition",
+      "airdrop": "Exchange Airdrop Event"
+    },
+    "cta": {
+      "title": "Earn cashback faster and easier with the degenMax app!",
+      "question": "Are you already enjoying cashback at degenMax website?",
+      "tryApp": "Then, try using the degenMax app too!"
+    },
+    "appScreenshot": "App Screenshot",
+    "qrCode": "QR Code for Download"
+  },
+  "notification": {
+    "title": "degenMax",
+    "subtitle": "Notification ON!",
+    "benefits": {
+      "title": "Benefits at your hands!",
+      "coupon": "Get a 1 USDT coupon now by turning on notifications"
+    },
+    "notifications": {
+      "title": "degenMax only sends you essential notifications",
+      "types": {
+        "withdrawal": "Cashback Withdrawal",
+        "airdrop": "Exchanges' Airdrop Event",
+        "competition": "Exchange Large-Scale Prize Competition"
+      },
+      "toggle": "Notifications can be turned off at any time"
+    },
+    "app": {
+      "title": "In the degenMax app,",
+      "subtitle": "you can turn on notifications",
+      "exclusive": "Mobile app exclusive event",
+      "download": {
+        "title": "App Download",
+        "name": "degenMax app",
+        "googleStore": "Google Store",
+        "appStore": "App Store"
+      }
+    }
+  },
+  "uidBinding": {
+    "title": "First step to get cashback",
+    "subtitle": "UID Binding",
+    "notices": {
+      "required": "It is necessary to get cashback",
+      "reward": "3 USDT coupon for binding UID"
+    },
+    "steps": {
+      "signup": {
+        "title": "Sign up for the exchange with degenMax referral code"
+      },
+      "binding": {
+        "title": "Bind UID,",
+        "subtitle": "You can check the accumulated cashback"
+      }
+    },
+    "reward": {
+      "amount": "3 USDT",
+      "title": "coupon for you",
+      "description": "This USDT coupon is available for withdrawal",
+      "button": "Bind your UID, Get 3 USDT"
+    },
+    "images": {
+      "envelope": "UID Envelope",
+      "signup": "Mobile signup",
+      "binding": "UID Binding form"
+    }
+  },
+  "uidLinking": {
+    "title": "Select Your Exchange",
+    "subtitle": "Choose the exchange where you joined as a referral of degenMax",
+    "signupButton": "Sign up with degenMax's invitation code",
+    "uidPlaceholder": "Enter your UID",
+    "submitButton": "Link Account",
+    "successDialog": {
+      "title": "UID Successfully Submitted",
+      "message": "Thank you for submitting your UID. Our team will process your request.",
+      "processingTime": "Processing time: 2-5 business days",
+      "closeButton": "Close"
+    }
+  },
+  "payback": {
+    "exchangeStatus": {
+      "title": "Exchange Status",
+      "message": "Register with our supported exchanges to start earning cashback",
+      "chooseExchange": "Choose an exchange that suits your taste",
+      "browseExchanges": "Browse exchanges that offer cashback"
+    },
+    "firstCashback": {
+      "title": "Receive the first cashback with a coupon!",
+      "subtitle": "Cashback withdrawals are available for amounts over 50 USDT",
+      "benefits": "Benefits at your hands!",
+      "couponInfo": "coupon received after first cashback withdrawal"
+    },
+    "extraCoupon": {
+      "title": "After getting the first cashback, claim extra {amount} coupon!",
+      "subtitle": "This USDT coupon is available for withdrawal",
+      "button": "After cashback withdrawal, get {amount}"
+    }
+  },
+  "cashback": {
+    "title": "Cashback History",
+    "totalAvailable": "Total Available Cashback",
+    "linkedExchanges": "Linked Exchanges",
+    "withdraw": "Withdraw",
+    "withdrawalHistory": "Withdrawal History",
+    "date": "Date",
+    "exchange": "Exchange",
+    "amount": "Amount (USDT)",
+    "minRequired": "Min. 10 USDT required",
+    "withdrawToMain": "Withdraw to Main Wallet"
+  },
+  "paybackTest": {
+    "title": {
+      "main": "How much",
+      "sub": "will you get back?"
+    },
+    "checkTime": {
+      "icon": "⚡",
+      "text": "You can check it in 30 seconds"
+    },
+    "benefit": {
+      "icon": "✓",
+      "text": "Check the estimated amount for cashback and receive",
+      "coupon": "2 USDT coupon"
+    },
+    "calculator": {
+      "title": "Calculator",
+      "timeRequired": "Average time required: 30 sec!",
+      "description": "Easy but accurate calculation!"
+    },
+    "curious": {
+      "title": "Aren't you curious about the cashback amount?",
+      "description": "According to data from other traders, you can find out the amount for cashback!"
+    },
+    "button": "Check your cashback and Get 2 USDT"
+  }
+}

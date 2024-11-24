@@ -1,0 +1,638 @@
+{
+  "common": {
+    "welcome": "Selamat Datang",
+    "home": "Beranda",
+    "about": "Tentang",
+    "selectLanguage": "Pilih Bahasa",
+    "language": "Bahasa",
+    "partnerExchange": "Exchange Partner",
+    "benefits": "Keuntungan",
+    "appDownload": "Unduh Aplikasi",
+    "serviceIntro": "Pengenalan Layanan",
+    "calculator": "Kalkulator"
+  },
+  "home": {
+    "metadata": {
+      "title": "DegenMax - Platform Cashback Trading Kripto Terbaik",
+      "description": "Dapatkan cashback terbaik untuk trading kripto Anda dengan DegenMax. Partner resmi dari exchange kripto terkemuka yang menawarkan rebate eksklusif dan kontes trading."
+    }
+  },
+  "auth": {
+    "login": "Masuk",
+    "signup": "Daftar",
+    "logout": "Keluar",
+    "loginPage": {
+      "title": "Masuk",
+      "description": {
+        "main": "Satu-satunya platform yang memberikan cashback terbaik untuk trading kripto Anda.",
+        "highlight": "kontrak resmi dengan exchange terkemuka",
+        "platform": "adalah degenMax.",
+        "subtext": "Jika Anda bergabung, Anda bisa mendapatkan USDT setiap kali trading."
+      },
+      "metadata": {
+        "title": "Daftar | DegenMax",
+        "description": "Daftar ke DegenMax - Platform resmi untuk misi exchange kripto"
+      },
+      "verifiedMessage": "Email berhasil diverifikasi! Silakan masuk untuk melanjutkan.",
+      "form": {
+        "email": "Email",
+        "password": "Kata Sandi",
+        "forgotPassword": "Lupa kata sandi?",
+        "noAccount": "Belum punya akun?",
+        "signUpLink": "Daftar",
+        "submitButton": {
+          "default": "Masuk",
+          "loading": "Memuat...",
+          "tryAgain": "Coba lagi dalam {time}"
+        },
+        "verification": {
+          "title": "Periksa email Anda",
+          "subtitle": "Kami telah mengirim kode verifikasi ke",
+          "codeExpires": "Kode kedaluwarsa dalam",
+          "noCode": "Tidak menerima kode?",
+          "resendButton": {
+            "default": "Kirim ulang kode",
+            "sending": "Mengirim...",
+            "countdown": "Kirim ulang dalam {time}"
+          }
+        }
+      }
+    },
+    "signupPage": {
+      "title": "Selamat datang di",
+      "highlight": "Platform Cashback Trading Kripto, degenMax",
+      "description": "degenMax adalah platform cashback yang memberikan rebate langsung dari biaya yang dikeluarkan oleh trader kripto",
+      "metadata": {
+        "title": "Daftar | DegenMax",
+        "description": "Daftar ke DegenMax - Platform resmi untuk misi exchange kripto"
+      },
+      "form": {
+        "email": "Email",
+        "password": "Kata Sandi",
+        "inviteCode": "Kode undangan teman (opsional)",
+        "terms": {
+          "agree": "Saya telah membaca dan menyetujui",
+          "termsLink": "Ketentuan Penggunaan",
+          "and": "dan",
+          "privacyLink": "Kebijakan Privasi",
+          "of": "dari degenMax.",
+          "error": "Anda harus menyetujui Ketentuan dan Kebijakan Privasi"
+        },
+        "haveAccount": "Sudah punya akun?",
+        "loginLink": "Masuk",
+        "submitButton": {
+          "default": "Daftar",
+          "loading": "Membuat Akun..."
+        },
+        "verification": {
+          "title": "Masukkan kode verifikasi",
+          "subtitle": "Kami telah mengirim kode verifikasi ke",
+          "noCode": "Tidak menerima kode?",
+          "resendButton": {
+            "default": "Kirim ulang kode verifikasi",
+            "sending": "Mengirim...",
+            "wait": "Tunggu {time}"
+          }
+        },
+        "errors": {
+          "email": {
+            "required": "Email wajib diisi",
+            "invalid": "Format email tidak valid"
+          },
+          "password": {
+            "required": "Kata sandi wajib diisi",
+            "length": "Kata sandi minimal 8 karakter"
+          }
+        }
+      }
+    }
+  },
+  "affiliated": {
+    "metadata": {
+      "title": "Exchange Partner | DegenMax",
+      "description": "Temukan exchange kripto partner kami dengan tingkat cashback dan kondisi trading terbaik.",
+      "ogImageAlt": "Ikhtisar Exchange Partner DegenMax"
+    },
+    "title": "Jelajahi <highlight>Exchange Partner</highlight> degenMax!",
+    "subtitle": "degenMax bermitra dengan exchange kripto terkemuka dunia",
+    "disclaimer": "* Satu-satunya tempat yang memiliki <highlight>kontrak resmi dengan partner utama</highlight> adalah degenMax.",
+    "tableTitle": "Exchange Partner degenMax",
+    "tableSubtitle": "Kami telah menyiapkan tidak hanya cashback tetapi juga kontes trading",
+    "columns": {
+      "exchangeName": "Nama Exchange",
+      "cashbackRate": "Tingkat Cashback (%)",
+      "tradingDiscount": "Diskon Trading (%)",
+      "averageRebate": "Rata-rata Rebate per Pengguna",
+      "limitPrice": "Harga Limit (%)",
+      "marketPrice": "Harga Market (%)"
+    }
+  },
+  "footer": {
+    "companyName": "DEGENMAX PTE. LTD",
+    "companyInfo": {
+      "uen": "Nomor Entitas Unik (UEN) : 202326628N",
+      "location": "Lokasi : 531A UPPER CROSS STREET #04-98 HONG LIM COMPLEX SINGAPORE (051531)",
+      "consultation": "Konsultasi : Dukungan Chat (00:00 - 24:00)",
+      "email": "Email : support@degenmax.io"
+    },
+    "copyright": "Hak Cipta 2022 degenMax. Seluruh Hak Dilindungi.",
+    "legalLinks": {
+      "terms": "Ketentuan Penggunaan",
+      "privacy": "Kebijakan Privasi"
+    },
+    "disclaimer": "Seluruh konten terkait degenMax, termasuk informasi, acara, dan UI, dilindungi oleh hukum hak cipta dan Undang-Undang Promosi Industri Konten. Reproduksi, transmisi, distribusi, scraping, atau tindakan serupa tanpa izin dilarang keras berdasarkan hukum dan peraturan yang berlaku tanpa persetujuan tertulis sebelumnya dari DEGENMAX PTE.LTD.",
+    "socialLinks": {
+      "instagram": "Instagram",
+      "discord": "Discord",
+      "youtube": "YouTube",
+      "twitter": "Twitter",
+      "telegram": "Telegram"
+    }
+  },
+  "serviceIntro": {
+    "hero": {
+      "subtitle": "Cara terpintar menggunakan exchange",
+      "title": {
+        "part1": "Untuk",
+        "highlight": "trading futures yang stabil",
+        "part2": "percayakan pada degenMax"
+      },
+      "features": {
+        "credibility": {
+          "title": "Kredibilitas",
+          "subtitle": "Berfokus pada teknologi"
+        },
+        "payback": {
+          "title": "Payback",
+          "subtitle": "Nikmati layanan cepat"
+        },
+        "simple": {
+          "title": "Sederhana & Mudah",
+          "subtitle": "Proses satu klik"
+        }
+      }
+    },
+    "sellingPoints": {
+      "subtitle": "Layanan kami hanya untuk trader seperti Anda!",
+      "title": "Keunggulan unik degenMax",
+      "description": "degenMax berbeda dari peniru cashback lainnya",
+      "points": {
+        "first": {
+          "title": "Layanan Cashback pertama",
+          "description": "Dimulai Agustus 2022"
+        },
+        "safety": {
+          "title": "Keamanan tinggi",
+          "description": "Kontrak resmi dengan exchange"
+        },
+        "users": {
+          "title": "Pilihan banyak pengguna",
+          "description": "Lebih dari 23.000"
+        }
+      }
+    },
+    "officialPartner": {
+      "text": {
+        "highlight1": "degenMax",
+        "part1": "adalah satu-satunya entitas",
+        "part2": "yang telah menandatangani",
+        "highlight2": "kontrak resmi",
+        "part3": "dengan exchange utama"
+      }
+    },
+    "howToEnjoy": {
+      "subtitle": "Proses untuk cashback degenMax",
+      "title": "Cara menikmati degenMax",
+      "steps": [
+        "Daftar ke exchange dengan kode degenMax",
+        "Hubungkan UID Anda ke degenMax",
+        "Nikmati trading sepuasnya",
+        "Dapatkan Cashback Anda!"
+      ],
+      "discount": {
+        "title": "Kode degenMax",
+        "description": "Anda akan menerima diskon biaya 20% selama 30 hari"
+      }
+    },
+    "cashbackRange": {
+      "title": "Cashback, dari 50 USDT hingga 3.500 USDT per bulan",
+      "conditions": {
+        "minimum": "Jika Anda trading lebih dari 5 kali sebulan dan modal awal lebih dari 100 USDT, Anda bisa mendapatkan cashback lebih dari 50 USDT",
+        "maximum": "Jika Anda berada di 5% teratas trader cashback, Anda bisa mendapatkan cashback lebih dari 3.500 USDT"
+      },
+      "note": {
+        "part1": "Data statistik total terlihat seperti di atas, tetapi ini termasuk banyak pengguna yang trading dengan modal kecil (di bawah 100 USDT) atau yang jarang trading (kurang dari 5 kali sebulan).",
+        "part2": "Biasanya, pengguna yang rutin melakukan trading futures berada di 50% teratas."
+      }
+    },
+    "callToAction": {
+      "subtitle": "Proses untuk cashback degenMax",
+      "title": "Dapatkan kembali biaya trading Anda melalui degenMax",
+      "bitget": {
+        "question": "Apakah Anda pengguna Bitget?",
+        "savings": "Dengan menggunakan degenMax, Anda bisa menghemat tambahan $360",
+        "note": "*Berdasarkan modal awal $4000 dan rata-rata biaya bulanan"
+      },
+      "howTo": {
+        "title": "Bagaimana cara menikmati layanan?",
+        "subtitle": "Apa yang harus saya lakukan?",
+        "button": "Jelajahi Exchange Partner"
+      }
+    }
+  },
+  "events": {
+    "title": "Event Eksklusif untuk Pengguna degenMax",
+    "subtitle": "Hanya untuk trader degenMax",
+    "viewAll": "Lihat Semua",
+    "tabs": {
+      "all": "Semua"
+    },
+    "notes": {
+      "title": "Catatan:",
+      "item1": "Catatan event mungkin berbeda untuk setiap exchange, jadi harap periksa detail event di exchange.",
+      "item2": "Pastikan untuk berpartisipasi melalui akun degenMax Anda di halaman ini. Mungkin ada kerugian jika Anda berpartisipasi melalui saluran lain."
+    },
+    "banners": {
+      "wsot": "Kompetisi WSOT",
+      "second": "Banner Kedua",
+      "counter": "{current} | {total}"
+    },
+    "card": {
+      "timeRange": "{startDate} - {endDate}"
+    }
+  },
+  "userContent": {
+    "userGuide": {
+      "title": "Panduan Pengguna",
+      "description": "Selesai hanya dalam satu menit",
+      "button": "Periksa"
+    },
+    "bindUid": {
+      "title": "Hubungkan UID Anda",
+      "description": "Jika Anda sudah mendaftar di exchange",
+      "button": "Hubungkan"
+    },
+    "welcome": {
+      "greeting": "Selamat datang kembali",
+      "intro": "Mari periksa cashback trading Anda"
+    },
+    "hero": {
+      "title": "Nikmati Cashback dengan Mudah dalam Satu Klik!",
+      "subtitle": "Platform cashback biaya trading, degenMax"
+    },
+    "averageCashback": {
+      "title": "Rata-rata Cashback per Pengguna",
+      "monthlyAverage": "Periksa Rata-rata Cashback Bulanan Anda",
+      "checkTime": "Hanya butuh kurang dari 5 menit untuk memeriksa",
+      "calculateButton": "Hitung Sekarang"
+    },
+    "appPromo": {
+      "subtitle": "Sekarang lebih sederhana dan cepat",
+      "title": "Lihat lebih dekat aplikasi degenMax"
+    },
+    "stats": {
+      "totalPlatformLinked": "Total Platform Terhubung"
+    },
+    "registerExchange": {
+      "step1": {
+        "title": "Bergabung dengan Exchange",
+        "description": "Buat akun exchange yang memenuhi syarat untuk Cashback",
+        "compareButton": "Penasaran dengan keuntungan setiap exchange?"
+      },
+      "step2": {
+        "title": "Hubungkan UID",
+        "description": "Harap verifikasi UID dan hubungkan ke akun Anda.",
+        "button": "Hubungkan UID"
+      },
+      "step3": {
+        "title": "Undang Teman & Dapatkan Lebih",
+        "description": "Bagikan keuntungan! Undang teman dengan kode penukaran Anda dan keduanya mendapat hadiah 🎁",
+        "button": "Bagikan & Dapatkan USDT"
+      },
+      "showMore": "Tampilkan Lebih",
+      "showLess": "Tampilkan Kurang"
+    },
+    "bindUidCard": {
+      "subtitle": "Hubungkan akun exchange Anda",
+      "features": {
+        "sync": "Sinkronisasi otomatis dengan akun Anda"
+      }
+    },
+    "quickActions": {
+      "viewAnalytics": "Lihat Analitik",
+      "trackProgress": "Lacak Progres",
+      "quickSettings": "Pengaturan Cepat"
+    },
+    "rewards": {
+      "title": "Penarikan Tersedia",
+      "withdraw": "Tarik",
+      "analytics": "Berapa banyak yang saya dapatkan kembali?"
+    },
+    "benefits": {
+      "waiting": "Keuntungan telah menunggu Anda!",
+      "maxDay": "Hari ini hanya untuk hari MAX",
+      "earnUsdt": "🎁 Mau mendapatkan USDT?"
+    },
+    "myExchange": {
+      "title": "Exchange Saya",
+      "uid": "UID",
+      "addExchange": "Tambah Exchange Saya"
+    },
+    "loading": "Memuat..."
+  },
+  "benefits": {
+    "title": "Keuntungan degenMax",
+    "subtitle": "Periksa fitur kami untuk mendapatkan USDT, Tingkatkan penghasilan Anda dengan degenMax!",
+    "received": {
+      "title": "Cashback tersedia menunggu Anda",
+      "subtitle": "siap ditarik di degenMax"
+    },
+    "earnMore": "Tahukah Anda bisa mendapatkan lebih banyak USDT? periksa fitur kami",
+    "missions": {
+      "firstVisit": {
+        "title": "Ini kunjungan pertama Anda ke situs kami",
+        "description": "Selamat datang di degenMax"
+      },
+      "alarm": {
+        "title": "Aktifkan alarm",
+        "description": "Tetap update dengan notifikasi penting"
+      },
+      "calculate": {
+        "title": "Hitung perkiraan cashback",
+        "description": "Lihat berapa banyak yang bisa Anda dapatkan"
+      },
+      "bindUid": {
+        "title": "Hubungkan UID Anda",
+        "description": "Hubungkan akun exchange Anda"
+      },
+      "firstClaim": {
+        "title": "Klaim cashback pertama Anda",
+        "description": "Mulai dapatkan penghasilan dari trading Anda"
+      },
+      "events": {
+        "title": "Ikuti event",
+        "description": "Berpartisipasi dalam event eksklusif"
+      },
+      "monthlyClaim": {
+        "title": "Klaim cashback bulanan",
+        "description": "Penghasilan rutin dari trading Anda"
+      },
+      "invite": {
+        "title": "Undang teman",
+        "description": "Kembangkan komunitas bersama"
+      }
+    },
+    "new": "Baru",
+    "details": "Detail",
+    "exchanges": {
+      "title": "Kami memberi hadiah untuk trader top kami!",
+      "subtitle": "Semakin tinggi peringkat Anda, semakin baik hadiah Anda!",
+      "withdrawalNote": "Penarikan cashback tersedia untuk jumlah di atas 50 USDT",
+      "monthlyReward": "Dapatkan hingga 100 USDT setiap bulan!",
+      "greeting": {
+        "title": "Trader yang Terhormat,",
+        "message": "Periksa peringkat Anda!"
+      },
+      "rankings": {
+        "title": "Kupon dibagikan sesuai daftar peringkat!",
+        "positions": {
+          "first": {
+            "position": "1",
+            "reward": "100 USDT",
+            "icon": "🏆"
+          },
+          "second": {
+            "position": "2",
+            "reward": "50 USDT",
+            "icon": "🥈"
+          },
+          "third": {
+            "position": "3",
+            "reward": "20 USDT",
+            "icon": "🥉"
+          },
+          "topTen": {
+            "position": "Dalam 10% teratas",
+            "reward": "10 USDT",
+            "icon": "🏅"
+          }
+        }
+      },
+      "noRanking": {
+        "title": "Tidak dapat memeriksa peringkat Anda",
+        "message": "Anda dapat memeriksa peringkat Anda setelah menghubungkan UID",
+        "button": "Hubungkan UID Anda"
+      },
+      "notes": {
+        "title": "Catatan",
+        "item1": "Berlaku hanya untuk pembayaran cashback yang dilakukan dari tanggal 1 hingga akhir bulan (UTC).",
+        "item2": "Hadiah event dihitung berdasarkan riwayat cashback bulan tersebut dan dibayarkan dalam waktu 5 hari setelah akhir bulan.",
+        "item3": "Event ini berlaku untuk trader yang memiliki riwayat cashback di bulan tersebut.",
+        "item4": "Karena setiap exchange memprosesnya secara individual, Anda dapat menerima hadiah dari lebih dari satu exchange.",
+        "item5": "Kriteria peringkat didasarkan pada setiap UID yang dirujuk ke akun degenMax di exchange.",
+        "item6": "Keuntungan ini dapat berubah sewaktu-waktu tergantung pada keadaan kami."
+      }
+    },
+    "invitation": {
+      "hero": {
+        "title": "Mari undang teman ke degenMax?",
+        "inviteFriendsText": "undang teman"
+      },
+      "profitSection": {
+        "title": {
+          "prefix": "Dapatkan",
+          "highlight": "keuntungan tambahan",
+          "suffix": "sebanding dengan cashback teman Anda"
+        },
+        "subtitle": "Semakin banyak cashback yang diterima teman Anda, semakin besar keuntungan Anda!",
+        "friendCard": {
+          "label": "Teman Anda",
+          "cashbackLabel": "Cashback Bybit",
+          "cashbackAmount": "+123,123 USDT"
+        },
+        "yourCard": {
+          "label": "Anda mendapatkan",
+          "profit": "keuntungan tambahan!"
+        }
+      },
+      "referralCodeSection": {
+        "title": "Kode Referral Anda",
+        "loading": "Memuat...",
+        "noCode": "Tidak ditemukan kode referral.",
+        "generateButton": "Buat Kode Referral",
+        "copyButton": "Salin",
+        "copySuccess": "Kode referral disalin ke clipboard!"
+      },
+      "enterCodeSection": {
+        "title": "Punya Kode Referral?",
+        "inputPlaceholder": "Masukkan kode referral",
+        "applyButton": "Terapkan",
+        "helperText": "Masukkan kode referral teman Anda untuk mendapatkan keuntungan khusus"
+      },
+      "giftSection": {
+        "title": {
+          "prefix": "Teman Anda mendapat hadiah spesial!",
+          "highlight": "Bonus selamat datang",
+          "suffix": "untuk setiap referral"
+        }
+      },
+      "callToAction": {
+        "title": "Mari cashback bersama teman Anda",
+        "subtitle": "Keuntungan untuk Anda dan teman Anda!",
+        "button": "Undang teman dan dapatkan keuntungan tambahan"
+      }
+    }
+  },
+  "download": {
+    "hero": {
+      "title": "Untuk setiap momen Anda membutuhkan cashback, nikmati degenMax",
+      "subtitle": "Nikmati degenMax melalui aplikasi mobile untuk dengan mudah menerima cashback kapan saja, di mana saja"
+    },
+    "buttons": {
+      "downloadApp": "Unduh aplikasi mobile",
+      "appStore": "Unduh di App Store",
+      "googlePlay": "DAPATKAN DI Google Play"
+    },
+    "benefits": {
+      "title": "Anda dapat memeriksa keuntungan eksklusif hanya di aplikasi, termasuk hadiah besar dari exchange",
+      "subtitle": "Temukan hadiah eksklusif dalam aplikasi dan peluang hadiah menarik melalui kontes exchange."
+    },
+    "features": {
+      "contests": "Kontes & Event degenMax",
+      "prizes": "Kompetisi Hadiah Berskala Besar dari Exchange",
+      "airdrop": "Event Airdrop Exchange"
+    },
+    "cta": {
+      "title": "Dapatkan cashback lebih cepat dan mudah dengan aplikasi degenMax!",
+      "question": "Apakah Anda sudah menikmati cashback di website degenMax?",
+      "tryApp": "Kalau begitu, coba gunakan aplikasi degenMax juga!"
+    },
+    "appScreenshot": "Screenshot Aplikasi",
+    "qrCode": "Kode QR untuk Unduh"
+  },
+  "notification": {
+    "title": "degenMax",
+    "subtitle": "Notifikasi AKTIF!",
+    "benefits": {
+      "title": "Keuntungan di tangan Anda!",
+      "coupon": "Dapatkan kupon 1 USDT sekarang dengan mengaktifkan notifikasi"
+    },
+    "notifications": {
+      "title": "degenMax hanya mengirim notifikasi penting",
+      "types": {
+        "withdrawal": "Penarikan Cashback",
+        "airdrop": "Event Airdrop Exchange",
+        "competition": "Kompetisi Hadiah Berskala Besar Exchange"
+      },
+      "toggle": "Notifikasi dapat dinonaktifkan kapan saja"
+    },
+    "app": {
+      "title": "Di aplikasi degenMax,",
+      "subtitle": "Anda dapat mengaktifkan notifikasi",
+      "exclusive": "Event eksklusif aplikasi mobile",
+      "download": {
+        "title": "Unduh Aplikasi",
+        "name": "Aplikasi degenMax",
+        "googleStore": "Google Store",
+        "appStore": "App Store"
+      }
+    }
+  },
+  "uidBinding": {
+    "title": "Langkah pertama untuk mendapatkan cashback",
+    "subtitle": "Menghubungkan UID",
+    "notices": {
+      "required": "Ini diperlukan untuk mendapatkan cashback",
+      "reward": "Kupon 3 USDT untuk menghubungkan UID"
+    },
+    "steps": {
+      "signup": {
+        "title": "Daftar ke exchange dengan kode referral degenMax"
+      },
+      "binding": {
+        "title": "Hubungkan UID,",
+        "subtitle": "Anda dapat memeriksa cashback yang terakumulasi"
+      }
+    },
+    "reward": {
+      "amount": "3 USDT",
+      "title": "kupon untuk Anda",
+      "description": "Kupon USDT ini tersedia untuk penarikan",
+      "button": "Hubungkan UID Anda, Dapatkan 3 USDT"
+    },
+    "images": {
+      "envelope": "Amplop UID",
+      "signup": "Pendaftaran mobile",
+      "binding": "Form menghubungkan UID"
+    }
+  },
+  "uidLinking": {
+    "title": "Pilih Exchange Anda",
+    "subtitle": "Pilih exchange tempat Anda bergabung sebagai referral degenMax",
+    "signupButton": "Daftar dengan kode undangan degenMax",
+    "uidPlaceholder": "Masukkan UID Anda",
+    "submitButton": "Hubungkan Akun",
+    "successDialog": {
+      "title": "UID Berhasil Dikirim",
+      "message": "Terima kasih telah mengirimkan UID Anda. Tim kami akan memproses permintaan Anda.",
+      "processingTime": "Waktu pemrosesan: 2-5 hari kerja",
+      "closeButton": "Tutup"
+    }
+  },
+  "payback": {
+    "exchangeStatus": {
+      "title": "Status Exchange",
+      "message": "Daftar dengan exchange yang kami dukung untuk mulai mendapatkan cashback",
+      "chooseExchange": "Pilih exchange yang sesuai dengan selera Anda",
+      "browseExchanges": "Jelajahi exchange yang menawarkan cashback"
+    },
+    "firstCashback": {
+      "title": "Terima cashback pertama dengan kupon!",
+      "subtitle": "Penarikan cashback tersedia untuk jumlah di atas 50 USDT",
+      "benefits": "Keuntungan di tangan Anda!",
+      "couponInfo": "kupon diterima setelah penarikan cashback pertama"
+    },
+    "extraCoupon": {
+      "title": "Setelah mendapatkan cashback pertama, klaim kupon tambahan {amount}!",
+      "subtitle": "Kupon USDT ini tersedia untuk penarikan",
+      "button": "Setelah penarikan cashback, dapatkan {amount}"
+    }
+  },
+  "cashback": {
+    "title": "Riwayat Cashback",
+    "totalAvailable": "Total Cashback Tersedia",
+    "linkedExchanges": "Exchange Terhubung",
+    "withdraw": "Tarik",
+    "withdrawalHistory": "Riwayat Penarikan",
+    "date": "Tanggal",
+    "exchange": "Exchange",
+    "amount": "Jumlah (USDT)",
+    "minRequired": "Min. 10 USDT diperlukan",
+    "withdrawToMain": "Tarik ke Dompet Utama"
+  },
+  "paybackTest": {
+    "title": {
+      "main": "Berapa banyak",
+      "sub": "yang akan Anda dapatkan kembali?"
+    },
+    "checkTime": {
+      "icon": "⚡",
+      "text": "Anda dapat memeriksanya dalam 30 detik"
+    },
+    "benefit": {
+      "icon": "✓",
+      "text": "Periksa perkiraan jumlah untuk cashback dan terima",
+      "coupon": "kupon 2 USDT"
+    },
+    "calculator": {
+      "title": "Kalkulator",
+      "timeRequired": "Rata-rata waktu yang diperlukan: 30 detik!",
+      "description": "Perhitungan mudah tapi akurat!"
+    },
+    "curious": {
+      "title": "Tidak penasaran dengan jumlah cashback?",
+      "description": "Berdasarkan data dari trader lain, Anda dapat mengetahui jumlah untuk cashback!"
+    },
+    "button": "Periksa cashback Anda dan Dapatkan 2 USDT"
+  }
+}

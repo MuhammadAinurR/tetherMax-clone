@@ -1,0 +1,638 @@
+{
+  "common": {
+    "welcome": "환영합니다",
+    "home": "홈",
+    "about": "소개",
+    "selectLanguage": "언어 선택",
+    "language": "언어",
+    "partnerExchange": "제휴 거래소",
+    "benefits": "혜택",
+    "appDownload": "앱 다운로드",
+    "serviceIntro": "서비스 소개",
+    "calculator": "계산기"
+  },
+  "home": {
+    "metadata": {
+      "title": "DegenMax - 최고의 암호화폐 거래 캐시백 플랫폼",
+      "description": "DegenMax와 함께 암호화폐 거래에서 최고의 캐시백을 받으세요. 독점 리베이트와 거래 대회를 제공하는 주요 암호화폐 거래소의 공식 파트너."
+    }
+  },
+  "auth": {
+    "login": "로그인",
+    "signup": "회원가입",
+    "logout": "로그아웃",
+    "loginPage": {
+      "title": "로그인",
+      "description": {
+        "main": "암호화폐 거래에서 최고의 캐시백을 제공하는 유일한 플랫폼.",
+        "highlight": "주요 거래소와의 공식 계약",
+        "platform": "은 degenMax입니다.",
+        "subtext": "가입하시면 거래할 때마다 USDT를 받으실 수 있습니다."
+      },
+      "metadata": {
+        "title": "회원가입 | DegenMax",
+        "description": "DegenMax 회원가입 - 암호화폐 거래소 미션을 위한 공식 플랫폼"
+      },
+      "verifiedMessage": "이메일 인증이 완료되었습니다! 계속하려면 로그인해 주세요.",
+      "form": {
+        "email": "이메일",
+        "password": "비밀번호",
+        "forgotPassword": "비밀번호를 잊으셨나요?",
+        "noAccount": "계정이 없으신가요?",
+        "signUpLink": "회원가입",
+        "submitButton": {
+          "default": "로그인",
+          "loading": "로딩 중...",
+          "tryAgain": "{time} 후 다시 시도"
+        },
+        "verification": {
+          "title": "이메일을 확인해 주세요",
+          "subtitle": "인증 코드를 다음 주소로 보냈습니다",
+          "codeExpires": "코드 만료 시간",
+          "noCode": "코드를 받지 못하셨나요?",
+          "resendButton": {
+            "default": "코드 재전송",
+            "sending": "전송 중...",
+            "countdown": "{time} 후 재전송"
+          }
+        }
+      }
+    },
+    "signupPage": {
+      "title": "환영합니다",
+      "highlight": "암호화폐 거래 캐시백 플랫폼, degenMax",
+      "description": "degenMax는 암호화폐 트레이더들의 수수료를 직접 리베이트해주는 캐시백 플랫폼입니다",
+      "metadata": {
+        "title": "회원가입 | DegenMax",
+        "description": "DegenMax 회원가입 - 암호화폐 거래소 미션을 위한 공식 플랫폼"
+      },
+      "form": {
+        "email": "이메일",
+        "password": "비밀번호",
+        "inviteCode": "친구 초대 코드 (선택사항)",
+        "terms": {
+          "agree": "다음 약관을 읽고 동의합니다",
+          "termsLink": "이용약관",
+          "and": "및",
+          "privacyLink": "개인정보처리방침",
+          "of": "",
+          "error": "이용약관과 개인정보처리방침에 동의해야 합니다"
+        },
+        "haveAccount": "이미 계정이 있으신가요?",
+        "loginLink": "로그인",
+        "submitButton": {
+          "default": "회원가입",
+          "loading": "계정 생성 중..."
+        },
+        "verification": {
+          "title": "인증 코드 입력",
+          "subtitle": "인증 코드를 다음 주소로 보냈습니다",
+          "noCode": "코드를 받지 못하셨나요?",
+          "resendButton": {
+            "default": "인증 코드 재전송",
+            "sending": "전송 중...",
+            "wait": "{time} 대기"
+          }
+        },
+        "errors": {
+          "email": {
+            "required": "이메일을 입력해 주세요",
+            "invalid": "올바르지 않은 이메일 형식입니다"
+          },
+          "password": {
+            "required": "비밀번호를 입력해 주세요",
+            "length": "비밀번호는 최소 8자 이상이어야 합니다"
+          }
+        }
+      }
+    }
+  },
+  "affiliated": {
+    "metadata": {
+      "title": "제휴 거래소 | DegenMax",
+      "description": "최고의 캐시백 비율과 거래 조건을 제공하는 제휴 암호화폐 거래소를 만나보세요.",
+      "ogImageAlt": "DegenMax 제휴 거래소 개요"
+    },
+    "title": "degenMax의 <highlight>제휴 거래소</highlight>를 만나보세요!",
+    "subtitle": "degenMax는 세계 최고의 암호화폐 거래소들과 파트너십을 맺고 있습니다",
+    "disclaimer": "* <highlight>주요 파트너와 공식 계약</highlight>을 맺은 유일한 곳은 degenMax입니다.",
+    "tableTitle": "degenMax의 제휴 거래소",
+    "tableSubtitle": "캐시백뿐만 아니라 거래 대회도 준비했습니다",
+    "columns": {
+      "exchangeName": "거래소명",
+      "cashbackRate": "캐시백 비율 (%)",
+      "tradingDiscount": "거래 할인 (%)",
+      "averageRebate": "사용자당 평균 리베이트",
+      "limitPrice": "지정가 (%)",
+      "marketPrice": "시장가 (%)"
+    }
+  },
+  "footer": {
+    "companyName": "DEGENMAX PTE. LTD",
+    "companyInfo": {
+      "uen": "사업자등록번호 (UEN) : 202326628N",
+      "location": "주소 : 531A UPPER CROSS STREET #04-98 HONG LIM COMPLEX SINGAPORE (051531)",
+      "consultation": "상담 : 채팅 지원 (00:00 - 24:00)",
+      "email": "이메일 : support@degenmax.io"
+    },
+    "copyright": "Copyright 2022 degenMax All Rights Reserved.",
+    "legalLinks": {
+      "terms": "이용약관",
+      "privacy": "개인정보처리방침"
+    },
+    "disclaimer": "degenMax와 관련된 모든 콘텐츠(정보, 이벤트, UI 포함)는 저작권법과 콘텐츠산업진흥법의 보호를 받습니다. DEGENMAX PTE.LTD의 사전 서면 동의 없이 무단 복제, 전송, 배포, 스크래핑 등의 행위는 관련 법령에 의거 엄격히 금지됩니다.",
+    "socialLinks": {
+      "instagram": "인스타그램",
+      "discord": "디스코드",
+      "youtube": "유튜브",
+      "twitter": "트위터",
+      "telegram": "텔레그램"
+    }
+  },
+  "serviceIntro": {
+    "hero": {
+      "subtitle": "거래소를 이용하는 가장 스마트한 방법",
+      "title": {
+        "part1": "안정적인",
+        "highlight": "선물 거래",
+        "part2": "를 위해 degenMax를 신뢰하세요"
+      },
+      "features": {
+        "credibility": {
+          "title": "신뢰성",
+          "subtitle": "기술 중심"
+        },
+        "payback": {
+          "title": "페이백",
+          "subtitle": "신속한 서비스"
+        },
+        "simple": {
+          "title": "간편함",
+          "subtitle": "원클릭 프로세스"
+        }
+      }
+    },
+    "sellingPoints": {
+      "subtitle": "우리의 서비스는 여러분과 같은 트레이더를 위한 것입니다!",
+      "title": "degenMax만의 특별한 장점",
+      "description": "degenMax는 다른 캐시백 모방자들과 다릅니다",
+      "points": {
+        "first": {
+          "title": "최초의 캐시백 서비스",
+          "description": "2022년 8월 시작"
+        },
+        "safety": {
+          "title": "높은 안전성",
+          "description": "거래소와의 공식 계약"
+        },
+        "users": {
+          "title": "많은 사용자의 선택",
+          "description": "23,000명 이상"
+        }
+      }
+    },
+    "officialPartner": {
+      "text": {
+        "highlight1": "degenMax",
+        "part1": "는",
+        "part2": "주요 거래소와",
+        "highlight2": "공식 계약",
+        "part3": "을 맺은 유일한 기업입니다"
+      }
+    },
+    "howToEnjoy": {
+      "subtitle": "degenMax 캐시백 프로세스",
+      "title": "degenMax 이용 방법",
+      "steps": [
+        "degenMax의 코드로 거래소 가입하기",
+        "UID를 degenMax에 연결하기",
+        "마음껏 거래하기",
+        "캐시백 받기!"
+      ],
+      "discount": {
+        "title": "degenMax 코드",
+        "description": "30일 동안 20% 수수료 할인을 받으실 수 있습니다"
+      }
+    },
+    "cashbackRange": {
+      "title": "월 50 USDT에서 3,500 USDT까지의 캐시백",
+      "conditions": {
+        "minimum": "월 5회 이상 거래하고 시드머니가 100 USDT 이상이면 50 USDT 이상의 캐시백을 받을 수 있습니다",
+        "maximum": "캐시백 트레이더 상위 5% 안에 들면 3,500 USDT 이상의 캐시백을 받을 수 있습니다"
+      },
+      "note": {
+        "part1": "전체 통계 데이터는 위와 같지만, 이는 적은 시드머니(100 USDT 미만)로 거래하거나 거래가 적은(월 5회 미만) 많은 사용자를 포함합니다.",
+        "part2": "일반적으로 선물 거래를 자주 하는 사용자는 상위 50% 안에 있습니다."
+      }
+    },
+    "callToAction": {
+      "subtitle": "degenMax 캐시백 프로세스",
+      "title": "degenMax를 통해 거래 수수료를 돌려받으세요",
+      "bitget": {
+        "question": "Bitget 사용자이신가요?",
+        "savings": "degenMax를 이용하면 추가로 $360을 절약할 수 있습니다",
+        "note": "*$4000의 시드머니와 평균 월 수수료 기준"
+      },
+      "howTo": {
+        "title": "서비스는 어떻게 이용하나요?",
+        "subtitle": "어떻게 해야 하나요?",
+        "button": "제휴 거래소 둘러보기"
+      }
+    }
+  },
+  "events": {
+    "title": "degenMax 사용자 전용 이벤트",
+    "subtitle": "degenMax 트레이더만을 위한",
+    "viewAll": "전체보기",
+    "tabs": {
+      "all": "전체"
+    },
+    "notes": {
+      "title": "참고:",
+      "item1": "이벤트 안내는 거래소별로 다를 수 있으니 거래소의 이벤트 상세 내용을 확인해 주세요.",
+      "item2": "반드시 이 페이지의 degenMax 계정을 통해 참여해 주세요. 다른 경로를 통해 참여하시면 불이익이 있을 수 있습니다."
+    },
+    "banners": {
+      "wsot": "WSOT 대회",
+      "second": "두 번째 배너",
+      "counter": "{current} | {total}"
+    },
+    "card": {
+      "timeRange": "{startDate} - {endDate}"
+    }
+  },
+  "userContent": {
+    "userGuide": {
+      "title": "사용자 가이드",
+      "description": "1분이면 완료됩니다",
+      "button": "확인하기"
+    },
+    "bindUid": {
+      "title": "UID 연동하기",
+      "description": "거래소에 이미 가입하셨다면",
+      "button": "연동하기"
+    },
+    "welcome": {
+      "greeting": "다시 오신 것을 환영합니다",
+      "intro": "거래 캐시백을 확인해 보세요"
+    },
+    "hero": {
+      "title": "원클릭으로 간편하게 캐시백을 즐기세요!",
+      "subtitle": "거래 수수료 캐시백 플랫폼, degenMax"
+    },
+    "averageCashback": {
+      "title": "사용자당 평균 캐시백",
+      "monthlyAverage": "월평균 캐시백 확인하기",
+      "checkTime": "확인하는 데 5분도 걸리지 않습니다",
+      "calculateButton": "지금 계산하기"
+    },
+    "appPromo": {
+      "subtitle": "이제 더 간단하고 빠르게",
+      "title": "degenMax 앱을 자세히 살펴보세요"
+    },
+    "stats": {
+      "totalPlatformLinked": "총 연동 플랫폼 수"
+    },
+    "registerExchange": {
+      "step1": {
+        "title": "거래소 가입하기",
+        "description": "캐시백 자격이 있는 거래소 계정 만들기",
+        "compareButton": "각 거래소의 장점이 궁금하신가요?"
+      },
+      "step2": {
+        "title": "UID 연동하기",
+        "description": "UID를 확인하고 계정에 연동해 주세요.",
+        "button": "UID 연동하기"
+      },
+      "step3": {
+        "title": "친구 초대로 더 많이 받기",
+        "description": "혜택을 나누세요! 교환 코드로 친구를 초대하면 양쪽 모두 보상을 받습니다 🎁",
+        "button": "공유하고 USDT 받기"
+      },
+      "showMore": "더 보기",
+      "showLess": "접기"
+    },
+    "bindUidCard": {
+      "subtitle": "거래소 계정 연결하기",
+      "features": {
+        "sync": "계정과 자동 동기화"
+      }
+    },
+    "quickActions": {
+      "viewAnalytics": "분석 보기",
+      "trackProgress": "진행 상황 추적",
+      "quickSettings": "빠른 설정"
+    },
+    "rewards": {
+      "title": "출금 가능 금액",
+      "withdraw": "출금하기",
+      "analytics": "얼마나 받았나요?"
+    },
+    "benefits": {
+      "waiting": "혜택이 기다리고 있습니다!",
+      "maxDay": "오늘은 MAX day입니다",
+      "earnUsdt": "🎁 USDT를 받고 싶으신가요?"
+    },
+    "myExchange": {
+      "title": "내 거래소",
+      "uid": "UID",
+      "addExchange": "내 거래소 추가하기"
+    },
+    "loading": "로딩 중..."
+  },
+  "benefits": {
+    "title": "degenMax의 혜택",
+    "subtitle": "USDT를 받을 수 있는 기능을 확인하고, degenMax로 수익을 높이세요!",
+    "received": {
+      "title": "받을 수 있는 캐시백이 기다리고 있습니다",
+      "subtitle": "degenMax에서 출금 가능"
+    },
+    "earnMore": "더 많은 USDT를 받을 수 있다는 것을 알고 계신가요? 우리의 기능을 확인해 보세요",
+    "missions": {
+      "firstVisit": {
+        "title": "우리 사이트에 처음 방문하셨네요",
+        "description": "degenMax에 오신 것을 환영합니다"
+      },
+      "alarm": {
+        "title": "알림 켜기",
+        "description": "중요한 알림을 받아보세요"
+      },
+      "calculate": {
+        "title": "예상 캐시백 계산하기",
+        "description": "얼마나 받을 수 있는지 확인하세요"
+      },
+      "bindUid": {
+        "title": "UID 연동하기",
+        "description": "거래소 계정 연결하기"
+      },
+      "firstClaim": {
+        "title": "첫 캐시백 받기",
+        "description": "거래에서 수익 시작하기"
+      },
+      "events": {
+        "title": "이벤트 참여하기",
+        "description": "독점 이벤트에 참여하세요"
+      },
+      "monthlyClaim": {
+        "title": "매월 캐시백 받기",
+        "description": "거래에서 정기적인 수익"
+      },
+      "invite": {
+        "title": "친구 초대하기",
+        "description": "함께 커뮤니티를 키워가요"
+      }
+    },
+    "new": "신규",
+    "details": "상세 정보",
+    "exchanges": {
+      "title": "최고의 트레이더에게 보상을 드립니다!",
+      "subtitle": "순위가 높을수록 더 좋은 보상이 기다립니다!",
+      "withdrawalNote": "캐시백은 50 USDT 이상부터 출금 가능합니다",
+      "monthlyReward": "매월 최대 100 USDT를 받으세요!",
+      "greeting": {
+        "title": "트레이더님,",
+        "message": "순위를 확인해 보세요!"
+      },
+      "rankings": {
+        "title": "순위표에 따라 쿠폰이 지급됩니다!",
+        "positions": {
+          "first": {
+            "position": "1위",
+            "reward": "100 USDT",
+            "icon": "🏆"
+          },
+          "second": {
+            "position": "2위",
+            "reward": "50 USDT",
+            "icon": "🥈"
+          },
+          "third": {
+            "position": "3위",
+            "reward": "20 USDT",
+            "icon": "🥉"
+          },
+          "topTen": {
+            "position": "상위 10% 이내",
+            "reward": "10 USDT",
+            "icon": "🏅"
+          }
+        }
+      },
+      "noRanking": {
+        "title": "순위를 확인할 수 없습니다",
+        "message": "UID 연동 후 순위를 확인할 수 있습니다",
+        "button": "UID 연동하기"
+      },
+      "notes": {
+        "title": "참고",
+        "item1": "매월 1일부터 말일까지(UTC)의 캐시백 지급분에만 적용됩니다.",
+        "item2": "이벤트 보상은 해당 월의 캐시백 내역에 따라 계산되며 월말 이후 5일 이내에 지급됩니다.",
+        "item3": "이 이벤트는 해당 월에 캐시백 내역이 있는 트레이더에게 적용됩니다.",
+        "item4": "각 거래소별로 개별 처리되므로 여러 거래소에서 보상을 받으실 수 있습니다.",
+        "item5": "순위 기준은 거래소의 degenMax 계정으로 연동된 각 UID를 기준으로 합니다.",
+        "item6": "이 혜택은 당사 사정에 따라 언제든지 변경될 수 있습니다."
+      }
+    },
+    "invitation": {
+      "hero": {
+        "title": "친구를 degenMax에 초대해 볼까요?",
+        "inviteFriendsText": "친구 초대하기"
+      },
+      "profitSection": {
+        "title": {
+          "prefix": "친구의 캐시백에",
+          "highlight": "추가 수익",
+          "suffix": "을 얹어드립니다"
+        },
+        "subtitle": "친구가 캐시백을 많이 받을수록 여러분의 수익도 늘어납니다!",
+        "friendCard": {
+          "label": "친구",
+          "cashbackLabel": "Bybit 캐시백",
+          "cashbackAmount": "+123,123 USDT"
+        },
+        "yourCard": {
+          "label": "받으신 금액",
+          "profit": "추가 수익!"
+        }
+      },
+      "referralCodeSection": {
+        "title": "추천인 코드",
+        "loading": "로딩 중...",
+        "noCode": "추천인 코드를 찾을 수 없습니다.",
+        "generateButton": "추천인 코드 생성하기",
+        "copyButton": "복사하기",
+        "copySuccess": "추천인 코드가 클립보드에 복사되었습니다!"
+      },
+      "enterCodeSection": {
+        "title": "추천인 코드가 있으신가요?",
+        "inputPlaceholder": "추천인 코드 입력",
+        "applyButton": "적용하기",
+        "helperText": "친구의 추천인 코드를 입력하고 특별한 혜택을 받으세요"
+      },
+      "giftSection": {
+        "title": {
+          "prefix": "친구에게 특별한 선물을 드립니다!",
+          "highlight": "웰컴 보너스",
+          "suffix": "를 모든 추천인에게"
+        }
+      },
+      "callToAction": {
+        "title": "친구와 함께 캐시백을 받아보세요",
+        "subtitle": "여러분과 친구 모두에게 혜택이 돌아갑니다!",
+        "button": "친구를 초대하고 추가 수익 받기"
+      }
+    }
+  },
+  "download": {
+    "hero": {
+      "title": "캐시백이 필요한 모든 순간, degenMax와 함께하세요",
+      "subtitle": "모바일 앱으로 언제 어디서나 쉽게 캐시백을 받아보세요"
+    },
+    "buttons": {
+      "downloadApp": "모바일 앱 다운로드",
+      "appStore": "App Store에서 다운로드",
+      "googlePlay": "Google Play에서 다운로드"
+    },
+    "benefits": {
+      "title": "앱에서만 확인할 수 있는 독점 혜택과 거래소의 대규모 상금을 확인하세요",
+      "subtitle": "거래소 대회를 통해 앱 전용 보상과 흥미진진한 상금 기회를 발견하세요."
+    },
+    "features": {
+      "contests": "degenMax의 대회 & 이벤트",
+      "prizes": "거래소 대규모 상금 대회",
+      "airdrop": "거래소 에어드롭 이벤트"
+    },
+    "cta": {
+      "title": "degenMax 앱으로 더 빠르고 쉽게 캐시백을 받으세요!",
+      "question": "이미 degenMax 웹사이트에서 캐시백을 즐기고 계신가요?",
+      "tryApp": "그렇다면 degenMax 앱도 사용해 보세요!"
+    },
+    "appScreenshot": "앱 스크린샷",
+    "qrCode": "다운로드용 QR 코드"
+  },
+  "notification": {
+    "title": "degenMax",
+    "subtitle": "알림 켜기 완료!",
+    "benefits": {
+      "title": "혜택이 여러분 손안에!",
+      "coupon": "지금 알림을 켜고 1 USDT 쿠폰을 받으세요"
+    },
+    "notifications": {
+      "title": "degenMax는 중요한 알림만 보내드립니다",
+      "types": {
+        "withdrawal": "캐시백 출금",
+        "airdrop": "거래소 에어드롭 이벤트",
+        "competition": "거래소 대규모 상금 대회"
+      },
+      "toggle": "알림은 언제든지 끌 수 있습니다"
+    },
+    "app": {
+      "title": "degenMax 앱에서",
+      "subtitle": "알림을 켤 수 있습니다",
+      "exclusive": "모바일 앱 전용 이벤트",
+      "download": {
+        "title": "앱 다운로드",
+        "name": "degenMax 앱",
+        "googleStore": "구글 스토어",
+        "appStore": "앱 스토어"
+      }
+    }
+  },
+  "uidBinding": {
+    "title": "캐시백을 받기 위한 첫 단계",
+    "subtitle": "UID 연동",
+    "notices": {
+      "required": "캐시백을 받기 위해 필요합니다",
+      "reward": "UID 연동 시 3 USDT 쿠폰 지급"
+    },
+    "steps": {
+      "signup": {
+        "title": "degenMax 추천 코드로 거래소 가입하기"
+      },
+      "binding": {
+        "title": "UID 연동하기,",
+        "subtitle": "누적된 캐시백을 확인할 수 있습니다"
+      }
+    },
+    "reward": {
+      "amount": "3 USDT",
+      "title": "쿠폰을 드립니다",
+      "description": "이 USDT 쿠폰은 출금 가능합니다",
+      "button": "UID 연동하고 3 USDT 받기"
+    },
+    "images": {
+      "envelope": "UID 봉투",
+      "signup": "모바일 가입",
+      "binding": "UID 연동 양식"
+    }
+  },
+  "uidLinking": {
+    "title": "거래소 선택",
+    "subtitle": "degenMax의 추천인으로 가입한 거래소를 선택하세요",
+    "signupButton": "degenMax의 초대 코드로 가입하기",
+    "uidPlaceholder": "UID를 입력하세요",
+    "submitButton": "계정 연동",
+    "successDialog": {
+      "title": "UID 제출 완료",
+      "message": "UID를 제출해 주셔서 감사합니다. 저희 팀이 요청을 처리하겠습니다.",
+      "processingTime": "처리 시간: 2-5 영업일",
+      "closeButton": "닫기"
+    }
+  },
+  "payback": {
+    "exchangeStatus": {
+      "title": "거래소 상태",
+      "message": "지원되는 거래소에 가입하고 캐시백 적립을 시작하세요",
+      "chooseExchange": "취향에 맞는 거래소를 선택하세요",
+      "browseExchanges": "캐시백을 제공하는 거래소 둘러보기"
+    },
+    "firstCashback": {
+      "title": "첫 캐시백을 쿠폰과 함께 받으세요!",
+      "subtitle": "캐시백은 50 USDT 이상부터 출금 가능합니다",
+      "benefits": "혜택이 여러분 손안에!",
+      "couponInfo": "첫 캐시백 출금 후 쿠폰 지급"
+    },
+    "extraCoupon": {
+      "title": "첫 캐시백 후 추가 {amount} 쿠폰을 받으세요!",
+      "subtitle": "이 USDT 쿠폰은 출금 가능합니다",
+      "button": "캐시백 출금 후 {amount} 받기"
+    }
+  },
+  "cashback": {
+    "title": "캐시백 내역",
+    "totalAvailable": "사용 가능한 총 캐시백",
+    "linkedExchanges": "연동된 거래소",
+    "withdraw": "출금",
+    "withdrawalHistory": "출금 내역",
+    "date": "날짜",
+    "exchange": "거래소",
+    "amount": "금액 (USDT)",
+    "minRequired": "최소 10 USDT 필요",
+    "withdrawToMain": "메인 지갑으로 출금"
+  },
+  "paybackTest": {
+    "title": {
+      "main": "얼마나",
+      "sub": "돌려받을 수 있을까요?"
+    },
+    "checkTime": {
+      "icon": "⚡",
+      "text": "30초 만에 확인할 수 있습니다"
+    },
+    "benefit": {
+      "icon": "✓",
+      "text": "예상 캐시백 금액을 확인하고",
+      "coupon": "2 USDT 쿠폰 받기"
+    },
+    "calculator": {
+      "title": "계산기",
+      "timeRequired": "평균 소요 시간: 30초!",
+      "description": "쉽지만 정확한 계산!"
+    },
+    "curious": {
+      "title": "캐시백 금액이 궁금하지 않으신가요?",
+      "description": "다른 트레이더들의 데이터를 바탕으로 캐시백 금액을 알아보세요!"
+    },
+    "button": "캐시백 확인하고 2 USDT 받기"
+  }
+}

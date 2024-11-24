@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Bybit",
+    "label": "BEST",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/icon/bybit.png",
+    "titleImageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/logo/bybit.png",
+    "cashback": 30,
+    "discount": 20,
+    "averageRebate": 578,
+    "limitPrice": 0.014,
+    "marketPrice": 0.031
+  },
+  {
+    "name": "MEXC",
+    "label": "Returned",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/fb401999-b8d8-4bbf-a5f7-b739f5c9e10d.png",
+    "titleImageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/998b7445-2213-4e86-9675-c8b79b967c54.png",
+    "cashback": 70,
+    "discount": null,
+    "averageRebate": 298,
+    "limitPrice": 0.0,
+    "marketPrice": 0.006
+  },
+  {
+    "name": "Bitget",
+    "label": "TOP5",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/icon/bitget.png",
+    "titleImageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/logo/bitget.png",
+    "cashback": 54,
+    "discount": 50,
+    "averageRebate": 885,
+    "limitPrice": 0.009,
+    "marketPrice": 0.018
+  },
+  {
+    "name": "OKX",
+    "label": "TOP vol.",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/icon/okx.png",
+    "titleImageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/logo/okx.png",
+    "cashback": 54,
+    "discount": null,
+    "averageRebate": 583,
+    "limitPrice": 0.009,
+    "marketPrice": 0.023
+  },
+  {
+    "name": "DeepCoin",
+    "label": "TOP",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/f70a297d-abca-4cab-a19a-1bcf22adef8d.png",
+    "titleImageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/582c4d5a-080f-4d03-a4c4-6156a6d94d91.png",
+    "cashback": 70,
+    "discount": 50,
+    "averageRebate": 472,
+    "limitPrice": 0.006,
+    "marketPrice": 0.012
+  },
+  {
+    "name": "BVOX",
+    "label": "X200",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/a22ea981-fa8b-47f9-8fe2-ea644e3474cc.png",
+    "titleImageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/bc9a4e32-e305-4421-9914-221b0aea2ac4.png",
+    "cashback": 60,
+    "discount": null,
+    "averageRebate": 104,
+    "limitPrice": 0.016,
+    "marketPrice": 0.024
+  },
+  {
+    "name": "BingX",
+    "label": "Signed",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/icon/bingx.png",
+    "titleImageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/logo/bingx.png",
+    "cashback": 60,
+    "discount": null,
+    "averageRebate": 116,
+    "limitPrice": 0.008,
+    "marketPrice": 0.02,
+    "url": "https://bingx.com/invite/OUN3OL/"
+  },
+  {
+    "name": "CoinCatch",
+    "label": "PoR",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/41e8fea2-5f9a-43b1-aeda-35bd5faad4b6.png",
+    "titleImageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/51a3896d-aebf-40de-8642-2817f3e81410.png",
+    "cashback": 60,
+    "discount": null,
+    "averageRebate": 632,
+    "limitPrice": 0.008,
+    "marketPrice": 0.024
+  },
+  {
+    "name": "Zoomex",
+    "label": "NEW",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/84725bcd-050f-4ded-b81f-5d167e5bf251.png",
+    "titleImageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/3cb900fe-86a0-40f8-b0f9-71c779ea9309.png",
+    "cashback": 40,
+    "discount": 30,
+    "averageRebate": 73,
+    "limitPrice": 0.008,
+    "marketPrice": 0.025
+  },
+  {
+    "name": "BitMEX",
+    "label": "Exclusive",
+    "imageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/a53d0158-e7b7-43c5-b22a-60bc097ae730.png",
+    "titleImageUrl": "https://prod-tethermax.s3.ap-northeast-2.amazonaws.com/exchange/detail/3af2f1aa-b12f-4238-ba29-00f845837a4b.png",
+    "cashback": 70,
+    "discount": null,
+    "averageRebate": 31,
+    "limitPrice": -0.015,
+    "marketPrice": 0.022
+  },
+  {
+    "name": "XT",
+    "label": "XT.COM",
+    "imageUrl": "/images/platforms/logo-image/xt.png",
+    "titleImageUrl": "/images/platforms/title-image/xt.png",
+    "cashback": 50,
+    "discount": null,
+    "averageRebate": 245,
+    "limitPrice": 0.008,
+    "marketPrice": 0.02,
+    "url": "https://www.xt.com/en/accounts/register?ref=JXMAAW/"
+  },
+  {
+    "name": "Biconomy",
+    "label": "Futures V3.0",
+    "imageUrl": "/images/platforms/logo-image/biconomy_logo.png",
+    "titleImageUrl": "/images/platforms/title-image/biconomy.webp",
+    "cashback": 45,
+    "discount": 30,
+    "averageRebate": 156,
+    "limitPrice": 0.01,
+    "marketPrice": 0.022,
+    "url": "https://www.biconomy.com/sign-up?r_user_id=W9RCKD0IX/"
+  }
+]
